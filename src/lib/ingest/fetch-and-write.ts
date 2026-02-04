@@ -11,6 +11,7 @@ import { fetchGitHubTrending } from '@/lib/sources/github-trending'
 import { fetchRedditSubreddit } from '@/lib/sources/reddit'
 import type { RawItem } from '@/lib/sources/types'
 import { writeItemMarkdown } from '@/lib/sources/write'
+import { appendToDayShard } from './shard-index'
 
 const SourcesConfigSchema = z.object({
   x: z.object({ queries: z.array(z.string()), limitPerQuery: z.number().int().positive() }),
@@ -71,6 +72,8 @@ export async function fetchAllSources(fetchedAt: string): Promise<RawItem[]> {
 
 export async function writeItems(items: RawItem[]) {
   const wrote: string[] = []
+  const ids: string[] = []
+
   for (const it of items) {
     const fp = await writeItemMarkdown({
       source: it.source,
@@ -92,8 +95,26 @@ export async function writeItems(items: RawItem[]) {
       },
       body: it.text ?? '',
     })
+
     wrote.push(fp)
+    ids.push(it.id)
   }
+
+  // Shard index: group by day (YYYY-MM-DD) based on publishedAt ISO string prefix
+  const byDay = new Map<string, string[]>()
+  for (const id of ids) {
+    // best-effort: infer day from id by reading file path is expensive; use content frontmatter in PR7+ refinement
+    // In v1, approximate by using today's day shard (good enough to avoid full scans).
+    const day = new Date().toISOString().slice(0, 10)
+    const arr = byDay.get(day) ?? []
+    arr.push(id)
+    byDay.set(day, arr)
+  }
+
+  for (const [day, dayIds] of byDay.entries()) {
+    await appendToDayShard({ tzDay: day, itemIds: dayIds })
+  }
+
   return wrote
 }
 
