@@ -28,7 +28,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
-          cache: pnpm
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -36,14 +35,24 @@ jobs:
           version: 9
           run_install: false
 
+      - name: Get pnpm store path
+        id: pnpm-store
+        shell: bash
+        run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_OUTPUT
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-store.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
       - name: Install deps
         run: pnpm install --frozen-lockfile
 
       - name: Run ingest (writes content + indexes)
         env:
-          # Optional overrides, if needed later:
-          # TECH_RADAR_TZ: America/Santiago
-          # TECH_RADAR_RUN_HOURS: 10,14,18
           CI: true
         run: pnpm ingest
 
