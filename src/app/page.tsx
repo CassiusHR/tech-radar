@@ -38,21 +38,26 @@ export default async function HomePage() {
         </Link>
       </header>
 
-      <p className="mt-2 text-sm text-muted-foreground">Latest day ({cfg.tz})</p>
+      <p className="mt-2 max-w-prose text-sm text-muted-foreground">
+        Rolling digest of relevant tech items. UI uses the <span className="font-mono">VOID</span> theme.
+      </p>
 
       <nav className="mt-6 flex flex-wrap gap-3" aria-label="Primary">
-        <Link className="rounded border px-3 py-1.5 text-sm hover:bg-muted" href="/week" data-testid="nav-week">
+        <Link
+          className="inline-flex items-center rounded-md border border-border bg-card px-4 py-2 text-sm transition-colors hover:border-border-hover hover:bg-muted"
+          href="/week"
+          data-testid="nav-week"
+        >
           Weekly digest
         </Link>
       </nav>
 
       {items.length === 0 ? (
-        <div className="mt-8 rounded-lg border p-4">
-          <p className="text-sm text-muted-foreground">
-            No items yet for {latestDay}. This usually means ingest hasn’t run (or it wrote zero items).
-          </p>
+        <div className="mt-8 rounded-lg border border-border bg-card p-4">
+          <p className="text-sm text-muted-foreground">No items yet for {latestDay}. (Ingest hasn’t run or wrote zero items.)</p>
           <p className="mt-2 text-sm">
-            Try the day page: <Link className="underline" href={`/day/${latestDay}`}>{`/day/${latestDay}`}</Link>
+            Try the day page:{' '}
+            <Link className="underline" href={`/day/${latestDay}`}>{`/day/${latestDay}`}</Link>
           </p>
         </div>
       ) : (
@@ -83,7 +88,10 @@ export default async function HomePage() {
           <ul className="mt-3 flex flex-wrap gap-2">
             {pillarSlugs.map((slug) => (
               <li key={slug}>
-                <Link className="rounded-full border px-3 py-1 text-xs hover:bg-muted" href={`/topic/${slug}`}>
+                <Link
+                  className="rounded-full border border-border bg-card px-3 py-1 text-xs transition-colors hover:border-border-hover hover:bg-muted"
+                  href={`/topic/${slug}`}
+                >
                   {slug}
                 </Link>
               </li>

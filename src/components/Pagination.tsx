@@ -14,19 +14,24 @@ export function Pagination({
   const prev = Math.max(1, page - 1)
   const next = Math.min(pages, page + 1)
 
+  const linkBase =
+    'rounded-md px-3 py-2 font-mono text-xs transition-colors hover:bg-muted hover:text-foreground'
+
   return (
-    <nav className="flex items-center gap-3 text-sm" aria-label="Pagination">
+    <nav className="flex items-center justify-between gap-3" aria-label="Pagination">
       <Link
-        className={`underline ${page === 1 ? 'pointer-events-none opacity-50' : ''}`}
+        className={`${linkBase} ${page === 1 ? 'pointer-events-none opacity-50' : 'text-muted-foreground'}`}
         href={hrefFor(prev)}
       >
         Prev
       </Link>
-      <span className="text-muted-foreground">
+
+      <span className="font-mono text-xs text-muted-foreground">
         Page {page} / {pages}
       </span>
+
       <Link
-        className={`underline ${page === pages ? 'pointer-events-none opacity-50' : ''}`}
+        className={`${linkBase} ${page === pages ? 'pointer-events-none opacity-50' : 'text-muted-foreground'}`}
         href={hrefFor(next)}
       >
         Next
@@ -34,3 +39,4 @@ export function Pagination({
     </nav>
   )
 }
+

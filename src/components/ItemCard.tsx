@@ -17,17 +17,22 @@ export function ItemCard({
   baseHref: string
 }) {
   return (
-    <article className="rounded-lg border p-4">
+    <article className="rounded-lg border border-border bg-card p-4 text-card-foreground transition-colors hover:border-border-hover">
       <div className="flex items-center justify-between gap-3">
-        <div className="text-xs text-muted-foreground">
+        <div className="font-mono text-xs text-muted-foreground">
           {item.source} · {new Date(item.publishedAt).toLocaleString()}
           {item.authorHandle ? ` · @${item.authorHandle}` : ''}
         </div>
-        <div className="text-xs text-muted-foreground">{item.id}</div>
+        <div className="font-mono text-xs text-muted-foreground">{item.id}</div>
       </div>
 
       <h2 className="mt-2 text-base font-semibold leading-snug">
-        <Link className="underline" href={item.url} target="_blank" rel="noreferrer">
+        <Link
+          className="underline decoration-border underline-offset-4 transition-colors hover:text-accent"
+          href={item.url}
+          target="_blank"
+          rel="noreferrer"
+        >
           {item.title ?? item.url}
         </Link>
       </h2>
@@ -38,3 +43,4 @@ export function ItemCard({
     </article>
   )
 }
+

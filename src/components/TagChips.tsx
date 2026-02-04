@@ -19,7 +19,11 @@ export function TagChips({ tags, baseHref }: { tags: string[]; baseHref: string 
 
         return (
           <li key={t}>
-            <Link className="rounded-full border px-2 py-0.5 text-xs hover:bg-muted" href={href} data-testid={testId}>
+            <Link
+              className="rounded-full border border-border px-2 py-0.5 font-mono text-xs text-muted-foreground transition-colors hover:border-border-hover hover:bg-muted hover:text-foreground"
+              href={href}
+              data-testid={testId}
+            >
               {t}
             </Link>
           </li>
