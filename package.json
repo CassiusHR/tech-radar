@@ -12,10 +12,14 @@
     "e2e": "playwright test",
     "test:ui": "vitest --ui",
     "e2e:ui": "playwright test --ui",
-    "content:validate": "node scripts/validate-content.mjs"
+    "content:validate": "node scripts/validate-content.mjs",
+    "scripts:build": "tsc -p tsconfig.scripts.json",
+    "ingest": "pnpm scripts:build && node scripts/ingest.mjs",
+    "ingest:dry": "pnpm scripts:build && node scripts/ingest.mjs --dry"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
+    "luxon": "^3.7.2",
     "next": "16.1.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
@@ -27,6 +31,7 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
+    "@types/luxon": "^3.7.1",
     "@types/node": "25.2.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",

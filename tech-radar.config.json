@@ -1,0 +1,6 @@
+{
+  "tz": "America/Santiago",
+  "runHours": [10, 14, 18],
+  "weekWindowDays": 7,
+  "pageSize": 20
+}
