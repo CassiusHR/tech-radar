@@ -1,0 +1,31 @@
+{
+  "x": {
+    "queries": [
+      "nextjs OR \"next.js\" OR \"next js\"",
+      "react OR \"react 19\" OR \"react compiler\"",
+      "vercel OR @vercel OR @rauchg",
+      "netlify OR @Netlify",
+      "tailwind OR \"shadcn\" OR \"design system\" OR tokens",
+      "\"Claude\" OR Anthropic OR OpenAI OR \"model release\" OR \"reasoning\""
+    ],
+    "limitPerQuery": 20
+  },
+  "github": {
+    "trendingUrls": [
+      "https://github.com/trending?since=daily",
+      "https://github.com/trending/typescript?since=daily",
+      "https://github.com/trending/javascript?since=daily"
+    ]
+  },
+  "hn": {
+    "endpoints": ["topstories", "beststories"]
+  },
+  "reddit": {
+    "subreddits": ["nextjs", "reactjs", "webdev", "programming", "MachineLearning", "LocalLLaMA", "devops"],
+    "limitPerSubreddit": 25
+  },
+  "youtube": {
+    "searchQueries": ["Next.js", "React", "Vercel", "Netlify", "Tailwind", "AI coding", "Claude Code"],
+    "limitPerQuery": 10
+  }
+}

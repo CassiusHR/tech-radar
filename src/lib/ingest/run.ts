@@ -29,6 +29,17 @@ export async function runIngest({ dryRun = false }: { dryRun?: boolean } = {}): 
     return { ok: true, ran: false, reason: gate.reason, generatedAt, wrote: [] }
   }
 
+  // Fetch new items + write sharded markdown (best-effort) before rebuilding indexes.
+  // Note: this is safe to run hourly because:
+  // - item filenames are stable per externalId
+  // - duplicates are deduped upstream
+  const fetchedAt = generatedAt
+  const { fetchAllSources, writeItems } = await import('./fetch-and-write')
+  const raw = await fetchAllSources(fetchedAt)
+  if (!dryRun) {
+    await writeItems(raw)
+  }
+
   const items = await loadAllItems()
   const date = now.toFormat('yyyy-LL-dd')
 
