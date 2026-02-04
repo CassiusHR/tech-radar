@@ -1,8 +1,7 @@
-import fs from 'node:fs/promises'
-import path from 'node:path'
 import { DateTime } from 'luxon'
-import matter from 'gray-matter'
-import { ItemFrontmatterSchema } from '@/lib/content/schema'
+import { loadItem } from '@/lib/content/loaders'
+import type { ItemFrontmatter } from '@/lib/content/schema'
+import { readDayShard } from './shard-index'
 
 export type BuiltIndex = {
   generatedAt: string
@@ -10,62 +9,60 @@ export type BuiltIndex = {
   items: string[]
 }
 
-async function walk(dir: string): Promise<string[]> {
-  const ents = await fs.readdir(dir, { withFileTypes: true })
-  const out: string[] = []
-  for (const e of ents) {
-    const p = path.join(dir, e.name)
-    if (e.isDirectory()) out.push(...(await walk(p)))
-    else out.push(p)
+export async function loadItemsByIds(ids: string[]): Promise<ItemFrontmatter[]> {
+  const out: ItemFrontmatter[] = []
+  for (const id of ids) {
+    try {
+      const { frontmatter } = await loadItem(id)
+      out.push(frontmatter)
+    } catch {
+      // ignore missing
+    }
   }
   return out
 }
 
-export async function loadAllItems(): Promise<ReturnType<typeof ItemFrontmatterSchema.parse>[]> {
-  const root = path.join(process.cwd(), 'content', 'items')
-  const files = (await walk(root)).filter((f) => f.endsWith('.md'))
-  const items = []
-  for (const f of files) {
-    const raw = await fs.readFile(f, 'utf8')
-    const parsed = matter(raw)
-    items.push(ItemFrontmatterSchema.parse(parsed.data))
-  }
-  return items
-}
-
-export function buildDayIndex(params: {
-  date: string // YYYY-MM-DD in cfg.tz
+export async function buildDayIndexFromShard(params: {
+  date: string
   tz: string
   generatedAt: string
-  items: ReturnType<typeof ItemFrontmatterSchema.parse>[]
-}): { date: string } & BuiltIndex {
-  const { date, tz, generatedAt, items } = params
-  const dayItems = items
-    .filter((i) => i.publishedAt.startsWith(date))
+}): Promise<{ date: string } & BuiltIndex> {
+  const ids = await readDayShard(params.date)
+  const items = await loadItemsByIds(ids)
+  const sorted = items
     .sort((a, b) => (b.score ?? 0) - (a.score ?? 0) || b.publishedAt.localeCompare(a.publishedAt))
     .map((i) => i.id)
-  return { date, tz, generatedAt, items: dayItems }
+
+  return { date: params.date, tz: params.tz, generatedAt: params.generatedAt, items: sorted }
 }
 
-export function buildRollingWeekIndex(params: {
+export async function buildRollingWeekIndexFromShards(params: {
   tz: string
   windowDays: number
   generatedAt: string
-  items: ReturnType<typeof ItemFrontmatterSchema.parse>[]
   nowLocal: DateTime
-}): { windowDays: number } & BuiltIndex {
-  const { tz, windowDays, generatedAt, items, nowLocal } = params
+}): Promise<{ windowDays: number } & BuiltIndex> {
+  const start = params.nowLocal.startOf('day').minus({ days: params.windowDays - 1 })
 
-  const start = nowLocal.startOf('day').minus({ days: windowDays - 1 })
-  const end = nowLocal.endOf('day')
+  const days: string[] = []
+  for (let i = 0; i < params.windowDays; i++) {
+    days.push(start.plus({ days: i }).toFormat('yyyy-LL-dd'))
+  }
 
-  const weekItems = items
-    .filter((i) => {
-      const dt = DateTime.fromISO(i.publishedAt, { zone: tz })
-      return dt.isValid && dt >= start && dt <= end
-    })
+  const ids: string[] = []
+  for (const d of days) {
+    try {
+      ids.push(...(await readDayShard(d)))
+    } catch {
+      // missing shard file is ok
+    }
+  }
+
+  const unique = Array.from(new Set(ids))
+  const items = await loadItemsByIds(unique)
+  const sorted = items
     .sort((a, b) => (b.score ?? 0) - (a.score ?? 0) || b.publishedAt.localeCompare(a.publishedAt))
     .map((i) => i.id)
 
-  return { windowDays, tz, generatedAt, items: weekItems }
+  return { windowDays: params.windowDays, tz: params.tz, generatedAt: params.generatedAt, items: sorted }
 }

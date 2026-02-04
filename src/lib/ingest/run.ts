@@ -3,7 +3,7 @@ import path from 'node:path'
 import { DateTime } from 'luxon'
 import { loadTechRadarConfig } from './config'
 import { shouldRunNow } from './schedule'
-import { buildDayIndex, buildRollingWeekIndex, loadAllItems } from './index-builder'
+import { buildDayIndexFromShard, buildRollingWeekIndexFromShards } from './index-builder'
 
 export type IngestResult = {
   ok: boolean
@@ -40,15 +40,13 @@ export async function runIngest({ dryRun = false }: { dryRun?: boolean } = {}): 
     await writeItems(raw)
   }
 
-  const items = await loadAllItems()
   const date = now.toFormat('yyyy-LL-dd')
 
-  const dayIndex = buildDayIndex({ date, tz: cfg.tz, generatedAt, items })
-  const weekIndex = buildRollingWeekIndex({
+  const dayIndex = await buildDayIndexFromShard({ date, tz: cfg.tz, generatedAt })
+  const weekIndex = await buildRollingWeekIndexFromShards({
     tz: cfg.tz,
     windowDays: cfg.weekWindowDays,
     generatedAt,
-    items,
     nowLocal: now,
   })
 
