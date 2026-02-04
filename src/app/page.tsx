@@ -1,33 +1,58 @@
 import Link from 'next/link'
 import { DateTime } from 'luxon'
 import { ItemCard } from '@/components/ItemCard'
+import { latestAvailableDay } from '@/lib/content/days'
+import { listWeekItems, listDayItems } from '@/lib/content/list'
 import { loadTechRadarConfig } from '@/lib/ingest/config'
-import { listDayItems } from '@/lib/content/list'
+
+function unique<T>(arr: T[]) {
+  return Array.from(new Set(arr))
+}
+
+function pillarSlugsFromTags(tags: string[]) {
+  return tags
+    .filter((t) => t.startsWith('pillar/'))
+    .map((t) => t.replace(/^pillar\//, ''))
+    .filter(Boolean)
+}
 
 export default async function HomePage() {
   const cfg = await loadTechRadarConfig()
   const today = DateTime.now().setZone(cfg.tz).toFormat('yyyy-LL-dd')
 
-  const items = await listDayItems(today, [])
+  const latestDay = (await latestAvailableDay()) ?? today
+
+  const items = await listDayItems(latestDay, [])
+  const weekItems = await listWeekItems([])
+  const pillarSlugs = unique(weekItems.flatMap((fm) => pillarSlugsFromTags(fm.tags ?? []))).slice(0, 12)
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-8">
       <header className="flex items-baseline justify-between gap-4">
-        <h1 className="text-2xl font-bold">Tech Radar</h1>
-        <Link className="text-sm underline text-muted-foreground" href={`/day/${today}`}>
-          View {today} →
+        <h1 className="text-2xl font-bold" data-testid="home-title">
+          Tech Radar
+        </h1>
+
+        <Link className="text-sm underline text-muted-foreground" href={`/day/${latestDay}`} data-testid="nav-latest-day">
+          View {latestDay} →
         </Link>
       </header>
 
-      <p className="mt-2 text-sm text-muted-foreground">Today ({cfg.tz})</p>
+      <p className="mt-2 text-sm text-muted-foreground">Latest day ({cfg.tz})</p>
+
+      <nav className="mt-6 flex flex-wrap gap-3" aria-label="Primary">
+        <Link className="rounded border px-3 py-1.5 text-sm hover:bg-muted" href="/week" data-testid="nav-week">
+          Weekly digest
+        </Link>
+      </nav>
 
       {items.length === 0 ? (
         <div className="mt-8 rounded-lg border p-4">
           <p className="text-sm text-muted-foreground">
-            No items yet for {today}. This usually means ingest hasn’t run (or it wrote zero items).
+            No items yet for {latestDay}. This usually means ingest hasn’t run (or it wrote zero items).
           </p>
           <p className="mt-2 text-sm">
-            Try the day page: <Link className="underline" href={`/day/${today}`}>{`/day/${today}`}</Link>
+            Try the day page: <Link className="underline" href={`/day/${latestDay}`}>{`/day/${latestDay}`}</Link>
           </p>
         </div>
       ) : (
@@ -35,7 +60,7 @@ export default async function HomePage() {
           {items.slice(0, cfg.pageSize).map((fm) => (
             <ItemCard
               key={fm.id}
-              baseHref={`/day/${today}`}
+              baseHref={`/day/${latestDay}`}
               item={{
                 id: fm.id,
                 title: fm.title,
@@ -49,6 +74,25 @@ export default async function HomePage() {
           ))}
         </div>
       )}
+
+      <section className="mt-10">
+        <h2 className="text-lg font-semibold" data-testid="topics-title">
+          Topics
+        </h2>
+        {pillarSlugs.length ? (
+          <ul className="mt-3 flex flex-wrap gap-2">
+            {pillarSlugs.map((slug) => (
+              <li key={slug}>
+                <Link className="rounded-full border px-3 py-1 text-xs hover:bg-muted" href={`/topic/${slug}`}>
+                  {slug}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="mt-3 text-sm text-muted-foreground">No topics found in current week index.</p>
+        )}
+      </section>
     </main>
   )
 }
