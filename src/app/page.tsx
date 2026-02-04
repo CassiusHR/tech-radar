@@ -33,11 +33,7 @@ export default async function HomePage() {
           Tech Radar
         </h1>
 
-        <Link
-          className="text-sm underline text-muted-foreground"
-          href={`/day/${latestDay}`}
-          data-testid="nav-latest-day"
-        >
+        <Link className="text-sm underline text-muted-foreground" href={`/day/${latestDay}`} data-testid="nav-latest-day">
           View {latestDay} →
         </Link>
       </header>

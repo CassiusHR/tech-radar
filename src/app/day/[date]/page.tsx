@@ -9,10 +9,10 @@ export async function generateMetadata({
   params,
   searchParams,
 }: {
-  params: { date: string }
+  params: Promise<{ date: string }>
   searchParams: Promise<Record<string, string | string[] | undefined>>
 }): Promise<Metadata> {
-  const date = params.date
+  const { date } = await params
   const sp = await searchParams
   const tags = parseTagsParam(sp.tags)
 
@@ -44,17 +44,17 @@ export default async function DayPage({
   const baseHref = `/day/${date}`
 
   return (
-    <main className="space-y-6">
-      <header className="space-y-2">
-        <h1 className="text-2xl font-semibold tracking-tight">{date}</h1>
-        {tags.length ? (
-          <p className="text-sm text-muted-foreground">Filtered by: {tags.join(', ')}</p>
-        ) : (
-          <p className="text-sm text-muted-foreground">Unfiltered</p>
-        )}
-      </header>
+    <main className="mx-auto max-w-3xl px-4 py-8">
+      <h1 className="text-2xl font-bold" data-testid="page-title">
+        {date}
+      </h1>
+      {tags.length ? (
+        <p className="mt-2 text-sm text-muted-foreground">Filtered by: {tags.join(', ')}</p>
+      ) : (
+        <p className="mt-2 text-sm text-muted-foreground">Unfiltered</p>
+      )}
 
-      <div className="flex flex-col gap-4">
+      <div className="mt-6 flex flex-col gap-4">
         {paged.items.map((fm) => (
           <ItemCard
             key={fm.id}
@@ -72,14 +72,13 @@ export default async function DayPage({
         ))}
       </div>
 
-      <Pagination
-        page={paged.page}
-        pages={paged.pages}
-        hrefFor={(p) =>
-          `${baseHref}?page=${p}${tags.length ? `&tags=${encodeURIComponent(tags.join(','))}` : ''}`
-        }
-      />
+      <div className="mt-8">
+        <Pagination
+          page={paged.page}
+          pages={paged.pages}
+          hrefFor={(p) => `${baseHref}?page=${p}${tags.length ? `&tags=${encodeURIComponent(tags.join(','))}` : ''}`}
+        />
+      </div>
     </main>
   )
 }
-
