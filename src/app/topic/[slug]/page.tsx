@@ -12,9 +12,9 @@ function pillarTagFromSlug(slug: string) {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }): Promise<Metadata> {
-  const slug = params.slug
+  const { slug } = await params
   const base = `/topic/${slug}`
   return {
     title: `Tech Radar — ${slug}`,
@@ -42,7 +42,9 @@ export default async function TopicPage({
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-8">
-      <h1 className="text-2xl font-bold">Topic: {slug}</h1>
+      <h1 className="text-2xl font-bold" data-testid="page-title">
+        Topic: {slug}
+      </h1>
       <p className="mt-2 text-sm text-muted-foreground">Filtered by: {tags.join(', ')}</p>
 
       <div className="mt-6 flex flex-col gap-4">
