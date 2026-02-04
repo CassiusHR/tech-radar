@@ -2,5 +2,5 @@ import { test, expect } from '@playwright/test'
 
 test('home loads', async ({ page }) => {
   await page.goto('/')
-  await expect(page.getByText(/get started/i)).toBeVisible()
+  await expect(page.getByRole('heading', { name: /tech radar/i })).toBeVisible()
 })
