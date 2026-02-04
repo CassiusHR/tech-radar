@@ -9,10 +9,10 @@ export async function generateMetadata({
   params,
   searchParams,
 }: {
-  params: { date: string }
+  params: Promise<{ date: string }>
   searchParams: Promise<Record<string, string | string[] | undefined>>
 }): Promise<Metadata> {
-  const date = params.date
+  const { date } = await params
   const sp = await searchParams
   const tags = parseTagsParam(sp.tags)
 
@@ -45,7 +45,9 @@ export default async function DayPage({
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-8">
-      <h1 className="text-2xl font-bold">{date}</h1>
+      <h1 className="text-2xl font-bold" data-testid="page-title">
+        {date}
+      </h1>
       {tags.length ? (
         <p className="mt-2 text-sm text-muted-foreground">Filtered by: {tags.join(', ')}</p>
       ) : (

@@ -27,7 +27,9 @@ export default async function WeekPage({
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-8">
-      <h1 className="text-2xl font-bold">Weekly digest (rolling 7 days)</h1>
+      <h1 className="text-2xl font-bold" data-testid="page-title">
+        Weekly digest (rolling 7 days)
+      </h1>
       {tags.length ? (
         <p className="mt-2 text-sm text-muted-foreground">Filtered by: {tags.join(', ')}</p>
       ) : (
