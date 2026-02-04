@@ -1,0 +1,64 @@
+name: ingest
+
+on:
+  schedule:
+    # hourly; the app-level gate (runHours in tech-radar.config.json) decides whether to actually run
+    - cron: '0 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest-main
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+          run_install: false
+
+      - name: Install deps
+        run: pnpm install --frozen-lockfile
+
+      - name: Run ingest (writes content + indexes)
+        env:
+          # Optional overrides, if needed later:
+          # TECH_RADAR_TZ: America/Santiago
+          # TECH_RADAR_RUN_HOURS: 10,14,18
+          CI: true
+        run: pnpm ingest
+
+      - name: Commit & push if changed
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "CassiusDEV-bot"
+          git config user.email "cassiusdev-bot@users.noreply.github.com"
+
+          git add content
+          git commit -m "chore(content): ingest update" || exit 0
+          git push origin HEAD:main
