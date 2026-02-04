@@ -4,6 +4,7 @@ import { DateTime } from 'luxon'
 import { z } from 'zod'
 import { dedupeByCanonicalUrl } from '@/lib/sources/dedupe'
 import { classifyPillars } from '@/lib/content/tagging'
+import { applyScoring } from './apply-scoring'
 import { fetchXByQuery } from '@/lib/sources/x'
 import { fetchHN } from '@/lib/sources/hn'
 import { fetchGitHubTrending } from '@/lib/sources/github-trending'
@@ -52,8 +53,8 @@ export async function fetchAllSources(fetchedAt: string): Promise<RawItem[]> {
   }
 
   const deduped = dedupeByCanonicalUrl(out)
-  // Apply deterministic keyword tagging (v1)
-  return deduped.map((it) => ({
+
+  const tagged = deduped.map((it) => ({
     ...it,
     tags: classifyPillars({
       source: it.source,
@@ -63,6 +64,9 @@ export async function fetchAllSources(fetchedAt: string): Promise<RawItem[]> {
       authorHandle: it.authorHandle,
     }),
   }))
+
+  // Score (v1). Weekly mode is used as the general-purpose ranking for now.
+  return applyScoring(tagged, { tz: 'America/Santiago', mode: 'weekly' })
 }
 
 export async function writeItems(items: RawItem[]) {
