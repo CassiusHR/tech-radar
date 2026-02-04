@@ -2,7 +2,6 @@ name: ingest
 
 on:
   schedule:
-    # hourly; the app-level gate (runHours in tech-radar.config.json) decides whether to actually run
     - cron: '0 * * * *'
   workflow_dispatch: {}
 
@@ -35,15 +34,11 @@ jobs:
           version: 9
           run_install: false
 
-      - name: Get pnpm store path
-        id: pnpm-store
-        shell: bash
-        run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_OUTPUT
-
+      # pnpm store path isn't always available/consistent across environments; cache a known path.
       - name: Cache pnpm store
         uses: actions/cache@v4
         with:
-          path: ${{ steps.pnpm-store.outputs.STORE_PATH }}
+          path: ~/.pnpm-store
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
