@@ -11,12 +11,15 @@
     "test": "vitest run",
     "e2e": "playwright test",
     "test:ui": "vitest --ui",
-    "e2e:ui": "playwright test --ui"
+    "e2e:ui": "playwright test --ui",
+    "content:validate": "node scripts/validate-content.mjs"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@playwright/test": "^1.58.1",

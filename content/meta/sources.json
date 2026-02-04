@@ -1,0 +1,4 @@
+{
+  "enabled": ["x", "reddit", "hn", "github", "youtube"],
+  "note": "v1 best-effort sources"
+}
