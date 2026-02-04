@@ -3,6 +3,7 @@ import path from 'node:path'
 import { DateTime } from 'luxon'
 import { z } from 'zod'
 import { dedupeByCanonicalUrl } from '@/lib/sources/dedupe'
+import { classifyPillars } from '@/lib/content/tagging'
 import { fetchXByQuery } from '@/lib/sources/x'
 import { fetchHN } from '@/lib/sources/hn'
 import { fetchGitHubTrending } from '@/lib/sources/github-trending'
@@ -50,7 +51,18 @@ export async function fetchAllSources(fetchedAt: string): Promise<RawItem[]> {
     out.push(...(await fetchRedditSubreddit({ subreddit: sr, limit: cfg.reddit.limitPerSubreddit, fetchedAt })))
   }
 
-  return dedupeByCanonicalUrl(out)
+  const deduped = dedupeByCanonicalUrl(out)
+  // Apply deterministic keyword tagging (v1)
+  return deduped.map((it) => ({
+    ...it,
+    tags: classifyPillars({
+      source: it.source,
+      title: it.title,
+      text: it.text,
+      url: it.url,
+      authorHandle: it.authorHandle,
+    }),
+  }))
 }
 
 export async function writeItems(items: RawItem[]) {
