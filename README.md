@@ -20,6 +20,21 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Performance guardrails (CI)
+
+A lightweight Playwright-based check is available to catch obvious performance regressions without relying on Lighthouse:
+
+```bash
+pnpm e2e:perf
+```
+
+Current budgets (Chromium, prod build):
+
+- **CLS < 0.1**
+- **LCP < 4000ms**
+
+These are intentionally generous to reduce CI flakiness; tighten once we have stable baselines.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

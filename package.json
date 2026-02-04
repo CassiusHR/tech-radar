@@ -10,6 +10,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "vitest run",
     "e2e": "playwright test",
+    "e2e:perf": "playwright test -c playwright.perf.config.ts",
     "test:ui": "vitest --ui",
     "e2e:ui": "playwright test --ui",
     "content:validate": "node scripts/validate-content.mjs",
