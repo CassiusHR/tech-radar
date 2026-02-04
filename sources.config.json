@@ -25,7 +25,21 @@
     "limitPerSubreddit": 25
   },
   "youtube": {
-    "searchQueries": ["Next.js", "React", "Vercel", "Netlify", "Tailwind", "AI coding", "Claude Code"],
+    "channels": [
+      { "name": "Fireship", "channelId": "UC2Xd-TjJByJyK2w1zNwY0zQ" },
+      { "name": "Theo (t3.gg)", "channelId": "UCtuO2h6OwDueF7h3p8DYYjQ" },
+      { "name": "ThePrimeagen", "channelId": "UCUyeluBRhGPCW4rPe_UvBZQ" },
+      { "name": "Web Dev Simplified", "channelId": "UCFbNIlppjAuEX4znoulh0Cw" },
+      { "name": "Vercel", "channelId": "UCfDr-ppda0G5apw_zxG2ClQ" },
+      { "name": "Next.js", "channelId": "UCXV63wyD9zEs4_zr4_VTK9Q" },
+      { "name": "React", "channelId": "UCX043ziFlmdsXdolunHifLg" },
+      { "name": "Google for Developers", "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw" },
+      { "name": "OpenAI", "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A" },
+      { "name": "Anthropic", "channelId": "UCOIji0UklfggVrY7Ym-IfDQ" }
+    ],
+    "limitPerChannel": 10,
+
+    "searchQueries": ["Next.js", "React", "Vercel", "Tailwind", "AI coding", "Claude Code"],
     "limitPerQuery": 10
   }
 }
