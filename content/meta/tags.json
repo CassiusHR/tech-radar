@@ -1,0 +1,15 @@
+{
+  "pillars": [
+    "pillar/nextjs",
+    "pillar/react",
+    "pillar/vercel",
+    "pillar/netlify",
+    "pillar/css",
+    "pillar/ai-dev-tools",
+    "pillar/devops",
+    "pillar/design-systems",
+    "pillar/anthropic-openai-releases",
+    "pillar/huggingface",
+    "pillar/model-releases"
+  ]
+}
