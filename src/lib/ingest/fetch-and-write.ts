@@ -9,6 +9,7 @@ import { fetchXByQuery } from '@/lib/sources/x'
 import { fetchHN } from '@/lib/sources/hn'
 import { fetchGitHubTrending } from '@/lib/sources/github-trending'
 import { fetchRedditSubreddit } from '@/lib/sources/reddit'
+import { fetchYouTubeRSS } from '@/lib/sources/youtube'
 import type { RawItem } from '@/lib/sources/types'
 import { writeItemMarkdown } from '@/lib/sources/write'
 import { appendToDayShard } from './shard-index'
@@ -23,7 +24,7 @@ const SourcesConfigSchema = z.object({
     minScore: z.number().int().nonnegative().optional(),
     minComments: z.number().int().nonnegative().optional(),
   }),
-  youtube: z.any().optional(),
+  youtube: z.unknown().optional(),
 })
 
 type SourcesConfig = z.infer<typeof SourcesConfigSchema>
@@ -64,6 +65,11 @@ export async function fetchAllSources(fetchedAt: string): Promise<RawItem[]> {
         minComments: cfg.reddit.minComments,
       }))
     )
+  }
+
+  // YouTube (RSS-first)
+  if (cfg.youtube) {
+    out.push(...(await fetchYouTubeRSS({ cfg: cfg.youtube, fetchedAt })))
   }
 
   const deduped = dedupeByCanonicalUrl(out)
