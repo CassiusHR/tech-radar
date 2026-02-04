@@ -21,8 +21,27 @@
     "endpoints": ["topstories", "beststories"]
   },
   "reddit": {
-    "subreddits": ["nextjs", "reactjs", "webdev", "programming", "MachineLearning", "LocalLLaMA", "devops"],
-    "limitPerSubreddit": 25
+    "subreddits": [
+      "nextjs",
+      "reactjs",
+      "frontend",
+      "webdev",
+      "javascript",
+      "typescript",
+      "node",
+      "programming",
+      "devops",
+      "kubernetes",
+      "aws",
+      "machinelearning",
+      "LocalLLaMA",
+      "aicoding",
+      "OpenAI",
+      "ClaudeAI"
+    ],
+    "limitPerSubreddit": 25,
+    "minScore": 5,
+    "minComments": 2
   },
   "youtube": {
     "channels": [

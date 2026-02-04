@@ -18,7 +18,12 @@ const SourcesConfigSchema = z.object({
   x: z.object({ queries: z.array(z.string()), limitPerQuery: z.number().int().positive() }),
   github: z.object({ trendingUrls: z.array(z.string()) }),
   hn: z.object({ endpoints: z.array(z.enum(['topstories', 'beststories'])) }),
-  reddit: z.object({ subreddits: z.array(z.string()), limitPerSubreddit: z.number().int().positive() }),
+  reddit: z.object({
+    subreddits: z.array(z.string()),
+    limitPerSubreddit: z.number().int().positive(),
+    minScore: z.number().int().nonnegative().optional(),
+    minComments: z.number().int().nonnegative().optional(),
+  }),
   youtube: z.unknown().optional(),
 })
 
@@ -51,7 +56,15 @@ export async function fetchAllSources(fetchedAt: string): Promise<RawItem[]> {
 
   // Reddit
   for (const sr of cfg.reddit.subreddits) {
-    out.push(...(await fetchRedditSubreddit({ subreddit: sr, limit: cfg.reddit.limitPerSubreddit, fetchedAt })))
+    out.push(
+      ...(await fetchRedditSubreddit({
+        subreddit: sr,
+        limit: cfg.reddit.limitPerSubreddit,
+        fetchedAt,
+        minScore: cfg.reddit.minScore,
+        minComments: cfg.reddit.minComments,
+      }))
+    )
   }
 
   // YouTube (RSS-first)

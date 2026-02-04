@@ -27,8 +27,10 @@ export async function fetchRedditSubreddit(params: {
   subreddit: string
   limit: number
   fetchedAt: string
+  minScore?: number
+  minComments?: number
 }): Promise<RawItem[]> {
-  const { subreddit, limit, fetchedAt } = params
+  const { subreddit, limit, fetchedAt, minScore = 0, minComments = 0 } = params
   const url = `https://www.reddit.com/r/${subreddit}/hot.json?limit=${limit}`
 
   const res = await request(url, {
@@ -41,6 +43,9 @@ export async function fetchRedditSubreddit(params: {
   return parsed.data.children
     .map((c) => c.data)
     .filter((d) => !!d.title)
+    // Best-effort spam/low-signal filtering. (Still keep config defaults at 0.)
+    .filter((d) => (d.score ?? 0) >= minScore)
+    .filter((d) => (d.num_comments ?? 0) >= minComments)
     .map((d) => {
       const permalink = d.permalink ? `https://www.reddit.com${d.permalink}` : d.url!
       const publishedAt = d.created_utc ? new Date(d.created_utc * 1000).toISOString() : new Date().toISOString()
