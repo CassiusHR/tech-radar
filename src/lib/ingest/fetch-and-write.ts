@@ -51,7 +51,18 @@ export async function fetchAllSources(fetchedAt: string): Promise<RawItem[]> {
     out.push(...(await fetchRedditSubreddit({ subreddit: sr, limit: cfg.reddit.limitPerSubreddit, fetchedAt })))
   }
 
-  return dedupeByCanonicalUrl(out)
+  const deduped = dedupeByCanonicalUrl(out)
+  // Apply deterministic keyword tagging (v1)
+  return deduped.map((it) => ({
+    ...it,
+    tags: classifyPillars({
+      source: it.source,
+      title: it.title,
+      text: it.text,
+      url: it.url,
+      authorHandle: it.authorHandle,
+    }),
+  }))
 }
 
 export async function writeItems(items: RawItem[]) {
