@@ -18,11 +18,14 @@
     "ingest:dry": "pnpm scripts:build && node scripts/ingest.mjs --dry"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
+    "execa": "^9.6.1",
     "gray-matter": "^4.0.3",
     "luxon": "^3.7.2",
     "next": "16.1.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
+    "undici": "^7.20.0",
     "zod": "^4.3.6"
   },
   "devDependencies": {
