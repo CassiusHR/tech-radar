@@ -44,15 +44,17 @@ export default async function DayPage({
   const baseHref = `/day/${date}`
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-8">
-      <h1 className="text-2xl font-bold">{date}</h1>
-      {tags.length ? (
-        <p className="mt-2 text-sm text-muted-foreground">Filtered by: {tags.join(', ')}</p>
-      ) : (
-        <p className="mt-2 text-sm text-muted-foreground">Unfiltered</p>
-      )}
+    <main className="space-y-6">
+      <header className="space-y-2">
+        <h1 className="text-2xl font-semibold tracking-tight">{date}</h1>
+        {tags.length ? (
+          <p className="text-sm text-muted-foreground">Filtered by: {tags.join(', ')}</p>
+        ) : (
+          <p className="text-sm text-muted-foreground">Unfiltered</p>
+        )}
+      </header>
 
-      <div className="mt-6 flex flex-col gap-4">
+      <div className="flex flex-col gap-4">
         {paged.items.map((fm) => (
           <ItemCard
             key={fm.id}
@@ -70,13 +72,14 @@ export default async function DayPage({
         ))}
       </div>
 
-      <div className="mt-8">
-        <Pagination
-          page={paged.page}
-          pages={paged.pages}
-          hrefFor={(p) => `${baseHref}?page=${p}${tags.length ? `&tags=${encodeURIComponent(tags.join(','))}` : ''}`}
-        />
-      </div>
+      <Pagination
+        page={paged.page}
+        pages={paged.pages}
+        hrefFor={(p) =>
+          `${baseHref}?page=${p}${tags.length ? `&tags=${encodeURIComponent(tags.join(','))}` : ''}`
+        }
+      />
     </main>
   )
 }
+

@@ -7,7 +7,7 @@ export function TagChips({ tags, baseHref }: { tags: string[]; baseHref: string 
       {tags.map((t) => (
         <li key={t}>
           <Link
-            className="rounded-full border px-2 py-0.5 text-xs hover:bg-muted"
+            className="rounded-full border border-border px-2 py-0.5 font-mono text-xs text-muted-foreground transition-colors hover:border-border-hover hover:bg-muted hover:text-foreground"
             href={`${baseHref}?tags=${encodeURIComponent(t)}`}
           >
             {t}

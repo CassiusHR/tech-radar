@@ -41,11 +41,13 @@ export default async function TopicPage({
   const baseHref = `/topic/${slug}`
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-8">
-      <h1 className="text-2xl font-bold">Topic: {slug}</h1>
-      <p className="mt-2 text-sm text-muted-foreground">Filtered by: {tags.join(', ')}</p>
+    <main className="space-y-6">
+      <header className="space-y-2">
+        <h1 className="text-2xl font-semibold tracking-tight">Topic: {slug}</h1>
+        <p className="text-sm text-muted-foreground">Filtered by: {tags.join(', ')}</p>
+      </header>
 
-      <div className="mt-6 flex flex-col gap-4">
+      <div className="flex flex-col gap-4">
         {paged.items.map((fm) => (
           <ItemCard
             key={fm.id}
@@ -63,9 +65,8 @@ export default async function TopicPage({
         ))}
       </div>
 
-      <div className="mt-8">
-        <Pagination page={paged.page} pages={paged.pages} hrefFor={(p) => `${baseHref}?page=${p}`} />
-      </div>
+      <Pagination page={paged.page} pages={paged.pages} hrefFor={(p) => `${baseHref}?page=${p}`} />
     </main>
   )
 }
+

@@ -5,7 +5,7 @@ import Page from '../page'
 describe('home page', () => {
   it('renders', () => {
     render(<Page />)
-    // default next template includes "Get started" text
-    expect(screen.getByText(/get started/i)).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /tech radar/i })).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: /view this week/i })).toBeInTheDocument()
   })
 })
