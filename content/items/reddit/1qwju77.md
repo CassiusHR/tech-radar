@@ -7,11 +7,11 @@ title: "Claude Code HOOKS explained in 5 minutes"
 authorHandle: "shanraisshan"
 authorName: "shanraisshan"
 publishedAt: "2026-02-05T12:21:36.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/ai-dev-tools","pillar/anthropic-openai-releases"]
-metrics: {"score":7,"comments":2,"subreddit":"ClaudeAI"}
-score: 3.818288239493055
-scoreBreakdown: {"total":3.818288239493055,"recency":0.7636731786224162,"engagement":3.4788693097032004,"author":0,"source":0.9}
+metrics: {"score":9,"comments":3,"subreddit":"ClaudeAI"}
+score: 4.17731788253645
+scoreBreakdown: {"total":4.17731788253645,"recency":0.7598401027936947,"engagement":3.8816242111356933,"author":0,"source":0.9}
 ---
 
 Made a video breaking down all the Claude Code Hooks features and how they work. Also built a repo that implements all 13 hooks with audio feedback — so you can hear Claude Code in action as it runs tools, commits code, asks for permissions, and more.

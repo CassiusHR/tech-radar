@@ -7,11 +7,11 @@ title: "From 88 to 24 Seconds: JS Drop-In Replacements That Cut CI/CD Runtime by
 authorHandle: "Ok-Tune-1346"
 authorName: "Ok-Tune-1346"
 publishedAt: "2026-02-02T20:12:39.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/devops"]
-metrics: {"score":31,"comments":4,"subreddit":"javascript"}
-score: 4.847853820541041
-scoreBreakdown: {"total":4.847853820541041,"recency":0.2220730092860914,"engagement":5.16443123575951,"author":0,"source":0.9}
+metrics: {"score":30,"comments":4,"subreddit":"javascript"}
+score: 4.814950204109327
+scoreBreakdown: {"total":4.814950204109327,"recency":0.2209583666510816,"engagement":5.128986304581504,"author":0,"source":0.9}
 ---
 
 

@@ -7,7 +7,7 @@ title: "Australia's Deadliest Sniper: Anthropic PUBG Montage"
 authorHandle: undefined
 authorName: "Matt Gregory"
 publishedAt: "2018-05-07T00:54:19.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases"]
 metrics: {}
 score: 0

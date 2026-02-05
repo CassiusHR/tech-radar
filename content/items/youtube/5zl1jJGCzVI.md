@@ -7,11 +7,11 @@ title: "Visually explained: Bundling in 60 seconds"
 authorHandle: undefined
 authorName: "Delba"
 publishedAt: "2024-04-19T16:06:00.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 8.093589037373486e-133
-scoreBreakdown: {"total":8.093589037373486e-133,"recency":1.1562270053390696e-132,"engagement":0,"author":0,"source":0.7}
+score: 8.05296519280856e-133
+scoreBreakdown: {"total":8.05296519280856e-133,"recency":1.1504235989726516e-132,"engagement":0,"author":0,"source":0.7}
 ---
 
 

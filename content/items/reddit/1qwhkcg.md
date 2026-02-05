@@ -7,11 +7,11 @@ title: "[P] CRAFT: thinking agent for image generation and edit"
 authorHandle: "Worldly-Ant-6889"
 authorName: "Worldly-Ant-6889"
 publishedAt: "2026-02-05T10:15:52.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":8,"comments":4,"subreddit":"MachineLearning"}
-score: 4.229975254222118
-scoreBreakdown: {"total":4.229975254222118,"recency":0.733473823012539,"engagement":3.9664986816787025,"author":0,"source":0.9}
+metrics: {"score":9,"comments":4,"subreddit":"MachineLearning"}
+score: 4.298681508047073
+scoreBreakdown: {"total":4.298681508047073,"recency":0.7297923256643398,"engagement":4.04652046105463,"author":0,"source":0.9}
 ---
 
 We operate an infrastructure startup focused on large-scale image and video generation.  

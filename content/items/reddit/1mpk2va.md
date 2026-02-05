@@ -7,11 +7,11 @@ title: "Announcing LocalLlama discord server &amp; bot!"
 authorHandle: "HOLUPREDICTIONS"
 authorName: "HOLUPREDICTIONS"
 publishedAt: "2025-08-13T23:21:05.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":118,"comments":65,"subreddit":"LocalLLaMA"}
-score: 6.951990649545531
-scoreBreakdown: {"total":6.951990649545531,"recency":4.507794352620999e-36,"engagement":7.724434055050589,"author":0,"source":0.9}
+metrics: {"score":115,"comments":65,"subreddit":"LocalLLaMA"}
+score: 6.936717735274776
+scoreBreakdown: {"total":6.936717735274776,"recency":4.4851685513521267e-36,"engagement":7.707464150305307,"author":0,"source":0.9}
 ---
 
 INVITE: https://discord.gg/rC922KfEwj

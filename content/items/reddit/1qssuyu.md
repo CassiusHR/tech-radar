@@ -7,11 +7,11 @@ title: "Layoff from a product based company,need some suggestions for what's nex
 authorHandle: "Silly_Regular6736"
 authorName: "Silly_Regular6736"
 publishedAt: "2026-02-01T08:22:09.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/react"]
-metrics: {"score":8,"comments":8,"subreddit":"Frontend"}
-score: 4.156021510060553
-scoreBreakdown: {"total":4.156021510060553,"recency":0.1113755230295775,"engagement":4.506426154815481,"author":0,"source":0.9}
+metrics: {"score":9,"comments":8,"subreddit":"Frontend"}
+score: 4.204936487988014
+scoreBreakdown: {"total":4.204936487988014,"recency":0.11081650008993987,"engagement":4.5613351532300745,"author":0,"source":0.9}
 ---
 
 React native developer with 5 years experience got layoff 

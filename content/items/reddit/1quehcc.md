@@ -7,11 +7,11 @@ title: "[D] Where is modern geometry actually useful in machine learning? (data,
 authorHandle: "ternausX"
 authorName: "ternausX"
 publishedAt: "2026-02-03T01:36:24.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":82,"comments":30,"subreddit":"MachineLearning"}
-score: 6.474931332177976
-scoreBreakdown: {"total":6.474931332177976,"recency":0.2463856645005481,"engagement":6.947982482363869,"author":0,"source":0.9}
+metrics: {"score":84,"comments":30,"subreddit":"MachineLearning"}
+score: 6.4913186066993145
+scoreBreakdown: {"total":6.4913186066993145,"recency":0.24514899027710066,"engagement":6.967427239388804,"author":0,"source":0.9}
 ---
 
 **From April 2025 to January 2026, I worked through** [**Frankel’s "The Geometry of Physics".**](https://www.goodreads.com/book/show/294139.The_Geometry_of_Physics)

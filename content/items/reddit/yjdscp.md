@@ -7,11 +7,11 @@ title: "'Getting into DevOps'"
 authorHandle: "mthode"
 authorName: "mthode"
 publishedAt: "2022-11-01T16:45:29.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/devops"]
-metrics: {"score":1045,"comments":156,"subreddit":"devops"}
-score: 9.089348068229489
-scoreBreakdown: {"total":9.089348068229489,"recency":5.025515450109309e-240,"engagement":10.099275631366098,"author":0,"source":0.9}
+metrics: {"score":1051,"comments":156,"subreddit":"devops"}
+score: 9.094902816388293
+scoreBreakdown: {"total":9.094902816388293,"recency":5.00029107096681e-240,"engagement":10.10544757376477,"author":0,"source":0.9}
 ---
 
 **What is DevOps?**

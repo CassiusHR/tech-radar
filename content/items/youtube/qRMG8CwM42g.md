@@ -7,11 +7,11 @@ title: "Be Careful Using Figma's New Features..."
 authorHandle: undefined
 authorName: "Theo Rants"
 publishedAt: "2024-07-05T03:46:21.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 1.8110581326651013e-117
-scoreBreakdown: {"total":1.8110581326651013e-117,"recency":2.5872259038072876e-117,"engagement":0,"author":0,"source":0.7}
+score: 1.801967957251063e-117
+scoreBreakdown: {"total":1.801967957251063e-117,"recency":2.5742399389300904e-117,"engagement":0,"author":0,"source":0.7}
 ---
 
 Well I didn't expect this, but Figma's AI stuff is...concerning. Love Andy and you should check his shit out.

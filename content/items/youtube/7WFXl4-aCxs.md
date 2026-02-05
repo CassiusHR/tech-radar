@@ -7,11 +7,11 @@ title: "Build better payment forms using new “embedded” Stripe Checkout"
 authorHandle: undefined
 authorName: "Beyond Fireship"
 publishedAt: "2024-04-03T18:11:29.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/nextjs"]
 metrics: {}
-score: 5.183732781151823e-136
-scoreBreakdown: {"total":5.183732781151823e-136,"recency":7.405332544502605e-136,"engagement":0,"author":0,"source":0.7}
+score: 5.157714267758664e-136
+scoreBreakdown: {"total":5.157714267758664e-136,"recency":7.368163239655235e-136,"engagement":0,"author":0,"source":0.7}
 ---
 
 Learn how to use the new embedded Stripe Checkout feature to easily accept payments without ever leaving your own website. Learn everything about payments for software developers in my new Stripe for SaaS featuring Next.js and Supabase: 

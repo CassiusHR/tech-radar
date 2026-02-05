@@ -7,11 +7,11 @@ title: "Anyone have experience with Senior Frontend interviews at Microsoft?"
 authorHandle: "AmperHD"
 authorName: "AmperHD"
 publishedAt: "2026-02-04T18:07:16.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {"score":19,"comments":10,"subreddit":"Frontend"}
-score: 5.131756486768966
-scoreBreakdown: {"total":5.131756486768966,"recency":0.5375204162060073,"engagement":5.16443123575951,"author":0,"source":0.9}
+score: 5.129328326509798
+scoreBreakdown: {"total":5.129328326509798,"recency":0.5348224603624877,"engagement":5.16443123575951,"author":0,"source":0.9}
 ---
 
 Hey everyone,

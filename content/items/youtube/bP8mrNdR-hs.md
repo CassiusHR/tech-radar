@@ -7,11 +7,11 @@ title: "I Love the NEW CSS Functions"
 authorHandle: undefined
 authorName: "Web Dev Simplified"
 publishedAt: "2025-12-30T17:01:10.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/css"]
 metrics: {}
-score: 2.1956394892919708e-8
-scoreBreakdown: {"total":2.1956394892919708e-8,"recency":3.136627841845673e-8,"engagement":0,"author":0,"source":0.7}
+score: 2.1846189992569883e-8
+scoreBreakdown: {"total":2.1846189992569883e-8,"recency":3.120884284652841e-8,"engagement":0,"author":0,"source":0.7}
 ---
 
 FREE CSS Selector Cheat Sheet: [https://webdevsimplified.com/specificity-cheat-sheet.html](https://webdevsimplified.com/specificity-cheat-sheet.html)

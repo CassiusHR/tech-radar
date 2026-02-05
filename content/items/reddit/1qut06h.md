@@ -7,11 +7,11 @@ title: "[Update] AWS suspended my account anyway - production is down"
 authorHandle: "charm88_baby"
 authorName: "charm88_baby"
 publishedAt: "2026-02-03T14:13:47.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":256,"comments":106,"subreddit":"aws"}
-score: 8.032515099874848
-scoreBreakdown: {"total":8.032515099874848,"recency":0.3141729018139286,"engagement":8.61084387582479,"author":0,"source":0.9}
+metrics: {"score":255,"comments":106,"subreddit":"aws"}
+score: 8.028406439968748
+scoreBreakdown: {"total":8.028406439968748,"recency":0.3125959856805709,"engagement":8.607855614284706,"author":0,"source":0.9}
 ---
 
 Update to my previous post about verification issues.

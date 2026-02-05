@@ -7,11 +7,11 @@ title: "[D] Some ACL 2025 papers not indexed by Google Scholar"
 authorHandle: "FlanTricky8908"
 authorName: "FlanTricky8908"
 publishedAt: "2026-02-05T04:03:46.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":18,"comments":10,"subreddit":"MachineLearning"}
-score: 5.201914341051181
-scoreBreakdown: {"total":5.201914341051181,"recency":0.6509185188086962,"engagement":5.128986304581504,"author":0,"source":0.9}
+metrics: {"score":20,"comments":10,"subreddit":"MachineLearning"}
+score: 5.261987053399149
+scoreBreakdown: {"total":5.261987053399149,"recency":0.6476513881685791,"engagement":5.199000893386031,"author":0,"source":0.9}
 ---
 
 I have this problem with my paper, where the arXiv version is in Google Scholar but not the ACL proceedings version. I looked up and found that there is at least one other paper with the same problem:

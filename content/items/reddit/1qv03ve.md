@@ -7,11 +7,11 @@ title: "KEDA Release 2.19.0 now with Dynatrace DQL Support"
 authorHandle: "GroundbreakingBed597"
 authorName: "GroundbreakingBed597"
 publishedAt: "2026-02-03T18:34:12.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/devops"]
-metrics: {"score":10,"comments":4,"subreddit":"kubernetes"}
-score: 4.0173934894263805
-scoreBreakdown: {"total":4.0173934894263805,"recency":0.3415559729740736,"engagement":4.122214570833016,"author":0,"source":0.9}
+metrics: {"score":9,"comments":4,"subreddit":"kubernetes"}
+score: 3.9477258675761178
+scoreBreakdown: {"total":3.9477258675761178,"recency":0.3398416140299451,"engagement":4.04652046105463,"author":0,"source":0.9}
 ---
 
 Kudos to the KEDA team and especially Jorge Turrado for extending the existing Dynatrace Scaler for KEDA with support for DQL (Dynatrace Query Language). This means you can now query any information from Dynatrace (logs, metrics, traces, events, business, smartscape, ...) and use it to have KEDA make scaling decisions

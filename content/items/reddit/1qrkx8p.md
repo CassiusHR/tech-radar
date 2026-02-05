@@ -7,11 +7,11 @@ title: "How to work with forms (venting/seeking advice)"
 authorHandle: "TeaAccomplished1604"
 authorName: "TeaAccomplished1604"
 publishedAt: "2026-01-30T22:55:54.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":7,"comments":10,"subreddit":"typescript"}
-score: 4.251231486841126
-scoreBreakdown: {"total":4.251231486841126,"recency":0.05850422668929901,"engagement":4.665086314245285,"author":0,"source":0.9}
+metrics: {"score":6,"comments":10,"subreddit":"typescript"}
+score: 4.205143971943816
+scoreBreakdown: {"total":4.205143971943816,"recency":0.05821057864262372,"engagement":4.614171612406061,"author":0,"source":0.9}
 ---
 
 So I started working in this new company. There is one FE - but he is from “old times” - and even though he used TS, it was only for a checkmark in project - everything in red, debugging in runtime, maybe skill issue or maybe he’s lazy - but it was breaking all the times.. 

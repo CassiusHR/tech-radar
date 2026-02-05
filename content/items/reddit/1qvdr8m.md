@@ -7,11 +7,11 @@ title: "Node.js Documentation Redesign Beta"
 authorHandle: "AvivKeller"
 authorName: "AvivKeller"
 publishedAt: "2026-02-04T03:40:04.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":56,"comments":32,"subreddit":"node"}
-score: 6.408947665990788
-scoreBreakdown: {"total":6.408947665990788,"recency":0.4069461983765493,"engagement":6.714106763835438,"author":0,"source":0.9}
+metrics: {"score":59,"comments":32,"subreddit":"node"}
+score: 6.437968038540501
+scoreBreakdown: {"total":6.437968038540501,"recency":0.40490362875350566,"engagement":6.748394191847051,"author":0,"source":0.9}
 ---
 
 Hey Redditors!

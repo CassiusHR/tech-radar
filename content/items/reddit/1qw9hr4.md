@@ -7,11 +7,11 @@ title: "Claude Code has an undocumented persistent memory feature"
 authorHandle: "bitr8"
 authorName: "bitr8"
 publishedAt: "2026-02-05T02:55:11.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/ai-dev-tools","pillar/anthropic-openai-releases"]
-metrics: {"score":181,"comments":42,"subreddit":"ClaudeAI"}
-score: 7.60827969847665
-scoreBreakdown: {"total":7.60827969847665,"recency":0.6367492771241212,"engagement":7.816894832294378,"author":0,"source":0.9}
+metrics: {"score":181,"comments":43,"subreddit":"ClaudeAI"}
+score: 7.614841534503053
+scoreBreakdown: {"total":7.614841534503053,"recency":0.6335532656215265,"engagement":7.827381772715198,"author":0,"source":0.9}
 ---
 
 Claude Code has an undocumented persistent memory feature

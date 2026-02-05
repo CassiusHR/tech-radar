@@ -7,11 +7,11 @@ title: "I built a free public Dictionary REST API (hobby project)"
 authorHandle: "Economy-Ebb4763"
 authorName: "Economy-Ebb4763"
 publishedAt: "2026-02-05T08:31:19.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":7,"comments":6,"subreddit":"webdev"}
-score: 4.412969104158667
-scoreBreakdown: {"total":4.412969104158667,"recency":0.7092738216451545,"engagement":4.194025182975587,"author":0,"source":0.9}
+metrics: {"score":5,"comments":6,"subreddit":"webdev"}
+score: 4.2770108263507565
+scoreBreakdown: {"total":4.2770108263507565,"recency":0.7057137904462099,"engagement":4.04652046105463,"author":0,"source":0.9}
 ---
 
 Hi everyone,

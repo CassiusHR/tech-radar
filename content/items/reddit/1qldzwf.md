@@ -7,11 +7,11 @@ title: "How do you know the return type of this method?"
 authorHandle: "HumanCertificate"
 authorName: "HumanCertificate"
 publishedAt: "2026-01-24T05:05:16.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":12,"comments":12,"subreddit":"typescript"}
-score: 4.552090566238895
-scoreBreakdown: {"total":4.552090566238895,"recency":0.0025933292301920327,"engagement":5.055285077701914,"author":0,"source":0.9}
+metrics: {"score":11,"comments":12,"subreddit":"typescript"}
+score: 4.5175561438227065
+scoreBreakdown: {"total":4.5175561438227065,"recency":0.0025803126311200355,"engagement":5.016926513838554,"author":0,"source":0.9}
 ---
 
 I need to deconstruct an object that is received from `await supabase.from("profiles").select("user_id").eq("username", searchedUsername);`. However, I'm having trouble figuring out how to know the return type of these .select, .eq methods are.

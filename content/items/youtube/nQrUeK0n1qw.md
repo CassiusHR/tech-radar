@@ -7,11 +7,11 @@ title: "Every Project Needs This NEW Tanstack Library"
 authorHandle: undefined
 authorName: "Web Dev Simplified"
 publishedAt: "2026-01-06T17:01:22.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 5.576934613892149e-7
-scoreBreakdown: {"total":5.576934613892149e-7,"recency":7.967049448417357e-7,"engagement":0,"author":0,"source":0.7}
+score: 5.548942517449229e-7
+scoreBreakdown: {"total":5.548942517449229e-7,"recency":7.927060739213185e-7,"engagement":0,"author":0,"source":0.7}
 ---
 
 Tanstack has been releasing tons of libraries in the last year and the newest Pacer library is yet another incredible library that I will use in nearly every project I work on. In this video I cover what this library is, how to use it, and talk about why you need this library in all your projects.

@@ -7,11 +7,11 @@ title: "The NEW React Activity Component Is a Game Changer for Performance"
 authorHandle: undefined
 authorName: "Web Dev Simplified"
 publishedAt: "2026-01-08T17:00:15.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/react"]
 metrics: {}
-score: 0.000001404795978022735
-scoreBreakdown: {"total":0.000001404795978022735,"recency":0.000002006851397175336,"engagement":0,"author":0,"source":0.7}
+score: 0.0000013977449388368916
+scoreBreakdown: {"total":0.0000013977449388368916,"recency":0.0000019967784840527024,"engagement":0,"author":0,"source":0.7}
 ---
 
 Full Video: https://youtu.be/Ubbb1RK7iFs

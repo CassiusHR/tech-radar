@@ -7,11 +7,11 @@ title: "A lightweight, developer-focused database management tool"
 authorHandle: "debba_"
 authorName: "debba_"
 publishedAt: "2026-02-05T06:30:58.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/react"]
 metrics: {"score":7,"comments":5,"subreddit":"typescript"}
-score: 4.256031591286363
-scoreBreakdown: {"total":4.256031591286363,"recency":0.682403529263551,"engagement":4.04652046105463,"author":0,"source":0.9}
+score: 4.252948945343036
+scoreBreakdown: {"total":4.252948945343036,"recency":0.6789783671042975,"engagement":4.04652046105463,"author":0,"source":0.9}
 ---
 
 Hi everyone! 👋

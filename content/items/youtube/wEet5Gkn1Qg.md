@@ -7,11 +7,11 @@ title: "This Unknown TypeScript Feature is a Must Have for Large Projects"
 authorHandle: undefined
 authorName: "Web Dev Simplified"
 publishedAt: "2026-01-01T17:01:26.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 5.5331382920802354e-8
-scoreBreakdown: {"total":5.5331382920802354e-8,"recency":7.904483274400337e-8,"engagement":0,"author":0,"source":0.7}
+score: 5.5053660208547296e-8
+scoreBreakdown: {"total":5.5053660208547296e-8,"recency":7.864808601221043e-8,"engagement":0,"author":0,"source":0.7}
 ---
 
 Full Video: https://youtu.be/aP6w2OzidYM

@@ -7,11 +7,11 @@ title: "How do web agencies protect themselves when a client leaves? (WordPress 
 authorHandle: "Right-Ad3493"
 authorName: "Right-Ad3493"
 publishedAt: "2026-02-05T06:59:09.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":6,"comments":15,"subreddit":"webdev"}
-score: 5.169499476683791
-scoreBreakdown: {"total":5.169499476683791,"recency":0.6886032297245208,"engagement":5.055285077701914,"author":0,"source":0.9}
+metrics: {"score":5,"comments":16,"subreddit":"webdev"}
+score: 5.199990815934686
+scoreBreakdown: {"total":5.199990815934686,"recency":0.6851469496438218,"engagement":5.09262062361694,"author":0,"source":0.9}
 ---
 
 Hi everyone,  

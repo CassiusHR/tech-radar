@@ -7,11 +7,11 @@ title: "Sam Altman's response to the Anthropic Super Bowl ad. He said, \"More Te
 authorHandle: "WarmFireplace"
 authorName: "WarmFireplace"
 publishedAt: "2026-02-04T20:24:42.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":860,"comments":362,"subreddit":"OpenAI"}
-score: 9.78968926931476
-scoreBreakdown: {"total":9.78968926931476,"recency":0.5617569606249098,"engagement":10.315675560835933,"author":0,"source":0.9}
+metrics: {"score":864,"comments":365,"subreddit":"OpenAI"}
+score: 9.795076178867555
+scoreBreakdown: {"total":9.795076178867555,"recency":0.5589373552129826,"engagement":10.324480621306522,"author":0,"source":0.9}
 ---
 
 

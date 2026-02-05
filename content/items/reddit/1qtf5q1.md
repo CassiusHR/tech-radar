@@ -7,11 +7,11 @@ title: "React/TypeScript—what separates senior frontend engineers from mid-lev
 authorHandle: "kidclutch00"
 authorName: "kidclutch00"
 publishedAt: "2026-02-01T23:58:09.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/react"]
-metrics: {"score":29,"comments":32,"subreddit":"Frontend"}
-score: 5.859907764034904
-scoreBreakdown: {"total":5.859907764034904,"recency":0.15039593152744396,"engagement":6.360612695178005,"author":0,"source":0.9}
+metrics: {"score":33,"comments":32,"subreddit":"Frontend"}
+score: 5.911735972562819
+scoreBreakdown: {"total":5.911735972562819,"recency":0.14964105493099752,"engagement":6.418954470138801,"author":0,"source":0.9}
 ---
 
 I’m a frontend SWE2 working mostly with React + TypeScript and want to level up beyond feature delivery.

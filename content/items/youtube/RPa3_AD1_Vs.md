@@ -7,11 +7,11 @@ title: "This UI component library is mind-blowing"
 authorHandle: undefined
 authorName: "Beyond Fireship"
 publishedAt: "2024-02-24T22:03:31.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/design-systems","pillar/nextjs","pillar/react","pillar/tailwind"]
 metrics: {}
-score: 8.321473134549158e-144
-scoreBreakdown: {"total":8.321473134549158e-144,"recency":1.1887818763641654e-143,"engagement":0,"author":0,"source":0.7}
+score: 8.279705479975792e-144
+scoreBreakdown: {"total":8.279705479975792e-144,"recency":1.1828150685679704e-143,"engagement":0,"author":0,"source":0.7}
 ---
 
 Let's explore a free open-source UI library that replicates advanced animations found on the landing pages of top-tier startups. Learn how to code advanced components in React and other JavaScript frameworks. 

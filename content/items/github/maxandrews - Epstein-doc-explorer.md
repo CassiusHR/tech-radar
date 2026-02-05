@@ -6,12 +6,12 @@ url: "https://github.com/maxandrews/Epstein-doc-explorer"
 title: "maxandrews / Epstein-doc-explorer"
 authorHandle: undefined
 authorName: undefined
-publishedAt: "2026-02-05T14:46:02.403Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+publishedAt: "2026-02-05T15:01:40.669Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {"starsToday":"23 stars today"}
-score: 4.199342994199596
-scoreBreakdown: {"total":4.199342994199596,"recency":0.7999033802623711,"engagement":4.449275362487124,"author":0,"source":0.8}
+score: 4.19933421545591
+scoreBreakdown: {"total":4.19933421545591,"recency":0.7998924068327637,"engagement":4.449275362487124,"author":0,"source":0.8}
 ---
 
 a graph explorer of the Epstein emails

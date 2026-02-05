@@ -7,11 +7,11 @@ title: "If you had to learn frontend development and ui all over again how would
 authorHandle: "YammedOn"
 authorName: "YammedOn"
 publishedAt: "2026-02-03T22:34:17.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/css"]
-metrics: {"score":12,"comments":18,"subreddit":"Frontend"}
-score: 5.235713223788909
-scoreBreakdown: {"total":5.235713223788909,"recency":0.36891072018835525,"engagement":5.448548417354877,"author":0,"source":0.9}
+metrics: {"score":11,"comments":18,"subreddit":"Frontend"}
+score: 5.208066428282829
+scoreBreakdown: {"total":5.208066428282829,"recency":0.3670590605987634,"engagement":5.419681415271047,"author":0,"source":0.9}
 ---
 
 I’ve recently gotten into a situation where I need some halfway decent frontend web dev skills very quickly so I am willing to cut some corners if it will actually make me learn faster. Currently I am starting with the basics and trying to make a personal website using just html css ts but progress has been slow at least at first because css is so confusing for me. I have a strong classroom coding background so typescript hasn’t been bad and html isn’t even a coding language.

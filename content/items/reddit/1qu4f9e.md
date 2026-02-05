@@ -7,11 +7,11 @@ title: "[D] How do you do great ML research"
 authorHandle: "Any-Initiative-653"
 authorName: "Any-Initiative-653"
 publishedAt: "2026-02-02T19:10:00.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":23,"comments":11,"subreddit":"MachineLearning"}
-score: 5.019975794877002
-scoreBreakdown: {"total":5.019975794877002,"recency":0.21765292811193612,"engagement":5.360097955084733,"author":0,"source":0.9}
+metrics: {"score":22,"comments":11,"subreddit":"MachineLearning"}
+score: 4.99129916103109
+scoreBreakdown: {"total":4.99129916103109,"recency":0.2165604710227644,"engagement":5.329327485678447,"author":0,"source":0.9}
 ---
 
 The textbook process is:   

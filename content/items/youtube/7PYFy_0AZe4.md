@@ -7,11 +7,11 @@ title: "The WiFi in the M4 MacBooks is unacceptable"
 authorHandle: undefined
 authorName: "Theo Rants"
 publishedAt: "2024-10-31T07:00:21.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 9.246889539676601e-94
-scoreBreakdown: {"total":9.246889539676601e-94,"recency":1.3209842199538003e-93,"engagement":0,"author":0,"source":0.7}
+score: 9.200476977630977e-94
+scoreBreakdown: {"total":9.200476977630977e-94,"recency":1.3143538539472825e-93,"engagement":0,"author":0,"source":0.7}
 ---
 
 The new Macbook Pro line was really exciting to me...until I learned about the WiFi 6e limitations. Wtf Apple??? iPhone 16 even has WiFi 7!!!

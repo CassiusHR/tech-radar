@@ -7,11 +7,11 @@ title: "I’m tired of paying bills for my blog, due to unwanted crawlers, so th
 authorHandle: "you-l-you"
 authorName: "you-l-you"
 publishedAt: "2026-02-05T00:05:24.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/nextjs"]
-metrics: {"score":8,"comments":5,"subreddit":"nextjs"}
-score: 4.252679579091047
-scoreBreakdown: {"total":4.252679579091047,"recency":0.6029849614903693,"engagement":4.122214570833016,"author":0,"source":0.9}
+metrics: {"score":7,"comments":5,"subreddit":"nextjs"}
+score: 4.18183099469244
+scoreBreakdown: {"total":4.18183099469244,"recency":0.5999584219369695,"engagement":4.04652046105463,"author":0,"source":0.9}
 ---
 
 I want to discuss the issue I faced recently. I have a small blog. It has some users: not more than 100 sessions per day. My CDN has a pay-as-you-go plan, so I pay for each GB of data loaded. The pricing isn't expensive, but the reality hits differently.

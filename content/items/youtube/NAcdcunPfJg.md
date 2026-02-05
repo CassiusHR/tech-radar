@@ -7,11 +7,11 @@ title: "Accelerating science with Prism"
 authorHandle: undefined
 authorName: "OpenAI"
 publishedAt: "2026-02-02T21:09:07.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases"]
 metrics: {}
-score: 0.1582935927975491
-scoreBreakdown: {"total":0.1582935927975491,"recency":0.2261337039964987,"engagement":0,"author":0,"source":0.7}
+score: 0.15749907576935085
+scoreBreakdown: {"total":0.15749907576935085,"recency":0.22499867967050122,"engagement":0,"author":0,"source":0.7}
 ---
 
 When you look at scientific tooling, a lot of it hasn’t changed in decades. That’s why we recently launched Prism: a free, AI-native environment for scientific writing and collaboration, designed to mean less time in your editor and more time doing research.

@@ -7,11 +7,11 @@ title: "Typing practice - but it's kubectl and sample yaml snippets"
 authorHandle: "nerf_caffeine"
 authorName: "nerf_caffeine"
 publishedAt: "2026-02-03T19:37:18.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/css","pillar/devops"]
-metrics: {"score":136,"comments":10,"subreddit":"kubernetes"}
-score: 6.684558051881688
-scoreBreakdown: {"total":6.684558051881688,"recency":0.34854259682535677,"engagement":7.078744127487631,"author":0,"source":0.9}
+metrics: {"score":139,"comments":10,"subreddit":"kubernetes"}
+score: 6.706832860361164
+scoreBreakdown: {"total":6.706832860361164,"recency":0.34679317018504824,"engagement":7.105243341327356,"author":0,"source":0.9}
 ---
 
 Hi everyone 

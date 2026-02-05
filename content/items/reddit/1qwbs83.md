@@ -7,11 +7,11 @@ title: "For those who’ve sold websites: what sold, how long did it take, and w
 authorHandle: "BaroqueCensure"
 authorName: "BaroqueCensure"
 publishedAt: "2026-02-05T04:41:47.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":13,"comments":10,"subreddit":"webdev"}
-score: 5.036231553688927
-scoreBreakdown: {"total":5.036231553688927,"recency":0.6589081029695147,"engagement":4.936904734462626,"author":0,"source":0.9}
+metrics: {"score":13,"comments":11,"subreddit":"webdev"}
+score: 5.105274645916007
+scoreBreakdown: {"total":5.105274645916007,"recency":0.655600870512566,"engagement":5.016926513838554,"author":0,"source":0.9}
 ---
 
 Hi,

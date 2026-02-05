@@ -7,11 +7,11 @@ title: "[D] Your pet peeves in ML research ?"
 authorHandle: "al3arabcoreleone"
 authorName: "al3arabcoreleone"
 publishedAt: "2026-02-02T21:13:13.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":55,"comments":92,"subreddit":"MachineLearning"}
-score: 7.109393324133989
-scoreBreakdown: {"total":7.109393324133989,"recency":0.2264314230256444,"engagement":7.672894492678787,"author":0,"source":0.9}
+metrics: {"score":56,"comments":92,"subreddit":"MachineLearning"}
+score: 7.113609550131057
+scoreBreakdown: {"total":7.113609550131057,"recency":0.2252949043698128,"engagement":7.6787157068869165,"author":0,"source":0.9}
 ---
 
 For researchers, what parts of academic machine learning environement irritates you the most ? what do you suggest to fix the problem ?

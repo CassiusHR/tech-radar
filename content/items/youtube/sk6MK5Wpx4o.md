@@ -7,11 +7,11 @@ title: "Nintendo isn't just attacking emulators"
 authorHandle: undefined
 authorName: "Theo Rants"
 publishedAt: "2024-10-03T19:11:06.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 2.8093807194697744e-99
-scoreBreakdown: {"total":2.8093807194697744e-99,"recency":4.0134010278139635e-99,"engagement":0,"author":0,"source":0.7}
+score: 2.7952797013498223e-99
+scoreBreakdown: {"total":2.7952797013498223e-99,"recency":3.993256716214032e-99,"engagement":0,"author":0,"source":0.7}
 ---
 
 I can't believe the tirade has continued. My heart goes out to @RetroGameCorps, please give him a sub he 1000% deserves it.

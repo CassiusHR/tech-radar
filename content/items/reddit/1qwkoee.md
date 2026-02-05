@@ -7,11 +7,11 @@ title: "How are you guys finding contracts / side gigs?"
 authorHandle: "Illustrious-Click589"
 authorName: "Illustrious-Click589"
 publishedAt: "2026-02-05T13:01:48.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":12,"comments":16,"subreddit":"webdev"}
-score: 5.492624443992923
-scoreBreakdown: {"total":5.492624443992923,"recency":0.7735885632025779,"engagement":5.329327485678447,"author":0,"source":0.9}
+metrics: {"score":12,"comments":18,"subreddit":"webdev"}
+score: 5.596428723133391
+scoreBreakdown: {"total":5.596428723133391,"recency":0.7697057194600018,"engagement":5.448548417354877,"author":0,"source":0.9}
 ---
 
 I am from Europe, I've over 7 years of experience as software engineer with finished computer science bachelor and master degree, at the moment I have a contract that will end in one month, and I really struggle to find another contract or side gigs, I would even accept rates like 15-20 eur / h or ... doing projects for small prices, it's a bit depressing not gonna lie, sorry for rant.

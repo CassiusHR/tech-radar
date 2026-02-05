@@ -7,11 +7,11 @@ title: "'Top class' website examples"
 authorHandle: "sekajiku"
 authorName: "sekajiku"
 publishedAt: "2026-02-05T10:24:13.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {"score":17,"comments":16,"subreddit":"webdev"}
-score: 5.591046626294874
-scoreBreakdown: {"total":5.591046626294874,"recency":0.7354418216171226,"engagement":5.476832207599404,"author":0,"source":0.9}
+score: 5.587724388570798
+scoreBreakdown: {"total":5.587724388570798,"recency":0.7317504463681492,"engagement":5.476832207599404,"author":0,"source":0.9}
 ---
 
 Hi all. Got a client (UK) asking for examples of what I'd consider "excellent" websites in terms of super clear UX/UI, great performance and very secure.

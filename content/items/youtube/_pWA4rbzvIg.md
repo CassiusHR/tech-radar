@@ -7,11 +7,11 @@ title: "JavaScript performance is weird... Write scientifically faster code with
 authorHandle: undefined
 authorName: "Beyond Fireship"
 publishedAt: "2024-10-30T17:51:22.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 7.178578016202197e-94
-scoreBreakdown: {"total":7.178578016202197e-94,"recency":1.0255111451717425e-93,"engagement":0,"author":0,"source":0.7}
+score: 7.14254685176071e-94
+scoreBreakdown: {"total":7.14254685176071e-94,"recency":1.0203638359658158e-93,"engagement":0,"author":0,"source":0.7}
 ---
 
 Learn how to benchmark your JavaScript code in Deno and find out how the way you write code affects performance. Why is a traditional for loop faster than forEach? And is premature optimization the root of all evil?

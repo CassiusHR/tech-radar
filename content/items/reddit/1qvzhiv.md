@@ -7,11 +7,11 @@ title: "My team should be renamed to talkOps"
 authorHandle: "SpinMoney"
 authorName: "SpinMoney"
 publishedAt: "2026-02-04T20:12:43.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/devops"]
-metrics: {"score":131,"comments":25,"subreddit":"devops"}
-score: 7.060689226429963
-scoreBreakdown: {"total":7.060689226429963,"recency":0.5596008896813345,"engagement":7.285609361907513,"author":0,"source":0.9}
+metrics: {"score":134,"comments":25,"subreddit":"devops"}
+score: 7.078761235137775
+scoreBreakdown: {"total":7.078761235137775,"recency":0.5567921061545411,"engagement":7.308498155109653,"author":0,"source":0.9}
 ---
 
 Some days I spend more time talking about reliability than actually improving it.

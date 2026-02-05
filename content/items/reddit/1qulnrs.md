@@ -7,11 +7,11 @@ title: "json-render in the Next ecosystem: UI as streaming JSON"
 authorHandle: "Best-Menu-252"
 authorName: "Best-Menu-252"
 publishedAt: "2026-02-03T07:32:28.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/nextjs","pillar/react","pillar/vercel"]
 metrics: {"score":14,"comments":6,"subreddit":"nextjs"}
-score: 4.401343183148661
-scoreBreakdown: {"total":4.401343183148661,"recency":0.2762097022035623,"engagement":4.614171612406061,"author":0,"source":0.9}
+score: 4.400095451152133
+scoreBreakdown: {"total":4.400095451152133,"recency":0.2748233333185313,"engagement":4.614171612406061,"author":0,"source":0.9}
 ---
 
 Vercel’s json-render feels like the logical next step after Server Components and streaming. Instead of streaming JSX, the model streams structured JSON that maps to your components. You whitelist components and actions, the AI can only compose inside those rules, and rendering stays inside your Next app. Nothing here replaces the framework, it just adds another layer on top of it.

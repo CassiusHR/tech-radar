@@ -7,11 +7,11 @@ title: "Question about OpenAI API credits for early-stage app development"
 authorHandle: "Beginning-Scholar105"
 authorName: "Beginning-Scholar105"
 publishedAt: "2026-02-05T07:16:56.000Z"
-fetchedAt: "2026-02-05T14:44:21.814Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases"]
 metrics: {"score":5,"comments":2,"subreddit":"OpenAI"}
-score: 3.5248168581747112
-scoreBreakdown: {"total":3.5248168581747112,"recency":0.6928440455580152,"engagement":3.223619130191664,"author":0,"source":0.9}
+score: 3.521418465688934
+scoreBreakdown: {"total":3.521418465688934,"recency":0.6890680539071514,"engagement":3.223619130191664,"author":0,"source":0.9}
 ---
 
 Hi everyone,

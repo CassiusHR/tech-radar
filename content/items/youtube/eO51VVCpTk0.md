@@ -7,11 +7,11 @@ title: "React Explained: 'use client'"
 authorHandle: undefined
 authorName: "Delba"
 publishedAt: "2024-09-30T11:48:18.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/react"]
 metrics: {}
-score: 6.093116152697677e-100
-scoreBreakdown: {"total":6.093116152697677e-100,"recency":8.704451646710968e-100,"engagement":0,"author":0,"source":0.7}
+score: 6.062533205829691e-100
+scoreBreakdown: {"total":6.062533205829691e-100,"recency":8.660761722613844e-100,"engagement":0,"author":0,"source":0.7}
 ---
 
 What 'use client' is, why it exists, how it works, and how to use it.
