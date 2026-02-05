@@ -10,7 +10,17 @@ export async function writeItemMarkdown(params: {
   const { source, externalId, frontmatter, body } = params
   const dir = path.join(process.cwd(), 'content', 'items', source)
   await fs.mkdir(dir, { recursive: true })
-  const filePath = path.join(dir, `${externalId}.md`)
+
+  // externalId comes from external sources (GitHub repo full names, etc.).
+  // Sanitize to a safe filename (no slashes, no control chars).
+  const safe = String(externalId)
+    .replace(/[\u0000-\u001f\u007f]/g, '')
+    .replace(/[\\/]+/g, ' - ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 180)
+
+  const filePath = path.join(dir, `${safe}.md`)
 
   const fmLines = ['---']
   for (const [k, v] of Object.entries(frontmatter)) {
