@@ -32,6 +32,11 @@ export async function appendToDayShard(params: {
 
 export async function readDayShard(day: string) {
   const fp = path.join(process.cwd(), 'content', 'indexes', 'shards', `${day}.txt`)
-  const raw = await fs.readFile(fp, 'utf8')
-  return raw.split('\n').map((s) => s.trim()).filter(Boolean)
+  try {
+    const raw = await fs.readFile(fp, 'utf8')
+    return raw.split('\n').map((s) => s.trim()).filter(Boolean)
+  } catch {
+    // Missing shard file means no items ingested for that day yet.
+    return []
+  }
 }
