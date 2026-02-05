@@ -7,8 +7,8 @@ import { TagChips } from '@/components/TagChips'
 import type { ItemFrontmatter } from '@/lib/content/schema'
 import { parseTagsParam } from '@/lib/content/filter'
 import { listDayItems } from '@/lib/content/list'
-import { paginate } from '@/lib/ui/pagination'
 import { sortItems, type SortMode } from '@/lib/content/sort'
+import { paginate } from '@/lib/ui/pagination'
 
 export async function generateMetadata({
   params,
@@ -49,6 +49,7 @@ export default async function DayPage({
   const itemsAll = await listDayItems(date, tags)
   const itemsFiltered = source ? itemsAll.filter((fm) => fm.source === source) : itemsAll
   const items = sortItems(itemsFiltered, sort)
+
   const paged = paginate(items, page, 20)
   const baseHref = `/day/${date}`
 

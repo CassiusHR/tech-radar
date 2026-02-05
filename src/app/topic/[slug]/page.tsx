@@ -7,8 +7,8 @@ import { TagChips } from '@/components/TagChips'
 import type { ItemFrontmatter } from '@/lib/content/schema'
 import { parseTagsParam } from '@/lib/content/filter'
 import { listWeekItems } from '@/lib/content/list'
-import { paginate } from '@/lib/ui/pagination'
 import { sortItems, type SortMode } from '@/lib/content/sort'
+import { paginate } from '@/lib/ui/pagination'
 
 function pillarTagFromSlug(slug: string) {
   return `pillar/${slug}`
@@ -46,6 +46,7 @@ export default async function TopicPage({
   const itemsAll = await listWeekItems(tags)
   const itemsFiltered = source ? itemsAll.filter((fm) => fm.source === source) : itemsAll
   const items = sortItems(itemsFiltered, sort)
+
   const paged = paginate(items, page, 20)
   const baseHref = `/topic/${slug}`
 
