@@ -15,7 +15,8 @@
     "content:validate": "node scripts/validate-content.mjs",
     "scripts:build": "tsc -p tsconfig.scripts.json",
     "ingest": "pnpm scripts:build && node scripts/ingest.mjs",
-    "ingest:dry": "pnpm scripts:build && node scripts/ingest.mjs --dry"
+    "ingest:dry": "pnpm scripts:build && node scripts/ingest.mjs --dry",
+    "fetch-trends": "pnpm run ingest"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
