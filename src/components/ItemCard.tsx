@@ -49,7 +49,7 @@ export function ItemCard({
             </Link>
           </h2>
 
-          {item.summary ? (
+          {item.summary && item.summary !== 'undefined' ? (
             <p className="mt-2 text-sm text-muted-foreground line-clamp-2">{item.summary}</p>
           ) : null}
         </div>

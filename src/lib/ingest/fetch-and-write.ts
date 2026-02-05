@@ -138,7 +138,9 @@ export async function writeItems(
       const raw = await fs.readFile(fpGuess, 'utf8')
       const parsed = matter(raw)
       if (typeof parsed.data?.summary === 'string' && parsed.data.summary.trim()) {
-        existingSummary = parsed.data.summary.trim()
+        const s = parsed.data.summary.trim()
+        // Defensive: older runs may have written the literal string "undefined".
+        if (s && s !== 'undefined' && s !== 'null') existingSummary = s
       }
       if (typeof parsed.data?.image === 'string' && parsed.data.image.trim()) {
         existingImage = parsed.data.image.trim()
@@ -151,6 +153,7 @@ export async function writeItems(
     }
 
     let summary: string | undefined = existingSummary
+    if (summary === 'undefined' || summary === 'null') summary = undefined
     let image: string | undefined = existingImage
     let imageAlt: string | undefined = existingImageAlt
     const enableSummaries = process.env.TECH_RADAR_ENABLE_SUMMARIES !== '0'
