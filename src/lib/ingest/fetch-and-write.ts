@@ -13,6 +13,8 @@ import { fetchYouTubeRSS } from '../sources/youtube'
 import type { RawItem } from '../sources/types'
 import { writeItemMarkdown } from '../sources/write'
 import { appendToDayShard } from './shard-index'
+import matter from 'gray-matter'
+import { llmSummarizeItem } from './summarize'
 
 const SourcesConfigSchema = z.object({
   x: z.object({ queries: z.array(z.string()), limitPerQuery: z.number().int().positive() }),
@@ -114,6 +116,36 @@ export async function writeItems(items: RawItem[]) {
   const ids: string[] = []
 
   for (const it of items) {
+    // Best-effort: reuse existing summary to avoid re-spending tokens every run.
+    let existingSummary: string | undefined
+    try {
+      const dir = path.join(process.cwd(), 'content', 'items', it.source)
+      // Keep in sync with sanitization logic in writeItemMarkdown.
+      const safe = String(it.externalId)
+        .replace(/[\u0000-\u001f\u007f]/g, '')
+        .replace(/[\\/]+/g, ' - ')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .slice(0, 180)
+      const fpGuess = path.join(dir, `${safe}.md`)
+      const raw = await fs.readFile(fpGuess, 'utf8')
+      const parsed = matter(raw)
+      if (typeof parsed.data?.summary === 'string' && parsed.data.summary.trim()) {
+        existingSummary = parsed.data.summary.trim()
+      }
+    } catch {
+      // ignore
+    }
+
+    let summary: string | undefined = existingSummary
+    if (!summary) {
+      try {
+        summary = await llmSummarizeItem({ source: it.source, title: it.title, text: it.text, url: it.url })
+      } catch (err) {
+        console.error('[ingest] summary failed', { id: it.id, err: (err as Error).message })
+      }
+    }
+
     const fp = await writeItemMarkdown({
       source: it.source,
       externalId: it.externalId,
@@ -123,6 +155,8 @@ export async function writeItems(items: RawItem[]) {
         externalId: it.externalId,
         url: it.url,
         title: it.title,
+        text: it.text,
+        summary,
         authorHandle: it.authorHandle,
         authorName: it.authorName,
         publishedAt: it.publishedAt,
