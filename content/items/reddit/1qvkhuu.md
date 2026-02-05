@@ -1,0 +1,19 @@
+---
+id: "reddit:1qvkhuu"
+source: "reddit"
+externalId: "1qvkhuu"
+url: "https://www.reddit.com/r/webdev/comments/1qvkhuu/senior_vibe_coder_dealing_with_security/"
+title: "Senior Vibe Coder dealing with security"
+authorHandle: "Gil_berth"
+authorName: "Gil_berth"
+publishedAt: "2026-02-04T09:55:09.000Z"
+fetchedAt: "2026-02-05T14:45:09.329Z"
+tags: []
+metrics: {"score":2386,"comments":359,"subreddit":"webdev"}
+score: 10.544535465015032
+scoreBreakdown: {"total":10.544535465015032,"recency":0.45907392456876006,"engagement":11.25707659211461,"author":0,"source":0.9}
+---
+
+Creator of ClawBot knows that there are malicious skills in his repo, but doesn't know what to do about it...
+
+More info here: https://opensourcemalware.com/blog/clawdbot-skills-ganked-your-crypto

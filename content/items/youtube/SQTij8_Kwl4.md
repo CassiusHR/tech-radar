@@ -1,0 +1,44 @@
+---
+id: "youtube:SQTij8_Kwl4"
+source: "youtube"
+externalId: "SQTij8_Kwl4"
+url: "https://www.youtube.com/watch?v=SQTij8_Kwl4"
+title: "Everyone Is Missing What Makes NEW Shadcn Update Amazing"
+authorHandle: undefined
+authorName: "Web Dev Simplified"
+publishedAt: "2025-12-23T17:00:50.000Z"
+fetchedAt: "2026-02-05T14:45:09.329Z"
+tags: ["pillar/netlify","pillar/tailwind"]
+metrics: {}
+score: 8.64529456703597e-10
+scoreBreakdown: {"total":8.64529456703597e-10,"recency":1.2350420810051387e-9,"engagement":0,"author":0,"source":0.7}
+---
+
+This new Shadcn update brings some really exciting changes and also some over hyped features. In this video I want to talk about what this new update actually does, what makes it important, and what I think can be improved.
+
+
+📚 Materials/References:
+
+Web Dev Simplified Registry: https://wds-shadcn-registry.netlify.app/
+
+
+🌎 Find Me Here:
+
+My Blog: https://blog.webdevsimplified.com
+My Courses: https://courses.webdevsimplified.com
+Patreon: https://www.patreon.com/WebDevSimplified
+Twitter: https://twitter.com/DevSimplified
+Discord: https://discord.gg/7StTjnR
+GitHub: https://github.com/WebDevSimplified
+CodePen: https://codepen.io/WebDevSimplified
+
+
+⏱️ Timestamps:
+
+00:00 - Introduction
+00:20 - Theme Editor
+04:15 - Using create Command
+05:20 - Additional Features
+
+
+#Shadcn #WDS #ShadcnUI
