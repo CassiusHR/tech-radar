@@ -4,14 +4,18 @@ source: "reddit"
 externalId: "1qtf5q1"
 url: "https://www.reddit.com/r/Frontend/comments/1qtf5q1/reacttypescriptwhat_separates_senior_frontend/"
 title: "React/TypeScript—what separates senior frontend engineers from mid-level ones?"
+text: "I’m a frontend SWE2 working mostly with React + TypeScript and want to level up beyond feature delivery.\n\nFor engineers who’ve operated at senior/staff level on frontend-heavy teams:\n\n\t•\tWhat frontend skills or practices made the biggest difference in code quality and team velocity?\n\n\t•\tWhere do you see mid-level frontend engineers commonly plateau?\n\n\t•\tWhat would you expect a senior frontend engineer to own beyond writing components?\n\nInterested in architecture, performance, testing, DX, and lo"
+summary: undefined
+image: undefined
+imageAlt: undefined
 authorHandle: "kidclutch00"
 authorName: "kidclutch00"
 publishedAt: "2026-02-01T23:58:09.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: ["pillar/react"]
-metrics: {"score":33,"comments":32,"subreddit":"Frontend"}
-score: 5.911735972562819
-scoreBreakdown: {"total":5.911735972562819,"recency":0.14964105493099752,"engagement":6.418954470138801,"author":0,"source":0.9}
+metrics: {"score":29,"comments":32,"subreddit":"Frontend"}
+score: 5.854133865971549
+scoreBreakdown: {"total":5.854133865971549,"recency":0.14398048923482673,"engagement":6.360612695178005,"author":0,"source":0.9}
 ---
 
 I’m a frontend SWE2 working mostly with React + TypeScript and want to level up beyond feature delivery.

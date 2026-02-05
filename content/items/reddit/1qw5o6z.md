@@ -4,14 +4,18 @@ source: "reddit"
 externalId: "1qw5o6z"
 url: "https://www.reddit.com/r/programming/comments/1qw5o6z/intellij_wayland_by_default_in_20261_eap/"
 title: "[IntelliJ] Wayland By Default in 2026.1 EAP"
+text: undefined
+summary: undefined
+image: undefined
+imageAlt: undefined
 authorHandle: "BlueGoliath"
 authorName: "BlueGoliath"
 publishedAt: "2026-02-05T00:08:42.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: []
-metrics: {"score":209,"comments":138,"subreddit":"programming"}
-score: 8.335157555526159
-scoreBreakdown: {"total":8.335157555526159,"recency":0.6005940993461513,"engagement":8.660692073460691,"author":0,"source":0.9}
+metrics: {"score":217,"comments":155,"subreddit":"programming"}
+score: 8.419148863402759
+scoreBreakdown: {"total":8.419148863402759,"recency":0.5778750510365205,"engagement":8.776734797188766,"author":0,"source":0.9}
 ---
 
 

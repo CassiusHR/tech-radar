@@ -4,14 +4,18 @@ source: "reddit"
 externalId: "1mpk2va"
 url: "https://www.reddit.com/r/LocalLLaMA/comments/1mpk2va/announcing_localllama_discord_server_bot/"
 title: "Announcing LocalLlama discord server &amp; bot!"
+text: "INVITE: https://discord.gg/rC922KfEwj\n\nThere used to be one old discord server for the subreddit but it was deleted by the previous mod.\n\nWhy?\nThe subreddit has grown to 500k users - inevitably, some users like a niche community with more technical discussion and fewer memes (even if relevant).\n\nWe have a discord bot to test out open source models.\n\nBetter contest and events organization.\n\nBest for quick questions or showcasing your rig!"
+summary: undefined
+image: undefined
+imageAlt: undefined
 authorHandle: "HOLUPREDICTIONS"
 authorName: "HOLUPREDICTIONS"
 publishedAt: "2025-08-13T23:21:05.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: []
-metrics: {"score":115,"comments":65,"subreddit":"LocalLLaMA"}
-score: 6.936717735274776
-scoreBreakdown: {"total":6.936717735274776,"recency":4.4851685513521267e-36,"engagement":7.707464150305307,"author":0,"source":0.9}
+metrics: {"score":117,"comments":65,"subreddit":"LocalLLaMA"}
+score: 6.946920220167877
+scoreBreakdown: {"total":6.946920220167877,"recency":4.3155052777602376e-36,"engagement":7.718800244630975,"author":0,"source":0.9}
 ---
 
 INVITE: https://discord.gg/rC922KfEwj

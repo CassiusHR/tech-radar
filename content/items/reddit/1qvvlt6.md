@@ -4,14 +4,18 @@ source: "reddit"
 externalId: "1qvvlt6"
 url: "https://www.reddit.com/r/javascript/comments/1qvvlt6/state_of_javascript_2025/"
 title: "State of JavaScript 2025"
+text: undefined
+summary: undefined
+image: undefined
+imageAlt: undefined
 authorHandle: "galher"
 authorName: "galher"
 publishedAt: "2026-02-04T17:55:22.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: []
-metrics: {"score":43,"comments":6,"subreddit":"javascript"}
-score: 5.551448742680352
-scoreBreakdown: {"total":5.551448742680352,"recency":0.5327840137267374,"engagement":5.635492367029209,"author":0,"source":0.9}
+metrics: {"score":46,"comments":7,"subreddit":"javascript"}
+score: 5.641068122768936
+scoreBreakdown: {"total":5.641068122768936,"recency":0.512630059900627,"engagement":5.755223409842635,"author":0,"source":0.9}
 ---
 
 

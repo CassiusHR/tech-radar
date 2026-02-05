@@ -4,14 +4,18 @@ source: "youtube"
 externalId: "ovnyeq-Xxrc"
 url: "https://www.youtube.com/watch?v=ovnyeq-Xxrc"
 title: "How To Handle Errors Like A Senior Dev"
+text: "Error handling is something that is often overlooked in apps, which is usually the sign of a junior developer. In this video I will show you how to properly handle errors in a typesafe way that makes working with your code so much easier.\n\n\n📚 Materials/References:\n\nDiscriminating Unions Video: [https://youtu.be/xsfdypZCLQ8](https://youtu.be/xsfdypZCLQ8)\nSatisfies Keyword Video: [https://youtu.be/Xm_VGeTpS2Q](https://youtu.be/Xm_VGeTpS2Q)\nSenior Dev Permissions Video: [https://youtu.be/5GG-VUvruzE](https://youtu.be/5GG-VUvruzE)\n\n\n🌎 Find Me Here:\n\nMy Blog: [https://blog.webdevsimplified.com](https://blog.webdevsimplified.com/)\nMy Courses: [https://courses.webdevsimplified.com](https://courses.webdevsimplified.com/)\nPatreon: [https://www.patreon.com/WebDevSimplified](https://www.patreon.com/WebDevSimplified)\nTwitter: [https://twitter.com/DevSimplified](https://twitter.com/DevSimplified)\nDiscord: [https://discord.gg/7StTjnR](https://discord.gg/7StTjnR)\nGitHub: [https://github.com/WebDevSimplified](https://github.com/WebDevSimplified)\nCodePen: [https://codepen.io/WebDevSimplified](https://codepen.io/WebDevSimplified)\n\n\n⏱️ Timestamps:\n\n00:00 - Introduction\n00:54 - Starting Code\n02:21 - The Problem\n04:37 - Service Layer\n13:49 - More Problems\n15:44 - Simple Solution\n26:02 - Library Solution\n\n\n#ErrorHandling #WDS #TypeScript"
+summary: undefined
+image: "https://i.ytimg.com/vi/ovnyeq-Xxrc/maxresdefault.jpg"
+imageAlt: undefined
 authorHandle: undefined
 authorName: "Web Dev Simplified"
 publishedAt: "2026-02-03T17:53:36.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: []
 metrics: {}
-score: 0.23480987033274234
-scoreBreakdown: {"total":0.23480987033274234,"recency":0.33544267190391763,"engagement":0,"author":0,"source":0.7}
+score: 0.225927570634035
+scoreBreakdown: {"total":0.225927570634035,"recency":0.3227536723343358,"engagement":0,"author":0,"source":0.7}
 ---
 
 Error handling is something that is often overlooked in apps, which is usually the sign of a junior developer. In this video I will show you how to properly handle errors in a typesafe way that makes working with your code so much easier.

@@ -4,14 +4,18 @@ source: "youtube"
 externalId: "sXo9vyoKch4"
 url: "https://www.youtube.com/watch?v=sXo9vyoKch4"
 title: "AT&T leaked my info (they probably leaked yours too)"
+text: "The AT&T hack is terrifying. Snowflake being the cause is even MORE terrifying. 110 million or more were compromised.\n\nSOURCES\nhttps://techcrunch.com/2024/07/12/att-phone-records-stolen-data-breach/\n\nTy Ph4se0n3 for the edit!"
+summary: undefined
+image: "https://i.ytimg.com/vi/sXo9vyoKch4/maxresdefault.jpg"
+imageAlt: undefined
 authorHandle: undefined
 authorName: "Theo Rants"
 publishedAt: "2024-07-13T05:13:51.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: []
 metrics: {}
-score: 7.47196581692086e-116
-scoreBreakdown: {"total":7.47196581692086e-116,"recency":1.0674236881315516e-115,"engagement":0,"author":0,"source":0.7}
+score: 7.189319096702733e-116
+scoreBreakdown: {"total":7.189319096702733e-116,"recency":1.0270455852432477e-115,"engagement":0,"author":0,"source":0.7}
 ---
 
 The AT&T hack is terrifying. Snowflake being the cause is even MORE terrifying. 110 million or more were compromised.

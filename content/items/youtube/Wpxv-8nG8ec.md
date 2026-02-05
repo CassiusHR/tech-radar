@@ -4,14 +4,18 @@ source: "youtube"
 externalId: "Wpxv-8nG8ec"
 url: "https://www.youtube.com/watch?v=Wpxv-8nG8ec"
 title: "OpenAI Town Hall with Sam Altman"
+text: "Sam Altman answers questions and discusses the future of AI with builders from across the AI ecosystem.\n\n00:00 Introduction\n00:33 Will AI make software engineers obsolete or massively increase demand? (Jevons paradox)\n02:18 If building is easy now, is go-to-market the real bottleneck?\n04:35 What is OpenAI’s vision for agent builders and multi-agent UIs?\n07:03 How can AI help close long-standing economic gaps like the gender wage gap?\n09:53 Should models be specialized or general, given GPT-5’s tradeoffs?\n12:27 How should developers think about “intelligence too cheap to meter” and model costs?\n14:32 Why could custom interfaces accelerate micro-apps built just for individuals?\n16:26 How do builders create durability when features can be replaced by model updates?\n18:14 When will agents run long workflows autonomously without human intervention?\n19:32 How can AI help improve the *quality of ideas*, not just execution?\n23:06 Are we locking in foundations today that will be hard to change later?\n25:08 Will AI eventually take over the full scientific research process?\n29:50 How should we think about AI security and biocurity risks?\n33:16 If AI makes individual learning instant, what happens to human collaboration?\n38:18 What are the most underestimated failure modes as agents run production systems?\n41:13 How should AI be introduced into early education and kindergarten?\n43:00 Is there an inflection point coming for 3D reasoning and drug design?\n43:47 Is university becoming limiting for AI builders, and do you still angel invest?\n45:46 How will software engineering interviews change in an AI-first world?\n51:40 How will human creative identity evolve alongside AI creation?\n55:28 How will personalization and memory evolve across work and personal identities?\n57:45 What is the most important skill to learn in the age of AI?"
+summary: undefined
+image: "https://i.ytimg.com/vi/Wpxv-8nG8ec/maxresdefault.jpg"
+imageAlt: undefined
 authorHandle: undefined
 authorName: "OpenAI"
 publishedAt: "2026-01-27T01:06:09.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: ["pillar/anthropic-openai-releases"]
 metrics: {}
-score: 0.006691225847793956
-scoreBreakdown: {"total":0.006691225847793956,"recency":0.00955889406827708,"engagement":0,"author":0,"source":0.7}
+score: 0.006438112666275555
+scoreBreakdown: {"total":0.006438112666275555,"recency":0.00919730380896508,"engagement":0,"author":0,"source":0.7}
 ---
 
 Sam Altman answers questions and discusses the future of AI with builders from across the AI ecosystem.

@@ -4,14 +4,18 @@ source: "reddit"
 externalId: "1qwk6xl"
 url: "https://www.reddit.com/r/Frontend/comments/1qwk6xl/500_years_of_art_into_a_single_infinite_scroll/"
 title: "500 years of art into a single infinite scroll (Met API + GSAP)"
+text: "Hey everyone,\n\nI visualized 500 years of art history as a single, fluid timeline. **GoghWithTheFlow** replaces static pages with an infinite stream, letting you scrub from the Renaissance to the 20th century without a single loading screen.\n\n**Live Demo:** [https://notbigmuzzy.github.io/goghwiththeflow/](vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/workbench/workbench.html)\n\nhttps://preview.redd.it/kc8kixse7ohg1.png?width=1300&amp;format=png&amp;auto=webp&am"
+summary: undefined
+image: undefined
+imageAlt: undefined
 authorHandle: "nbmbnb"
 authorName: "nbmbnb"
 publishedAt: "2026-02-05T12:38:55.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: []
-metrics: {"score":13,"comments":5,"subreddit":"Frontend"}
-score: 4.692014646842703
-scoreBreakdown: {"total":4.692014646842703,"recency":0.76407424511588,"engagement":4.449275362487124,"author":0,"source":0.9}
+metrics: {"score":20,"comments":8,"subreddit":"Frontend"}
+score: 5.211410587987259
+scoreBreakdown: {"total":5.211410587987259,"recency":0.7351711311728182,"engagement":5.055285077701914,"author":0,"source":0.9}
 ---
 
 Hey everyone,

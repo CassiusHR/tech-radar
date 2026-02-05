@@ -4,14 +4,18 @@ source: "reddit"
 externalId: "1qwbmge"
 url: "https://www.reddit.com/r/OpenAI/comments/1qwbmge/thoughts_on_the_1b_texas_compute_expansion_vs_the/"
 title: "Thoughts on the $1B Texas Compute Expansion vs. the shift toward Edge Sovereignty?"
+text: "The news about the $1B push for compute infrastructure in Texas is a massive milestone for the ecosystem. It's clear that the hunger for scale isn't slowing down in 2026.\n\nHowever, it raises an interesting technical challenge: **How do we maintain this pace of innovation while addressing the constraints of energy, latency, and data sovereignty?**\n\nWhile the \"Hyperscale\" route solves for raw power, we’ve been working on the \"Edge\" route. \n\nThe goal isn’t to replace the cloud, but to enable:\n\n* **"
+summary: undefined
+image: undefined
+imageAlt: undefined
 authorHandle: "Lost-Bathroom-2060"
 authorName: "Lost-Bathroom-2060"
 publishedAt: "2026-02-05T04:33:57.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: ["pillar/anthropic-openai-releases","pillar/react"]
 metrics: {"score":9,"comments":4,"subreddit":"OpenAI"}
-score: 4.230427858875797
-scoreBreakdown: {"total":4.230427858875797,"recency":0.6539549376962559,"engagement":4.04652046105463,"author":0,"source":0.9}
+score: 4.208164052997225
+scoreBreakdown: {"total":4.208164052997225,"recency":0.6292173756089535,"engagement":4.04652046105463,"author":0,"source":0.9}
 ---
 
 The news about the $1B push for compute infrastructure in Texas is a massive milestone for the ecosystem. It's clear that the hunger for scale isn't slowing down in 2026.

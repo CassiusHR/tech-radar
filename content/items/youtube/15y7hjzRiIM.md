@@ -4,10 +4,14 @@ source: "youtube"
 externalId: "15y7hjzRiIM"
 url: "https://www.youtube.com/watch?v=15y7hjzRiIM"
 title: "Mario64 16 Star Speedruns (Stream recap 12th/11/18)"
+text: "Hope you guys laugh as much as I did. lol.\n\nMy first attempts at a Super Mario 64 speedrun.\n\n-- Watch live every day at http://www.twitch.tv/Anthropic\n\nAdd me on Snapchat: AnthropicLive\nDiscord: https://discord.gg/0n5lCPeB9tdlnAyL\nFacebook: http://www.facebook.com/AnthropicLive\nTwitter: http://www.twitter.com/AnthropicLive\nInstagram: http://www.instagram.com/AnthropicLive"
+summary: undefined
+image: "https://i.ytimg.com/vi/15y7hjzRiIM/maxresdefault.jpg"
+imageAlt: undefined
 authorHandle: undefined
 authorName: "Matt Gregory"
 publishedAt: "2018-11-13T04:32:38.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: ["pillar/anthropic-openai-releases"]
 metrics: {}
 score: 0
