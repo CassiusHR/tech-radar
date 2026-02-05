@@ -1,1 +1,1 @@
-export { runIngest } from '@/lib/ingest/run'
+export { runIngest } from '../lib/ingest/run'

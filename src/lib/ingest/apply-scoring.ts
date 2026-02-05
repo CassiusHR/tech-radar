@@ -1,6 +1,6 @@
 import { DateTime } from 'luxon'
-import type { RawItem } from '@/lib/sources/types'
-import { scoreItem } from '@/lib/content/scoring'
+import type { RawItem } from '../sources/types'
+import { scoreItem } from '../content/scoring'
 
 export function applyScoring(items: RawItem[], params: { tz: string; mode: 'daily' | 'weekly' }) {
   const now = DateTime.now().setZone(params.tz)

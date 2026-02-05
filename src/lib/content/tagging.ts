@@ -1,4 +1,4 @@
-import type { SourceId } from '@/lib/sources/types'
+import type { SourceId } from '../sources/types'
 
 export type TagRule = {
   tag: string
