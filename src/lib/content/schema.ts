@@ -7,7 +7,14 @@ export const ItemFrontmatterSchema = z.object({
   url: z.string().url(),
   title: z.string().optional(),
   text: z.string().optional(),
-  summary: z.string().optional(),
+  summary: z.preprocess((v) => {
+    if (typeof v === 'string') {
+      const s = v.trim()
+      if (!s || s === 'undefined' || s === 'null') return undefined
+      return s
+    }
+    return v
+  }, z.string().optional()),
   image: z.string().url().optional(),
   imageAlt: z.string().optional(),
   authorHandle: z.string().optional(),
