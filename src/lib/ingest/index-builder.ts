@@ -1,6 +1,6 @@
 import { DateTime } from 'luxon'
-import { loadItem } from '@/lib/content/loaders'
-import type { ItemFrontmatter } from '@/lib/content/schema'
+import { loadItem } from '../content/loaders'
+import type { ItemFrontmatter } from '../content/schema'
 import { readDayShard } from './shard-index'
 
 export type BuiltIndex = {

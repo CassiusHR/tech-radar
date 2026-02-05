@@ -1,4 +1,4 @@
-import type { RawItem } from '@/lib/sources/types'
+import type { RawItem } from '../sources/types'
 
 export type ScoreBreakdown = {
   total: number
