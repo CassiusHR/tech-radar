@@ -7,11 +7,11 @@ title: "Is it just me?"
 authorHandle: "jack_belmondo"
 authorName: "jack_belmondo"
 publishedAt: "2026-02-04T20:12:55.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":87,"comments":18,"subreddit":"ClaudeAI"}
-score: 6.577227898227756
-scoreBreakdown: {"total":6.577227898227756,"recency":0.5596368061837882,"engagement":6.748394191847051,"author":0,"source":0.9}
+metrics: {"score":89,"comments":18,"subreddit":"ClaudeAI"}
+score: 6.594860260903252
+scoreBreakdown: {"total":6.594860260903252,"recency":0.5568278423826558,"engagement":6.7707946697320684,"author":0,"source":0.9}
 ---
 
 

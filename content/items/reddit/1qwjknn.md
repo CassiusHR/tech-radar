@@ -7,11 +7,11 @@ title: "Anyone here actually using a local LLM for notes day to day?"
 authorHandle: "Doug24"
 authorName: "Doug24"
 publishedAt: "2026-02-05T12:08:18.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":7,"comments":2,"subreddit":"LocalLLaMA"}
-score: 3.815361076232827
-scoreBreakdown: {"total":3.815361076232827,"recency":0.7604207749999403,"engagement":3.4788693097032004,"author":0,"source":0.9}
+metrics: {"score":5,"comments":2,"subreddit":"LocalLLaMA"}
+score: 3.582200838626155
+scoreBreakdown: {"total":3.582200838626155,"recency":0.7566040238373973,"engagement":3.223619130191664,"author":0,"source":0.9}
 ---
 
 I’m trying to move more of my note taking workflow off the cloud, especially the processing part. Saving notes locally is easy, but the thinking part usually still happens somewhere remote.

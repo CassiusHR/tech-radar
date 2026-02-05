@@ -7,11 +7,11 @@ title: "This open-source extension makes i18n so much easier"
 authorHandle: "muhammad-r"
 authorName: "muhammad-r"
 publishedAt: "2026-02-03T15:36:54.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":10,"comments":7,"subreddit":"Frontend"}
-score: 4.346182360077775
-scoreBreakdown: {"total":4.346182360077775,"recency":0.3226653563820475,"engagement":4.506426154815481,"author":0,"source":0.9}
+metrics: {"score":8,"comments":7,"subreddit":"Frontend"}
+score: 4.239663945024869
+scoreBreakdown: {"total":4.239663945024869,"recency":0.32104581439349045,"engagement":4.389691902300809,"author":0,"source":0.9}
 ---
 
 Hi everyone.

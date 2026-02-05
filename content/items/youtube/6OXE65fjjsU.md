@@ -7,11 +7,11 @@ title: "The Moltbook Experiment Failed"
 authorHandle: undefined
 authorName: "The PrimeTime"
 publishedAt: "2026-02-03T12:41:56.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 0.2135335008260836
-scoreBreakdown: {"total":0.2135335008260836,"recency":0.3050478583229766,"engagement":0,"author":0,"source":0.7}
+score: 0.2124617202220886
+scoreBreakdown: {"total":0.2124617202220886,"recency":0.3035167431744123,"engagement":0,"author":0,"source":0.7}
 ---
 
 oh you want real coffee?  ssh terminal.shop

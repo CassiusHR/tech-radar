@@ -7,11 +7,11 @@ title: "Can I add my homelab Kubernetes + Argo CD + Grafana project to my resume
 authorHandle: "Chemical_Bee_13"
 authorName: "Chemical_Bee_13"
 publishedAt: "2026-02-04T07:52:00.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/devops"]
 metrics: {"score":35,"comments":18,"subreddit":"devops"}
-score: 5.785690617465853
-scoreBreakdown: {"total":5.785690617465853,"recency":0.4412125638951365,"engagement":5.987332566622477,"author":0,"source":0.9}
+score: 5.783697512122883
+scoreBreakdown: {"total":5.783697512122883,"recency":0.4389980024029476,"engagement":5.987332566622477,"author":0,"source":0.9}
 ---
 
 Hey folks,  

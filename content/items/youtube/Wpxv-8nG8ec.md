@@ -7,11 +7,11 @@ title: "OpenAI Town Hall with Sam Altman"
 authorHandle: undefined
 authorName: "OpenAI"
 publishedAt: "2026-01-27T01:06:09.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases"]
 metrics: {}
-score: 0.006724980286349378
-scoreBreakdown: {"total":0.006724980286349378,"recency":0.009607114694784827,"engagement":0,"author":0,"source":0.7}
+score: 0.006691225847793956
+scoreBreakdown: {"total":0.006691225847793956,"recency":0.00955889406827708,"engagement":0,"author":0,"source":0.7}
 ---
 
 Sam Altman answers questions and discusses the future of AI with builders from across the AI ecosystem.

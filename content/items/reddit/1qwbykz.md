@@ -7,11 +7,11 @@ title: "[D] How to structure an RL solution for a forecasting problem combined w
 authorHandle: "melcoriss"
 authorName: "melcoriss"
 publishedAt: "2026-02-05T04:50:39.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":11,"comments":7,"subreddit":"MachineLearning"}
-score: 4.69990866110925
-scoreBreakdown: {"total":4.69990866110925,"recency":0.6607855813357579,"engagement":4.5613351532300745,"author":0,"source":0.9}
+metrics: {"score":9,"comments":7,"subreddit":"MachineLearning"}
+score: 4.5960698590289635
+scoreBreakdown: {"total":4.5960698590289635,"recency":0.6574689253228352,"engagement":4.449275362487124,"author":0,"source":0.9}
 ---
 
 I’m working on a sales forecasting task with historical seasonal data. Right now, I can train a supervised model, specifically XGBoost, that works reasonably well. I was told by my supervisor to use RL on top of the supervised model predictions, but I'm having trouble understanding how reinforcement learning would actually be structured for my problem.

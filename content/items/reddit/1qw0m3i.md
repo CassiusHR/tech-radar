@@ -7,11 +7,11 @@ title: "I replaced Claude-Code’s entire backend to use NVIDIA NIM models for f
 authorHandle: "PreparationAny8816"
 authorName: "PreparationAny8816"
 publishedAt: "2026-02-04T20:53:30.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/ai-dev-tools","pillar/anthropic-openai-releases"]
-metrics: {"score":69,"comments":23,"subreddit":"LocalLLaMA"}
-score: 6.499799126894348
-scoreBreakdown: {"total":6.499799126894348,"recency":0.5669727623336986,"engagement":6.65502626754891,"author":0,"source":0.9}
+metrics: {"score":70,"comments":23,"subreddit":"LocalLLaMA"}
+score: 6.508053437546596
+scoreBreakdown: {"total":6.508053437546596,"recency":0.5641269774460257,"engagement":6.6670435087168585,"author":0,"source":0.9}
 ---
 
 I have been working on a side-project which replaces the following things in the Claude ecosystem with free alternatives. I started the initial implementation with Opus 4.5 in claude code and as soon as it got working  I used it to work on itself which i found very cool.

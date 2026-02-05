@@ -7,11 +7,11 @@ title: "Automate tasks with the Codex app"
 authorHandle: undefined
 authorName: "OpenAI"
 publishedAt: "2026-02-03T18:04:15.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 0.2368023023755234
-scoreBreakdown: {"total":0.2368023023755234,"recency":0.3382890033936049,"engagement":0,"author":0,"source":0.7}
+score: 0.23561372955821094
+scoreBreakdown: {"total":0.23561372955821094,"recency":0.33659104222601566,"engagement":0,"author":0,"source":0.7}
 ---
 
 Andrew from the Codex engineering team shows how he uses automations in the Codex app to take care of the least fun parts of his job.

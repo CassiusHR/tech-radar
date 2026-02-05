@@ -7,11 +7,11 @@ title: "I Am Not a Functional Programmer"
 authorHandle: "n_creep"
 authorName: "n_creep"
 publishedAt: "2026-02-04T13:36:26.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":125,"comments":40,"subreddit":"programming"}
-score: 7.156622912732583
-scoreBreakdown: {"total":7.156622912732583,"recency":0.4927766000641235,"engagement":7.459026636305413,"author":0,"source":0.9}
+metrics: {"score":129,"comments":40,"subreddit":"programming"}
+score: 7.1786283913483535
+scoreBreakdown: {"total":7.1786283913483535,"recency":0.4903032251603818,"engagement":7.4859505430044555,"author":0,"source":0.9}
 ---
 
 

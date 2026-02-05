@@ -7,11 +7,11 @@ title: "This Amazing TypeScript Feature Has NO Docs!"
 authorHandle: undefined
 authorName: "Web Dev Simplified"
 publishedAt: "2026-01-27T17:00:50.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 0.009135685988215443
-scoreBreakdown: {"total":0.009135685988215443,"recency":0.013050979983164918,"engagement":0,"author":0,"source":0.7}
+score: 0.009089831585939083
+scoreBreakdown: {"total":0.009089831585939083,"recency":0.01298547369419869,"engagement":0,"author":0,"source":0.7}
 ---
 
 FREE TypeScript Utility Types Cheat Sheet: https://webdevsimplified.com/ts-utility-types-cheat-sheet.html

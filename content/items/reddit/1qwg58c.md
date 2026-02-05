@@ -7,11 +7,11 @@ title: "Qwen3 Coder Next poor performance on r9700s"
 authorHandle: "jdchmiel"
 authorName: "jdchmiel"
 publishedAt: "2026-02-05T08:47:37.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":11,"comments":17,"subreddit":"LocalLLaMA"}
-score: 5.465782341824848
-scoreBreakdown: {"total":5.465782341824848,"recency":0.7129935358317652,"engagement":5.360097955084733,"author":0,"source":0.9}
+metrics: {"score":10,"comments":17,"subreddit":"LocalLLaMA"}
+score: 5.434868088081804
+scoreBreakdown: {"total":5.434868088081804,"recency":0.7094148344124469,"engagement":5.329327485678447,"author":0,"source":0.9}
 ---
 
 With ROCm 7.2 backend PP512 is only 53.  Luckily Vulkan at least works, though I usually found ROCm to be faster for other models.

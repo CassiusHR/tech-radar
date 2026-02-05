@@ -7,11 +7,11 @@ title: "Does Deno 2 really uncomplicate JavaScript?"
 authorHandle: undefined
 authorName: "Beyond Fireship"
 publishedAt: "2024-10-14T16:38:52.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/model-releases"]
 metrics: {}
-score: 4.3146720175892164e-97
-scoreBreakdown: {"total":4.3146720175892164e-97,"recency":6.163817167984595e-97,"engagement":0,"author":0,"source":0.7}
+score: 4.293015547933812e-97
+scoreBreakdown: {"total":4.293015547933812e-97,"recency":6.132879354191161e-97,"engagement":0,"author":0,"source":0.7}
 ---
 
 Last week, the highly anticipated JavaScript runtime was released, with arguably the greatest launch campaign for a JavaScript tool ever made.

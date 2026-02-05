@@ -7,11 +7,11 @@ title: "I built a tool to visualize LLM workflows as interactive and shareable g
 authorHandle: "Cyanosistaken"
 authorName: "Cyanosistaken"
 publishedAt: "2026-02-05T00:55:57.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases","pillar/vercel"]
-metrics: {"score":92,"comments":23,"subreddit":"LocalLLaMA"}
-score: 6.768998635986691
-scoreBreakdown: {"total":6.768998635986691,"recency":0.6128460891577995,"engagement":6.908263506382967,"author":0,"source":0.9}
+metrics: {"score":93,"comments":23,"subreddit":"LocalLLaMA"}
+score: 6.775262501105911
+scoreBreakdown: {"total":6.775262501105911,"recency":0.6097700540202098,"engagement":6.918299391653025,"author":0,"source":0.9}
 ---
 
 Hi r/LocalLLaMA! 

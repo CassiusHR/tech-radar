@@ -7,11 +7,11 @@ title: "Usage Limits, Bugs and Performance Discussion Megathread - beginning Dec
 authorHandle: "sixbillionthsheep"
 authorName: "sixbillionthsheep"
 publishedAt: "2025-12-29T07:52:47.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":43,"comments":1828,"subreddit":"ClaudeAI"}
-score: 10.35227101919068
-scoreBreakdown: {"total":10.35227101919068,"recency":1.6571067294009753e-8,"engagement":11.502523338085242,"author":0,"source":0.9}
+metrics: {"score":41,"comments":1833,"subreddit":"ClaudeAI"}
+score: 10.354992402463141
+scoreBreakdown: {"total":10.354992402463141,"recency":1.6487892764277852e-8,"engagement":11.505547097360042,"author":0,"source":0.9}
 ---
 
 **Why a Performance, Usage Limits and Bugs** **Discussion Megathread?**

@@ -7,11 +7,11 @@ title: "Next.js Explained: Partial Prerendering (PPR)"
 authorHandle: undefined
 authorName: "Delba"
 publishedAt: "2024-01-29T16:45:02.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/nextjs","pillar/react"]
 metrics: {}
-score: 4.54947509803111e-149
-scoreBreakdown: {"total":4.54947509803111e-149,"recency":6.499250140044444e-149,"engagement":0,"author":0,"source":0.7}
+score: 4.526640090177418e-149
+scoreBreakdown: {"total":4.526640090177418e-149,"recency":6.4666287002534545e-149,"engagement":0,"author":0,"source":0.7}
 ---
 
 What exactly is Partial Prerendering? How does it work? And most importantly, why does it matter?

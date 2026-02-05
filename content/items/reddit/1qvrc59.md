@@ -7,11 +7,11 @@ title: "Some hard lessons learned building a private H100 cluster (Why PCIe serv
 authorHandle: "NTCTech"
 authorName: "NTCTech"
 publishedAt: "2026-02-04T15:20:42.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":379,"comments":102,"subreddit":"LocalLLaMA"}
-score: 8.484664400965682
-scoreBreakdown: {"total":8.484664400965682,"recency":0.5095435140023502,"engagement":8.917861375959518,"author":0,"source":0.9}
+metrics: {"score":381,"comments":105,"subreddit":"LocalLLaMA"}
+score: 8.499505743360764
+scoreBreakdown: {"total":8.499505743360764,"recency":0.5069859815632413,"engagement":8.936909288837606,"author":0,"source":0.9}
 ---
 
 ^(Just wanted to dump some notes here after spending the last few months architecting a private training stack (70B+ param models. We initially tried to save budget by looking at standard PCIe servers instead of the HGX/SXM form factors, and honestly, the "paper math" vs. reality was a brutal wake-up call.))

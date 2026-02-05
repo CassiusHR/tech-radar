@@ -7,11 +7,11 @@ title: "Best \"Deep research\" for local LLM in 2026 - platforms/tools/interface
 authorHandle: "liviuberechet"
 authorName: "liviuberechet"
 publishedAt: "2026-02-05T09:39:18.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":39,"comments":25,"subreddit":"LocalLLaMA"}
-score: 6.322185775888607
-scoreBreakdown: {"total":6.322185775888607,"recency":0.7249173236360807,"engagement":6.2997335384623705,"author":0,"source":0.9}
+metrics: {"score":41,"comments":26,"subreddit":"LocalLLaMA"}
+score: 6.373702321900888
+scoreBreakdown: {"total":6.373702321900888,"recency":0.7212787736007589,"engagement":6.360612695178005,"author":0,"source":0.9}
 ---
 
 I've been using the **Deep research** function from ChatGPT quite a lot since it came out.

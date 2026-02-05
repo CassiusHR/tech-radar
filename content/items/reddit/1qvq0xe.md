@@ -7,11 +7,11 @@ title: "Bashing Ollama isn’t just a pleasure, it’s a duty"
 authorHandle: "jacek2023"
 authorName: "jacek2023"
 publishedAt: "2026-02-04T14:29:48.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":879,"comments":174,"subreddit":"LocalLLaMA"}
-score: 9.413718520064245
-scoreBreakdown: {"total":9.413718520064245,"recency":0.5012882923259058,"engagement":9.958398952189922,"author":0,"source":0.9}
+metrics: {"score":882,"comments":174,"subreddit":"LocalLLaMA"}
+score: 9.414528454499557
+scoreBreakdown: {"total":9.414528454499557,"recency":0.4987721950079383,"engagement":9.961814976658236,"author":0,"source":0.9}
 ---
 
 

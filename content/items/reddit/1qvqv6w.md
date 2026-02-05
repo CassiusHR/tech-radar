@@ -7,11 +7,11 @@ title: "The actual ways to get AWS credits right now (Feb 2026 updated)"
 authorHandle: "alex_aws_solutions"
 authorName: "alex_aws_solutions"
 publishedAt: "2026-02-04T15:02:42.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":55,"comments":10,"subreddit":"aws"}
-score: 5.912671892144438
-scoreBreakdown: {"total":5.912671892144438,"recency":0.506608759315179,"engagement":6.063026676400863,"author":0,"source":0.9}
+metrics: {"score":57,"comments":10,"subreddit":"aws"}
+score: 5.943112483089978
+scoreBreakdown: {"total":5.943112483089978,"recency":0.5040659571789922,"engagement":6.099392357365428,"author":0,"source":0.9}
 ---
 
 I keep seeing the same questions about AWS credits, and most of the answers are either outdated or vague. We went through this ourselves last year when building on AWS. So here’s what actually works as of February 2026

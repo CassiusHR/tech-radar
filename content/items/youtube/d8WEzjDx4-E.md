@@ -7,11 +7,11 @@ title: "F*** you Microsoft"
 authorHandle: undefined
 authorName: "The PrimeTime"
 publishedAt: "2026-02-02T12:40:47.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 0.13446804347453908
-scoreBreakdown: {"total":0.13446804347453908,"recency":0.19209720496362728,"engagement":0,"author":0,"source":0.7}
+score: 0.1337931131226476
+scoreBreakdown: {"total":0.1337931131226476,"recency":0.19113301874663946,"engagement":0,"author":0,"source":0.7}
 ---
 
 oh you want real coffee?  ssh terminal.shop

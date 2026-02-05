@@ -7,11 +7,11 @@ title: "An open-source tool to stop hardcoding MOCK_DATA.json (Feedback wanted)"
 authorHandle: "Neither-Ad-8684"
 authorName: "Neither-Ad-8684"
 publishedAt: "2026-02-01T13:52:35.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {"score":5,"comments":13,"subreddit":"Frontend"}
-score: 4.47829652255038
-scoreBreakdown: {"total":4.47829652255038,"recency":0.12385476113636087,"engagement":4.852030263919617,"author":0,"source":0.9}
+score: 4.477718677954414
+scoreBreakdown: {"total":4.477718677954414,"recency":0.12321271158528715,"engagement":4.852030263919617,"author":0,"source":0.9}
 ---
 
 Hey everyone,

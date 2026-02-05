@@ -7,11 +7,11 @@ title: "From magic to malware: How OpenClaw's agent skills become an attack surf
 authorHandle: "grauenwolf"
 authorName: "grauenwolf"
 publishedAt: "2026-02-04T08:52:04.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":111,"comments":40,"subreddit":"programming"}
-score: 7.029263847276487
-scoreBreakdown: {"total":7.029263847276487,"recency":0.4497996428016469,"engagement":7.360493520838894,"author":0,"source":0.9}
+metrics: {"score":110,"comments":40,"subreddit":"programming"}
+score: 7.020652301797667
+scoreBreakdown: {"total":7.020652301797667,"recency":0.44754198050990496,"engagement":7.353182799265281,"author":0,"source":0.9}
 ---
 
 

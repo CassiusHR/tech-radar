@@ -7,11 +7,11 @@ title: "Does anyone else have the same experience with 5.2?"
 authorHandle: "Goofball-John-McGee"
 authorName: "Goofball-John-McGee"
 publishedAt: "2026-02-04T13:57:17.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":637,"comments":78,"subreddit":"OpenAI"}
-score: 8.859601411210123
-scoreBreakdown: {"total":8.859601411210123,"recency":0.496084722265258,"engagement":9.34791684574599,"author":0,"source":0.9}
+metrics: {"score":639,"comments":78,"subreddit":"OpenAI"}
+score: 8.860530242890192
+scoreBreakdown: {"total":8.860530242890192,"recency":0.49359474302918854,"engagement":9.351438860182135,"author":0,"source":0.9}
 ---
 
 Specifically, 5.2 Thinking. Both Standard and Extended

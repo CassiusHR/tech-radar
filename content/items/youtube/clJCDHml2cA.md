@@ -7,11 +7,11 @@ title: "I built a DeepSeek R1 powered VS Code extension…"
 authorHandle: undefined
 authorName: "Beyond Fireship"
 publishedAt: "2025-01-28T20:57:56.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 8.78697044763618e-76
-scoreBreakdown: {"total":8.78697044763618e-76,"recency":1.2552814925194543e-75,"engagement":0,"author":0,"source":0.7}
+score: 8.742866340050156e-76
+scoreBreakdown: {"total":8.742866340050156e-76,"recency":1.248980905721451e-75,"engagement":0,"author":0,"source":0.7}
 ---
 
 Learn how to build a VS Code Extension from scratch. In this fun tutorial, we integrate DeepSeek R1 direction into our editor to build a custom AI assistant. 

@@ -7,11 +7,11 @@ title: "The Smoke Jumpers: Scaling Gemini’s serving infrastructure"
 authorHandle: undefined
 authorName: "Google for Developers"
 publishedAt: "2026-01-26T17:42:44.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 0.0058330261614025145
-scoreBreakdown: {"total":0.0058330261614025145,"recency":0.008332894516289307,"engagement":0,"author":0,"source":0.7}
+score: 0.00580374867436558
+scoreBreakdown: {"total":0.00580374867436558,"recency":0.008291069534807972,"engagement":0,"author":0,"source":0.7}
 ---
 
 Host Logan Kilpatrick sits down with Ema Taropa, lead of the "Smokejumpers" team, to discuss the infrastructure and serving work behind Gemini. They dive into what it actually takes to serve models to billions of users, why there is no "easy button" for global scaling, and how the team manages the trade-offs between latency, capacity, and cost.

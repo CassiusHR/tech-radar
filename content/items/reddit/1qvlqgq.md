@@ -7,11 +7,11 @@ title: "I built a GitHub Actions monitoring tool for myself. Is there any need f
 authorHandle: "goir"
 authorName: "goir"
 publishedAt: "2026-02-04T11:08:17.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/devops"]
-metrics: {"score":15,"comments":17,"subreddit":"devops"}
-score: 5.3520566473919375
-scoreBreakdown: {"total":5.3520566473919375,"recency":0.46989740061386015,"engagement":5.476832207599404,"author":0,"source":0.9}
+metrics: {"score":16,"comments":17,"subreddit":"devops"}
+score: 5.374885273400203
+scoreBreakdown: {"total":5.374885273400203,"recency":0.46753886240839226,"engagement":5.504555885814056,"author":0,"source":0.9}
 ---
 
 hey r/devops,

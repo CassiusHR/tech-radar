@@ -7,11 +7,11 @@ title: "Audits keep pulling senior engineers into work only they can explain"
 authorHandle: "Classic-Mushroom-470"
 authorName: "Classic-Mushroom-470"
 publishedAt: "2026-02-04T16:33:18.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/devops"]
-metrics: {"score":73,"comments":33,"subreddit":"devops"}
-score: 6.69586799835791
-scoreBreakdown: {"total":6.69586799835791,"recency":0.521553939855764,"engagement":6.918299391653025,"author":0,"source":0.9}
+metrics: {"score":75,"comments":33,"subreddit":"devops"}
+score: 6.7113846041250085
+scoreBreakdown: {"total":6.7113846041250085,"recency":0.5189361239415768,"engagement":6.938157880641765,"author":0,"source":0.9}
 ---
 
 Growing tired of these audit cycles. We plan ahead and just when we think we’re ready senior engineers get dragged into explaining configs, workflows and edge cases that technically exist but aren’t documented in the most formal way.

@@ -7,11 +7,11 @@ title: "Introducing the Codex app"
 authorHandle: undefined
 authorName: "OpenAI"
 publishedAt: "2026-02-02T22:16:58.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases"]
 metrics: {}
-score: 0.16177794028241133
-scoreBreakdown: {"total":0.16177794028241133,"recency":0.23111134326058763,"engagement":0,"author":0,"source":0.7}
+score: 0.16096593440100085
+scoreBreakdown: {"total":0.16096593440100085,"recency":0.22995133485857264,"engagement":0,"author":0,"source":0.7}
 ---
 
 The Codex app is a powerful command center for building with agents.

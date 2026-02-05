@@ -7,11 +7,11 @@ title: "From Zero App Experience to a Business Ready Booking System in 35 Days.\
 authorHandle: "SingleTailor8719"
 authorName: "SingleTailor8719"
 publishedAt: "2026-02-05T12:59:36.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":8,"comments":13,"subreddit":"ClaudeAI"}
-score: 5.175476911319022
-scoreBreakdown: {"total":5.175476911319022,"recency":0.7730426153804011,"engagement":4.977487286085179,"author":0,"source":0.9}
+metrics: {"score":7,"comments":16,"subreddit":"ClaudeAI"}
+score: 5.340234372887284
+scoreBreakdown: {"total":5.340234372887284,"recency":0.7691625118930278,"engagement":5.16443123575951,"author":0,"source":0.9}
 ---
 
 Not because I am a developer. I am not. My background is mostly marketing and, for a bit over a year, n8n automations. But the project sounded fun. The payment was solid. And I genuinely believed the new wave of AI tooling made this realistic. I had already done a few pilot projects with Lovable, Bolt, and similar tools, so I felt confident this would not be a big deal.

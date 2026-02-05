@@ -7,11 +7,11 @@ title: "US Sues Adobe For Toxic Cancellation Policies"
 authorHandle: undefined
 authorName: "Theo Rants"
 publishedAt: "2024-06-20T21:18:29.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {}
-score: 2.47892720371947e-120
-scoreBreakdown: {"total":2.47892720371947e-120,"recency":3.5413245767421e-120,"engagement":0,"author":0,"source":0.7}
+score: 2.466484818401084e-120
+scoreBreakdown: {"total":2.466484818401084e-120,"recency":3.5235497405729774e-120,"engagement":0,"author":0,"source":0.7}
 ---
 
 Adobe's cancellation policies are terrible. Turns out the FTC agrees and they're finally cracking down on it. Excited to see where this goes. I really dislike Adobe.

@@ -7,11 +7,11 @@ title: "fetch() still can't resume a failed download so i built that"
 authorHandle: "aginext"
 authorName: "aginext"
 publishedAt: "2026-02-05T13:07:46.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/huggingface"]
-metrics: {"score":7,"comments":6,"subreddit":"javascript"}
-score: 4.472186728064446
-scoreBreakdown: {"total":4.472186728064446,"recency":0.7750711815404642,"engagement":4.194025182975587,"author":0,"source":0.9}
+metrics: {"score":10,"comments":6,"subreddit":"javascript"}
+score: 4.644785518603823
+scoreBreakdown: {"total":4.644785518603823,"recency":0.7711808961478823,"engagement":4.389691902300809,"author":0,"source":0.9}
 ---
 
 been loading AI models in the browser. webllm, transformers.js, that

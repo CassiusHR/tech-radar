@@ -7,11 +7,11 @@ title: "How do you handle wider types sneaking properties into objects?"
 authorHandle: "Tuckertcs"
 authorName: "Tuckertcs"
 publishedAt: "2026-01-31T18:04:52.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":11,"comments":21,"subreddit":"typescript"}
-score: 5.102249988269688
-scoreBreakdown: {"total":5.102249988269688,"recency":0.08458898844300233,"engagement":5.584577665189984,"author":0,"source":0.9}
+metrics: {"score":9,"comments":21,"subreddit":"typescript"}
+score: 5.054315058139256
+scoreBreakdown: {"total":5.054315058139256,"recency":0.08416441414073111,"engagement":5.531741206013998,"author":0,"source":0.9}
 ---
 
 Say, for example, we have this code:

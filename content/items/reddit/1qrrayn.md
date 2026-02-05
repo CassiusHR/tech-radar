@@ -7,11 +7,11 @@ title: "[D] Monthly Who's Hiring and Who wants to be Hired?"
 authorHandle: "AutoModerator"
 authorName: "AutoModerator"
 publishedAt: "2026-01-31T03:30:32.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
-metrics: {"score":15,"comments":6,"subreddit":"MachineLearning"}
-score: 4.2560825003912495
-scoreBreakdown: {"total":4.2560825003912495,"recency":0.06389424174499156,"engagement":4.665086314245285,"author":0,"source":0.9}
+metrics: {"score":14,"comments":6,"subreddit":"MachineLearning"}
+score: 4.209970636985567
+scoreBreakdown: {"total":4.209970636985567,"recency":0.0635735398001242,"engagement":4.614171612406061,"author":0,"source":0.9}
 ---
 
 **For Job Postings** please use this template

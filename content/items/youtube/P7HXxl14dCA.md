@@ -7,11 +7,11 @@ title: "How designers prototype using the Codex app"
 authorHandle: undefined
 authorName: "OpenAI"
 publishedAt: "2026-02-04T18:29:45.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/design-systems"]
 metrics: {}
-score: 0.37898883053102833
-scoreBreakdown: {"total":0.37898883053102833,"recency":0.5414126150443263,"engagement":0,"author":0,"source":0.7}
+score: 0.3770865862643325
+scoreBreakdown: {"total":0.3770865862643325,"recency":0.5386951232347608,"engagement":0,"author":0,"source":0.7}
 ---
 
 Ed Bayes from the Codex team shows how the Codex app pairs with Figma out of the box: prompt with a Figma link and have a working prototype in minutes.

@@ -7,11 +7,11 @@ title: "Guys where do y'all study about networking and AWS to practice and compl
 authorHandle: "FactsNotFate"
 authorName: "FactsNotFate"
 publishedAt: "2026-02-03T09:06:26.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: []
 metrics: {"score":5,"comments":3,"subreddit":"aws"}
-score: 3.387181226960716
-scoreBreakdown: {"total":3.387181226960716,"recency":0.28466538691981735,"engagement":3.4788693097032004,"author":0,"source":0.9}
+score: 3.3858952977962797
+scoreBreakdown: {"total":3.3858952977962797,"recency":0.2832365767371102,"engagement":3.4788693097032004,"author":0,"source":0.9}
 ---
 
 Suggest me how's it gonna be, I've done it before but am not able to find the exact link so can y'all help with that 

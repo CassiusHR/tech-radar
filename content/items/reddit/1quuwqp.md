@@ -7,11 +7,11 @@ title: "Building a Rich Text Editor in React without fighting contentEditable"
 authorHandle: "codes_astro"
 authorName: "codes_astro"
 publishedAt: "2026-02-03T15:27:43.000Z"
-fetchedAt: "2026-02-05T14:45:34.462Z"
+fetchedAt: "2026-02-05T15:01:15.857Z"
 tags: ["pillar/react"]
-metrics: {"score":25,"comments":7,"subreddit":"reactjs"}
-score: 4.937532403264202
-scoreBreakdown: {"total":4.937532403264202,"recency":0.32171587897849174,"engagement":5.16443123575951,"author":0,"source":0.9}
+metrics: {"score":27,"comments":7,"subreddit":"reactjs"}
+score: 4.9975547114363215
+scoreBreakdown: {"total":4.9975547114363215,"recency":0.3201011026658644,"engagement":5.232737465596715,"author":0,"source":0.9}
 ---
 
 I’ve built rich text editors in React more times than I want to admit, and the pattern is always the same.
