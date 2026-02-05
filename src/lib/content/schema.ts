@@ -8,6 +8,8 @@ export const ItemFrontmatterSchema = z.object({
   title: z.string().optional(),
   text: z.string().optional(),
   summary: z.string().optional(),
+  image: z.string().url().optional(),
+  imageAlt: z.string().optional(),
   authorHandle: z.string().optional(),
   authorName: z.string().optional(),
   publishedAt: z.string().datetime(),

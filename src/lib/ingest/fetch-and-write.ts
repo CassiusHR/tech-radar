@@ -15,6 +15,7 @@ import { writeItemMarkdown } from '../sources/write'
 import { appendToDayShard } from './shard-index'
 import matter from 'gray-matter'
 import { llmSummarizeItem } from './summarize'
+import { fetchOpenGraph } from './opengraph'
 
 const SourcesConfigSchema = z.object({
   x: z.object({ queries: z.array(z.string()), limitPerQuery: z.number().int().positive() }),
@@ -118,6 +119,8 @@ export async function writeItems(items: RawItem[]) {
   for (const it of items) {
     // Best-effort: reuse existing summary to avoid re-spending tokens every run.
     let existingSummary: string | undefined
+    let existingImage: string | undefined
+    let existingImageAlt: string | undefined
     try {
       const dir = path.join(process.cwd(), 'content', 'items', it.source)
       // Keep in sync with sanitization logic in writeItemMarkdown.
@@ -133,16 +136,34 @@ export async function writeItems(items: RawItem[]) {
       if (typeof parsed.data?.summary === 'string' && parsed.data.summary.trim()) {
         existingSummary = parsed.data.summary.trim()
       }
+      if (typeof parsed.data?.image === 'string' && parsed.data.image.trim()) {
+        existingImage = parsed.data.image.trim()
+      }
+      if (typeof parsed.data?.imageAlt === 'string' && parsed.data.imageAlt.trim()) {
+        existingImageAlt = parsed.data.imageAlt.trim()
+      }
     } catch {
       // ignore
     }
 
     let summary: string | undefined = existingSummary
+    let image: string | undefined = existingImage
+    let imageAlt: string | undefined = existingImageAlt
     if (!summary) {
       try {
         summary = await llmSummarizeItem({ source: it.source, title: it.title, text: it.text, url: it.url })
       } catch (err) {
         console.error('[ingest] summary failed', { id: it.id, err: (err as Error).message })
+      }
+    }
+
+    if (!image) {
+      try {
+        const og = await fetchOpenGraph(it.url)
+        image = og.image
+        imageAlt = og.imageAlt
+      } catch (err) {
+        console.error('[ingest] opengraph failed', { id: it.id, err: (err as Error).message })
       }
     }
 
@@ -157,6 +178,8 @@ export async function writeItems(items: RawItem[]) {
         title: it.title,
         text: it.text,
         summary,
+        image,
+        imageAlt,
         authorHandle: it.authorHandle,
         authorName: it.authorName,
         publishedAt: it.publishedAt,
