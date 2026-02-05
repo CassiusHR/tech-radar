@@ -18,15 +18,20 @@ async function writeJson(filePath: string, data: unknown) {
   await fs.writeFile(filePath, JSON.stringify(data, null, 2) + '\n', 'utf8')
 }
 
-export async function runIngest({ dryRun = false }: { dryRun?: boolean } = {}): Promise<IngestResult> {
+export async function runIngest({ dryRun = false, force = false }: { dryRun?: boolean; force?: boolean } = {}): Promise<IngestResult> {
   const cfg = await loadTechRadarConfig()
   const now = DateTime.now().setZone(cfg.tz)
   const gate = shouldRunNow(cfg, DateTime.now())
 
   const generatedAt = now.toUTC().toISO() ?? new Date().toISOString()
 
-  if (!gate.run) {
+  if (!gate.run && !force) {
     return { ok: true, ran: false, reason: gate.reason, generatedAt, wrote: [] }
+  }
+
+  if (!gate.run && force) {
+    // Manual override: allow running outside the hourly window / runHours.
+    // Useful for on-demand runs from automation tools.
   }
 
   // Fetch new items + write sharded markdown (best-effort) before rebuilding indexes.
