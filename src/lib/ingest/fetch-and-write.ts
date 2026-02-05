@@ -164,11 +164,12 @@ export async function writeItems(
       }
     }
 
-    if (enableOg && !image) {
+    if (enableOg && (!image || !summary)) {
       try {
         const thumb = await fetchThumbnail(it.url)
-        image = thumb.image
-        imageAlt = thumb.imageAlt
+        image = image ?? thumb.image
+        imageAlt = imageAlt ?? thumb.imageAlt
+        summary = summary ?? thumb.description
       } catch (err) {
         console.error('[ingest] thumbnail fetch failed', { id: it.id, err: (err as Error).message })
       }

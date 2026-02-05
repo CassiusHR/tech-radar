@@ -4,6 +4,7 @@ import { fetchOpenGraph } from './opengraph'
 export type ThumbnailResult = {
   image?: string
   imageAlt?: string
+  description?: string
 }
 
 async function fetchFavicon(pageUrl: string): Promise<string | undefined> {
@@ -33,7 +34,7 @@ async function fetchFavicon(pageUrl: string): Promise<string | undefined> {
 
 export async function fetchThumbnail(url: string): Promise<ThumbnailResult> {
   const og = await fetchOpenGraph(url)
-  if (og.image) return og
+  if (og.image || og.description) return og
 
   const favicon = await fetchFavicon(url)
   if (favicon) return { image: favicon }

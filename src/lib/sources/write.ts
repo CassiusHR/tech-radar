@@ -24,6 +24,7 @@ export async function writeItemMarkdown(params: {
 
   const fmLines = ['---']
   for (const [k, v] of Object.entries(frontmatter)) {
+    if (v === undefined) continue
     fmLines.push(`${k}: ${JSON.stringify(v)}`)
   }
   fmLines.push('---')
