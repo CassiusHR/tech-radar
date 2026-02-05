@@ -7,11 +7,11 @@ title: "I'm starting to think Infrastructure as Code is the wrong way to teach T
 authorHandle: "NTCTech"
 authorName: "NTCTech"
 publishedAt: "2026-02-03T19:08:43.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/devops"]
-metrics: {"score":159,"comments":107,"subreddit":"devops"}
-score: 7.775437949215803
-scoreBreakdown: {"total":7.775437949215803,"recency":0.34541738274832406,"engagement":8.293958116380345,"author":0,"source":0.9}
+metrics: {"score":157,"comments":107,"subreddit":"devops"}
+score: 7.768630463636394
+scoreBreakdown: {"total":7.768630463636394,"recency":0.3453602302802563,"engagement":8.286451395982404,"author":0,"source":0.9}
 ---
 
 I’ve spent a lot of time with Terraform, and the more I use it at scale, the less “code” feels like the right way to think about it. “Code” makes you believe that what’s written is all that matters - that your code is the source of truth. But honestly, anyone who's worked with Terraform for a while knows that's just not true. The state file runs the show.  

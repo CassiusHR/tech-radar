@@ -7,7 +7,7 @@ title: "How I Built the Portfolio That Landed Me a Dev Role (Tech Stack Explaine
 authorHandle: undefined
 authorName: "Delba"
 publishedAt: "2021-07-20T14:56:17.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/css","pillar/nextjs","pillar/tailwind"]
 metrics: {}
 score: 0

@@ -7,11 +7,11 @@ title: "A first look at the Codex app"
 authorHandle: undefined
 authorName: "OpenAI"
 publishedAt: "2026-02-02T18:03:33.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases","pillar/model-releases"]
 metrics: {}
-score: 0.14916727798657786
-scoreBreakdown: {"total":0.14916727798657786,"recency":0.21309611140939697,"engagement":0,"author":0,"source":0.7}
+score: 0.14914259689489667
+scoreBreakdown: {"total":0.14914259689489667,"recency":0.21306085270699526,"engagement":0,"author":0,"source":0.7}
 ---
 
 Introducing the Codex app—now available on macOS

@@ -7,11 +7,11 @@ title: "Shall we introduce Rule against AI Generated Content?"
 authorHandle: "Dubinko"
 authorName: "Dubinko"
 publishedAt: "2026-01-23T08:35:16.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/devops"]
-metrics: {"score":749,"comments":121,"subreddit":"devops"}
-score: 8.695224200106386
-scoreBreakdown: {"total":8.695224200106386,"recency":0.0017478721416079536,"engagement":9.65961235019882,"author":0,"source":0.9}
+metrics: {"score":750,"comments":121,"subreddit":"devops"}
+score: 8.696493461343064
+scoreBreakdown: {"total":8.696493461343064,"recency":0.0017475829401613866,"engagement":9.661022929663241,"author":0,"source":0.9}
 ---
 
 We’ve been seeing an increase in AI generated content, especially from new accounts.

@@ -7,11 +7,11 @@ title: "[Final Update] 164K views, Executive Escalations involved, 2 days of sil
 authorHandle: "charm88_baby"
 authorName: "charm88_baby"
 publishedAt: "2026-02-05T09:40:02.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {"score":248,"comments":41,"subreddit":"aws"}
-score: 7.963356289220176
-scoreBreakdown: {"total":7.963356289220176,"recency":0.7252079291611974,"engagement":8.122965725527887,"author":0,"source":0.9}
+score: 7.96324829615852
+scoreBreakdown: {"total":7.96324829615852,"recency":0.7250879368704676,"engagement":8.122965725527887,"author":0,"source":0.9}
 ---
 
 This is the follow-up to my account suspension post from 2 days ago that got 164K views.

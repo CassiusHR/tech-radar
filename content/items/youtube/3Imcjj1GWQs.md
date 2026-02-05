@@ -7,11 +7,11 @@ title: "TFW you are one with the machine. 🧘"
 authorHandle: undefined
 authorName: "Google for Developers"
 publishedAt: "2026-02-03T05:00:04.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {}
-score: 0.18414905520672814
-scoreBreakdown: {"total":0.18414905520672814,"recency":0.2630700788667545,"engagement":0,"author":0,"source":0.7}
+score: 0.1841185860597684
+scoreBreakdown: {"total":0.1841185860597684,"recency":0.2630265515139549,"engagement":0,"author":0,"source":0.7}
 ---
 
 The music hits just right, the caffeine is flowing, and you rewrite the entire legacy codebase in two hours. 🧘

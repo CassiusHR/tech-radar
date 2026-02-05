@@ -7,11 +7,11 @@ title: "Introducing LibPDF, the PDF library for TypeScript that I always needed"
 authorHandle: "Xenni"
 authorName: "Xenni"
 publishedAt: "2026-01-24T05:46:37.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":101,"comments":18,"subreddit":"typescript"}
-score: 6.210705207840012
-scoreBreakdown: {"total":6.210705207840012,"recency":0.0026284050465922334,"engagement":6.898155159220087,"author":0,"source":0.9}
+metrics: {"score":100,"comments":18,"subreddit":"typescript"}
+score: 6.201541139681062
+scoreBreakdown: {"total":6.201541139681062,"recency":0.0026279701529157776,"engagement":6.887973296159375,"author":0,"source":0.9}
 ---
 
 Hey all, I'm one of the folks behind Documenso (open-source doc signing). We just open-sourced LibPDF, a TypeScript PDF library we've been working on for a while.

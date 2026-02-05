@@ -7,11 +7,11 @@ title: "FlowSquire: a Node.js rule engine for local filesystem automation (open 
 authorHandle: "miit_daga"
 authorName: "miit_daga"
 publishedAt: "2026-02-03T11:28:11.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":8,"comments":7,"subreddit":"javascript"}
-score: 4.218888969155737
-scoreBreakdown: {"total":4.218888969155737,"recency":0.297962507872231,"engagement":4.389691902300809,"author":0,"source":0.9}
+metrics: {"score":9,"comments":7,"subreddit":"javascript"}
+score: 4.272469712761281
+scoreBreakdown: {"total":4.272469712761281,"recency":0.29791320724763287,"engagement":4.449275362487124,"author":0,"source":0.9}
 ---
 
 

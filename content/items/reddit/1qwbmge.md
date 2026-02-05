@@ -7,11 +7,11 @@ title: "Thoughts on the $1B Texas Compute Expansion vs. the shift toward Edge So
 authorHandle: "Lost-Bathroom-2060"
 authorName: "Lost-Bathroom-2060"
 publishedAt: "2026-02-05T04:33:57.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases","pillar/react"]
-metrics: {"score":9,"comments":4,"subreddit":"OpenAI"}
-score: 4.23349478534703
-scoreBreakdown: {"total":4.23349478534703,"recency":0.6573626337754037,"engagement":4.04652046105463,"author":0,"source":0.9}
+metrics: {"score":8,"comments":4,"subreddit":"OpenAI"}
+score: 4.161377293909723
+scoreBreakdown: {"total":4.161377293909723,"recency":0.6572538671098791,"engagement":3.9664986816787025,"author":0,"source":0.9}
 ---
 
 The news about the $1B push for compute infrastructure in Texas is a massive milestone for the ecosystem. It's clear that the hunger for scale isn't slowing down in 2026.

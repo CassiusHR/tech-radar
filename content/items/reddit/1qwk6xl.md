@@ -7,11 +7,11 @@ title: "500 years of art into a single infinite scroll (Met API + GSAP)"
 authorHandle: "nbmbnb"
 authorName: "nbmbnb"
 publishedAt: "2026-02-05T12:38:55.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":9,"comments":4,"subreddit":"Frontend"}
-score: 4.333118601001526
-scoreBreakdown: {"total":4.333118601001526,"recency":0.7680557622803983,"engagement":4.04652046105463,"author":0,"source":0.9}
+metrics: {"score":10,"comments":4,"subreddit":"Frontend"}
+score: 4.401128926130804
+scoreBreakdown: {"total":4.401128926130804,"recency":0.7679286804234324,"engagement":4.122214570833016,"author":0,"source":0.9}
 ---
 
 Hey everyone,

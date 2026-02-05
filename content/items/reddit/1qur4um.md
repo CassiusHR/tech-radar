@@ -7,11 +7,11 @@ title: "Can someone explain the Destructured parameter with default value assign
 authorHandle: "SirLouen"
 authorName: "SirLouen"
 publishedAt: "2026-02-03T12:53:12.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {"score":14,"comments":14,"subreddit":"javascript"}
-score: 5.014695220265212
-scoreBreakdown: {"total":5.014695220265212,"recency":0.3062034161014695,"engagement":5.265680161970987,"author":0,"source":0.9}
+score: 5.014649622522737
+scoreBreakdown: {"total":5.014649622522737,"recency":0.30615275194316416,"engagement":5.265680161970987,"author":0,"source":0.9}
 ---
 
 I'm trying to understand this pattern

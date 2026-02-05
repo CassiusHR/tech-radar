@@ -7,11 +7,11 @@ title: "[R]Better alternatives to CatBoost for credit risk explainability (not L
 authorHandle: "abv_codes"
 authorName: "abv_codes"
 publishedAt: "2026-02-04T11:22:00.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":9,"comments":19,"subreddit":"MachineLearning"}
-score: 5.302556843507491
-scoreBreakdown: {"total":5.302556843507491,"recency":0.4720484108483873,"engagement":5.419681415271047,"author":0,"source":0.9}
+metrics: {"score":7,"comments":19,"subreddit":"MachineLearning"}
+score: 5.2488614350819995
+scoreBreakdown: {"total":5.2488614350819995,"recency":0.47197030611748814,"engagement":5.360097955084733,"author":0,"source":0.9}
 ---
 
 I’m working on a credit risk / default prediction problem using CatBoost on tabular data (numerical + categorical, imbalanced).

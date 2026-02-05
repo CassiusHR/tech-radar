@@ -7,11 +7,11 @@ title: "Project Genie: Create and Explore Worlds"
 authorHandle: undefined
 authorName: "Google for Developers"
 publishedAt: "2026-01-29T22:35:09.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {}
-score: 0.025631772768694796
-scoreBreakdown: {"total":0.025631772768694796,"recency":0.03661681824099257,"engagement":0,"author":0,"source":0.7}
+score: 0.025627531757246465
+scoreBreakdown: {"total":0.025627531757246465,"recency":0.036610759653209236,"engagement":0,"author":0,"source":0.7}
 ---
 
 Diego Rivas, Shlomi Fruchter, and Jack Parker-Holder from the Project Genie team join host Logan Kilpatrick for an in-depth discussion on Google DeepMind’s latest breakthrough in world models. Project Genie is an experimental research prototype that allows users to generate, explore, and interact with infinitely diverse, photorealistic worlds in real-time. Learn more about the shift from passive video generation to interactive media, the technical challenges of maintaining world consistency and memory, and how these models serve as an essential training ground for AI agents.

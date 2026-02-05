@@ -7,11 +7,11 @@ title: "Next.js Patterns: Authentication (Best Practices for Server Components, 
 authorHandle: undefined
 authorName: "Delba"
 publishedAt: "2024-06-12T15:55:48.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/nextjs","pillar/react","pillar/vercel"]
 metrics: {}
-score: 5.544614112889733e-122
-scoreBreakdown: {"total":5.544614112889733e-122,"recency":7.92087730412819e-122,"engagement":0,"author":0,"source":0.7}
+score: 5.543696705726997e-122
+scoreBreakdown: {"total":5.543696705726997e-122,"recency":7.919566722467138e-122,"engagement":0,"author":0,"source":0.7}
 ---
 
 Best practices for authentication in Modern Next.js and React: Server Components, Server Actions, Middleware.

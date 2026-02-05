@@ -7,11 +7,11 @@ title: "vLLM-Omni paper is out — up to 91.4% JCT reduction for any-to-any mult
 authorHandle: "still_debugging_note"
 authorName: "still_debugging_note"
 publishedAt: "2026-02-05T11:26:25.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/model-releases"]
-metrics: {"score":18,"comments":4,"subreddit":"LocalLLaMA"}
-score: 4.82810809146597
-scoreBreakdown: {"total":4.82810809146597,"recency":0.7503929336672389,"engagement":4.614171612406061,"author":0,"source":0.9}
+metrics: {"score":17,"comments":4,"subreddit":"LocalLLaMA"}
+score: 4.780443534765332
+scoreBreakdown: {"total":4.780443534765332,"recency":0.7502687742869598,"engagement":4.5613351532300745,"author":0,"source":0.9}
 ---
 
 The vLLM team just released the vLLM-Omni paper on arXiv: [https://arxiv.org/abs/2602.02204](https://arxiv.org/abs/2602.02204)

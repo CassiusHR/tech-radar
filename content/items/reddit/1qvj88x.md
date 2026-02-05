@@ -7,11 +7,11 @@ title: "Is it true they say there is a ceiling when you understand how frontend 
 authorHandle: "lune-soft"
 authorName: "lune-soft"
 publishedAt: "2026-02-04T08:35:49.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":153,"comments":87,"subreddit":"webdev"}
-score: 7.701977970845175
-scoreBreakdown: {"total":7.701977970845175,"recency":0.4475342492012825,"engagement":8.1102190517378,"author":0,"source":0.9}
+metrics: {"score":150,"comments":87,"subreddit":"webdev"}
+score: 7.690333910242026
+scoreBreakdown: {"total":7.690333910242026,"recency":0.4474602005628405,"engagement":8.097355255261633,"author":0,"source":0.9}
 ---
 
 I mean for example

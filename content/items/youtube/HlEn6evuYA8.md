@@ -7,7 +7,7 @@ title: "Chomp Thwomp Mines Gameplay - Super Mario Maker 2 with Anthropic"
 authorHandle: undefined
 authorName: "Matt Gregory"
 publishedAt: "2019-08-01T10:19:58.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases"]
 metrics: {}
 score: 0

@@ -7,11 +7,11 @@ title: "In a professional setting (paid freelance, Fulltime gigs), how often do 
 authorHandle: "AllezBro"
 authorName: "AllezBro"
 publishedAt: "2026-02-03T17:59:57.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/react"]
-metrics: {"score":15,"comments":20,"subreddit":"reactjs"}
-score: 5.376033720383962
-scoreBreakdown: {"total":5.376033720383962,"recency":0.3378784333974154,"engagement":5.635492367029209,"author":0,"source":0.9}
+metrics: {"score":13,"comments":20,"subreddit":"reactjs"}
+score: 5.330160174156766
+scoreBreakdown: {"total":5.330160174156766,"recency":0.33782252831753246,"engagement":5.584577665189984,"author":0,"source":0.9}
 ---
 
 I see a few tools moving to Vite but from what I gathered it seems like a lot of people are still working in paid gigs with webpack. 

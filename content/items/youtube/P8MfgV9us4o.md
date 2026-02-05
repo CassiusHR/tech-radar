@@ -7,11 +7,11 @@ title: "GitHub Copilot now controls your command line..."
 authorHandle: undefined
 authorName: "Beyond Fireship"
 publishedAt: "2024-03-22T21:26:42.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/ai-dev-tools"]
 metrics: {}
-score: 2.1561601708082892e-138
-scoreBreakdown: {"total":2.1561601708082892e-138,"recency":3.080228815440413e-138,"engagement":0,"author":0,"source":0.7}
+score: 2.155803414369705e-138
+scoreBreakdown: {"total":2.155803414369705e-138,"recency":3.079719163385293e-138,"engagement":0,"author":0,"source":0.7}
 ---
 
 Learn how to become a Bash or PowerShell guru by using GitHub Copilot in the CLI. This new feature is a great way to learn Linux and Git commands without ever leaving your IDE. 

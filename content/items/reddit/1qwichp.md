@@ -7,11 +7,11 @@ title: "Qwen3 TTS Streaming workflow help"
 authorHandle: "RateRoutine2268"
 authorName: "RateRoutine2268"
 publishedAt: "2026-02-05T11:01:31.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":7,"comments":4,"subreddit":"LocalLLaMA"}
-score: 4.163440555502782
-scoreBreakdown: {"total":4.163440555502782,"recency":0.744420850534064,"engagement":3.8816242111356933,"author":0,"source":0.9}
+metrics: {"score":6,"comments":4,"subreddit":"LocalLLaMA"}
+score: 4.082011164749434
+scoreBreakdown: {"total":4.082011164749434,"recency":0.7442976792896103,"engagement":3.7912702815430936,"author":0,"source":0.9}
 ---
 
 Hi Guys,  

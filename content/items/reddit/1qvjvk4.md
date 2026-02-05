@@ -7,11 +7,11 @@ title: "Microsoft Has Killed Widgets Six Times. Here's Why They Keep Coming Back
 authorHandle: "xakpc"
 authorName: "xakpc"
 publishedAt: "2026-02-04T09:15:45.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":533,"comments":153,"subreddit":"programming"}
-score: 8.89206192269415
-scoreBreakdown: {"total":8.89206192269415,"recency":0.4533061544211993,"engagement":9.426762648572302,"author":0,"source":0.9}
+metrics: {"score":540,"comments":154,"subreddit":"programming"}
+score: 8.905422610443678
+scoreBreakdown: {"total":8.905422610443678,"recency":0.4532311507682004,"engagement":9.441682860835886,"author":0,"source":0.9}
 ---
 
 If you think Microsoft breaking Windows is a new thing - they've killed their own widget platform 6 times in 30 years. Each one died from a different spectacular failure.

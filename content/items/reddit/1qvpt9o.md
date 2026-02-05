@@ -7,11 +7,11 @@ title: "Is React Query the “default” state manager now, or are we overusing 
 authorHandle: "More_Letter2749"
 authorName: "More_Letter2749"
 publishedAt: "2026-02-04T14:21:05.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/react"]
-metrics: {"score":9,"comments":60,"subreddit":"reactjs"}
-score: 6.583067107023532
-scoreBreakdown: {"total":6.583067107023532,"recency":0.49997077716610916,"engagement":6.814548230637815,"author":0,"source":0.9}
+metrics: {"score":7,"comments":60,"subreddit":"reactjs"}
+score: 6.563457379720398
+scoreBreakdown: {"total":6.563457379720398,"recency":0.49988805242409007,"engagement":6.792842369487463,"author":0,"source":0.9}
 ---
 
 I’m trying to standardise how we split state in a mid-sized React app.  

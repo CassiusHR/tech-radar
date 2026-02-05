@@ -7,11 +7,11 @@ title: "Next.js Patterns: Public pages with personalization"
 authorHandle: undefined
 authorName: "Delba"
 publishedAt: "2026-01-26T17:38:11.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/nextjs","pillar/react","pillar/vercel"]
 metrics: {}
-score: 0.0058254794435724415
-scoreBreakdown: {"total":0.0058254794435724415,"recency":0.008322113490817774,"engagement":0,"author":0,"source":0.7}
+score: 0.005824515564669684
+scoreBreakdown: {"total":0.005824515564669684,"recency":0.008320736520956691,"engagement":0,"author":0,"source":0.7}
 ---
 
 How to build public pages in Next.js that combine prerendered content (static) with dynamic, user-specific data. We'll build a product list page that uses the "use cache" directive to prerender components that fetch external async data, and the React Suspense to stream dynamic content without blocking the prerendered components.

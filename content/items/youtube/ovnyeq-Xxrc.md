@@ -7,11 +7,11 @@ title: "How To Handle Errors Like A Senior Dev"
 authorHandle: undefined
 authorName: "Web Dev Simplified"
 publishedAt: "2026-02-03T17:53:36.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {}
-score: 0.2360334419098557
-scoreBreakdown: {"total":0.2360334419098557,"recency":0.3371906312997939,"engagement":0,"author":0,"source":0.7}
+score: 0.23599438801614506
+scoreBreakdown: {"total":0.23599438801614506,"recency":0.3371348400230644,"engagement":0,"author":0,"source":0.7}
 ---
 
 Error handling is something that is often overlooked in apps, which is usually the sign of a junior developer. In this video I will show you how to properly handle errors in a typesafe way that makes working with your code so much easier.

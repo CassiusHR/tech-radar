@@ -7,11 +7,11 @@ title: "Best stacks ecommerce next"
 authorHandle: "lukNoah"
 authorName: "lukNoah"
 publishedAt: "2026-02-04T17:38:25.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/nextjs"]
-metrics: {"score":73,"comments":35,"subreddit":"nextjs"}
-score: 6.741354388455345
-scoreBreakdown: {"total":6.741354388455345,"recency":0.5326551455439819,"engagement":6.957738619406401,"author":0,"source":0.9}
+metrics: {"score":78,"comments":35,"subreddit":"nextjs"}
+score: 6.784282657077886
+scoreBreakdown: {"total":6.784282657077886,"recency":0.5325670128740085,"engagement":7.005524828323642,"author":0,"source":0.9}
 ---
 
 Good morning community!

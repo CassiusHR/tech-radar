@@ -7,11 +7,11 @@ title: "Waiting every  single day!"
 authorHandle: "andrewaltair"
 authorName: "andrewaltair"
 publishedAt: "2026-02-04T18:02:41.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":973,"comments":101,"subreddit":"ClaudeAI"}
-score: 9.391178713174412
-scoreBreakdown: {"total":9.391178713174412,"recency":0.5368192347962346,"engagement":9.897823779842,"author":0,"source":0.9}
+metrics: {"score":971,"comments":101,"subreddit":"ClaudeAI"}
+score: 9.38895409231455
+scoreBreakdown: {"total":9.38895409231455,"recency":0.5367304131395748,"engagement":9.895440800543259,"author":0,"source":0.9}
 ---
 
 

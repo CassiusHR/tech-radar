@@ -7,11 +7,11 @@ title: "Mind-blowing page animations are easy now... View Transitions API first 
 authorHandle: undefined
 authorName: "Beyond Fireship"
 publishedAt: "2023-08-13T18:07:56.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {}
-score: 5.6694430582749e-183
-scoreBreakdown: {"total":5.6694430582749e-183,"recency":8.099204368964143e-183,"engagement":0,"author":0,"source":0.7}
+score: 5.668504997020412e-183
+scoreBreakdown: {"total":5.668504997020412e-183,"recency":8.097864281457732e-183,"engagement":0,"author":0,"source":0.7}
 ---
 
 Learn about the new View Transitions API in Astro and how it can add awesome route animations to your website. 

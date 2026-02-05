@@ -7,11 +7,11 @@ title: "Is it okay to list a homelab setup with Kubernetes, Argo CD, and Grafana
 authorHandle: "Hot-Distribution5859"
 authorName: "Hot-Distribution5859"
 publishedAt: "2026-02-04T09:50:05.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/devops"]
-metrics: {"score":58,"comments":27,"subreddit":"devops"}
-score: 6.3690039617148955
-scoreBreakdown: {"total":6.3690039617148955,"recency":0.45832812237482906,"engagement":6.618342946197277,"author":0,"source":0.9}
+metrics: {"score":56,"comments":27,"subreddit":"devops"}
+score: 6.346435112665674
+scoreBreakdown: {"total":6.346435112665674,"recency":0.458252287791259,"engagement":6.593342281837267,"author":0,"source":0.9}
 ---
 
 I set up a multi node Kubernetes cluster at home on Multipass VMs with kubeadm. I also added Grafana and Node Exporter for monitoring and Argo CD for GitOps deployments.   

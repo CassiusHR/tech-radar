@@ -7,11 +7,11 @@ title: "Migrating away from Supabase"
 authorHandle: "xncee"
 authorName: "xncee"
 publishedAt: "2026-02-05T01:20:20.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/nextjs"]
-metrics: {"score":7,"comments":21,"subreddit":"nextjs"}
-score: 5.485135163111806
-scoreBreakdown: {"total":5.485135163111806,"recency":0.6177624180803805,"engagement":5.476832207599404,"author":0,"source":0.9}
+metrics: {"score":6,"comments":21,"subreddit":"nextjs"}
+score: 5.459587758889143
+scoreBreakdown: {"total":5.459587758889143,"recency":0.6176602036330592,"engagement":5.448548417354877,"author":0,"source":0.9}
 ---
 
 I currently use Supabase as database host and authentication provider. I’m planning to completely migrate away from Supabase and I want to now if I’m doing it the right way.

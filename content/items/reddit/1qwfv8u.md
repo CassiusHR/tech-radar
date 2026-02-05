@@ -7,11 +7,11 @@ title: "Choice prompts feature and more?"
 authorHandle: "MrKvic_"
 authorName: "MrKvic_"
 publishedAt: "2026-02-05T08:29:50.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases"]
 metrics: {"score":10,"comments":3,"subreddit":"ClaudeAI"}
-score: 4.207997057403614
-scoreBreakdown: {"total":4.207997057403614,"recency":0.7090536043253133,"engagement":3.9664986816787025,"author":0,"source":0.9}
+score: 4.2078914699347925
+scoreBreakdown: {"total":4.2078914699347925,"recency":0.7089362849155109,"engagement":3.9664986816787025,"author":0,"source":0.9}
 ---
 
 Is this a new feature or am i clueless? Its my first time seeing this and i didnt find anything about it

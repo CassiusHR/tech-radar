@@ -7,11 +7,11 @@ title: "The leaks are real and we are getting Opus 4.6 and Sonnet 5.0 soon, coul
 authorHandle: "raiansar"
 authorName: "raiansar"
 publishedAt: "2026-02-05T00:58:11.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":204,"comments":84,"subreddit":"ClaudeAI"}
-score: 8.013237065171033
-scoreBreakdown: {"total":8.013237065171033,"recency":0.613386951577583,"engagement":8.290209787501341,"author":0,"source":0.9}
+metrics: {"score":203,"comments":84,"subreddit":"ClaudeAI"}
+score: 8.009763171366288
+scoreBreakdown: {"total":8.009763171366288,"recency":0.6132854610912495,"engagement":8.286451395982404,"author":0,"source":0.9}
 ---
 
 Just to verify the findings of the Macintoch from X I created a new project enabled Vertex AI and verified the results myself, without using the project credentials I was getting 403 but after using my project credentials the results varied real models would return 200 (expected) but opus-4-6 and sonnet-5 returned 403 which means I am not authorized and unsurprizingly completely made up models returned 404. 

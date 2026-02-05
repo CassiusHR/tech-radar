@@ -7,11 +7,11 @@ title: "Asked Claude to port Quake to plain JavaScript and Three.js"
 authorHandle: "mrdoob"
 authorName: "mrdoob"
 publishedAt: "2026-02-02T11:00:59.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/ai-dev-tools","pillar/anthropic-openai-releases"]
-metrics: {"score":526,"comments":76,"subreddit":"javascript"}
-score: 8.383448648257412
-scoreBreakdown: {"total":8.383448648257412,"recency":0.186073363926062,"engagement":9.128869578582174,"author":0,"source":0.9}
+metrics: {"score":519,"comments":76,"subreddit":"javascript"}
+score: 8.370363827805315
+scoreBreakdown: {"total":8.370363827805315,"recency":0.1860425763846088,"engagement":9.11436167673241,"author":0,"source":0.9}
 ---
 
 Last week I found myself down the rabbit hole or porting Quake's source code to Javascript and Three.js using Claude Code.

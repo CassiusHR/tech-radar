@@ -7,11 +7,11 @@ title: "Before you learn Kubernetes, understand why to learn Kubernetes. Or shou
 authorHandle: "Honest-Associate-485"
 authorName: "Honest-Associate-485"
 publishedAt: "2026-02-04T10:44:34.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/devops"]
-metrics: {"score":247,"comments":35,"subreddit":"kubernetes"}
-score: 7.679955445840961
-scoreBreakdown: {"total":7.679955445840961,"recency":0.46641189281993145,"engagement":8.066871935892248,"author":0,"source":0.9}
+metrics: {"score":246,"comments":35,"subreddit":"kubernetes"}
+score: 7.675917483717658
+scoreBreakdown: {"total":7.675917483717658,"recency":0.4663347207025392,"engagement":8.062462483428192,"author":0,"source":0.9}
 ---
 
 25 years back, if you wanted to run an application, you bought a expensive physical server. You did the cabling. Installed an OS. Configured everything. Then run your app.

@@ -7,11 +7,11 @@ title: "Google Research announces Sequential Attention: Making AI models leaner 
 authorHandle: "Fear_ltself"
 authorName: "Fear_ltself"
 publishedAt: "2026-02-05T04:37:05.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {"score":395,"comments":24,"subreddit":"LocalLLaMA"}
-score: 8.272960493390334
-scoreBreakdown: {"total":8.272960493390334,"recency":0.658023938584147,"engagement":8.534154387405113,"author":0,"source":0.9}
+score: 8.272862504914322
+scoreBreakdown: {"total":8.272862504914322,"recency":0.657915062499688,"engagement":8.534154387405113,"author":0,"source":0.9}
 ---
 
 

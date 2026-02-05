@@ -7,11 +7,11 @@ title: "Sam Altman response for Anthropic being ad-free"
 authorHandle: "BuildwithVignesh"
 authorName: "BuildwithVignesh"
 publishedAt: "2026-02-04T20:57:55.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":1081,"comments":432,"subreddit":"ClaudeAI"}
-score: 10.053733174426313
-scoreBreakdown: {"total":10.053733174426313,"recency":0.5678708704071286,"engagement":10.60294376784433,"author":0,"source":0.9}
+metrics: {"score":1078,"comments":432,"subreddit":"ClaudeAI"}
+score: 10.051704666091362
+scoreBreakdown: {"total":10.051704666091362,"recency":0.5677769109730973,"engagement":10.600783829128416,"author":0,"source":0.9}
 ---
 
 [Tweet](https://x.com/i/status/2019139174339928189)

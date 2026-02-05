@@ -7,11 +7,11 @@ title: "Free tip for new developers using JS/TS"
 authorHandle: "ConsiderationOne3421"
 authorName: "ConsiderationOne3421"
 publishedAt: "2026-02-04T17:48:22.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":43,"comments":48,"subreddit":"node"}
-score: 6.7073922063249904
-scoreBreakdown: {"total":6.7073922063249904,"recency":0.5343586153747427,"engagement":6.918299391653025,"author":0,"source":0.9}
+metrics: {"score":46,"comments":48,"subreddit":"node"}
+score: 6.734027414892565
+scoreBreakdown: {"total":6.734027414892565,"recency":0.5342702008500917,"engagement":6.947982482363869,"author":0,"source":0.9}
 ---
 
 Stop putting await inside your for-loops.

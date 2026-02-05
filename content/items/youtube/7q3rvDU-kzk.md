@@ -7,11 +7,11 @@ title: "The 2 Parts of Auth You Need To Know"
 authorHandle: undefined
 authorName: "Web Dev Simplified"
 publishedAt: "2025-12-18T17:00:18.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {}
-score: 8.575750712941233e-11
-scoreBreakdown: {"total":8.575750712941233e-11,"recency":1.2251072447058905e-10,"engagement":0,"author":0,"source":0.7}
+score: 8.57433177647983e-11
+scoreBreakdown: {"total":8.57433177647983e-11,"recency":1.2249045394971186e-10,"engagement":0,"author":0,"source":0.7}
 ---
 
 Authorization Video: https://youtu.be/5GG-VUvruzE

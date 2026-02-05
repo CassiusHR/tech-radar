@@ -7,11 +7,11 @@ title: "Use ANY TTS Engine with ANY AI Chat System"
 authorHandle: "DepartmentHorror7998"
 authorName: "DepartmentHorror7998"
 publishedAt: "2026-02-05T05:06:42.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":41,"comments":11,"subreddit":"LocalLLaMA"}
-score: 5.83806955385917
-scoreBreakdown: {"total":5.83806955385917,"recency":0.6643076320288712,"engagement":5.82243631670354,"author":0,"source":0.9}
+metrics: {"score":37,"comments":11,"subreddit":"LocalLLaMA"}
+score: 5.756652093024674
+scoreBreakdown: {"total":5.756652093024674,"recency":0.6641977162498082,"engagement":5.73208238711094,"author":0,"source":0.9}
 ---
 
 I'm really not trying to self-promote here, but I was able to solve a TTS problem for myself and thought it might benefit others. 

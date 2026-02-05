@@ -7,11 +7,11 @@ title: "GitOps for Beginers"
 authorHandle: "deinok7"
 authorName: "deinok7"
 publishedAt: "2026-02-04T19:05:35.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/devops"]
-metrics: {"score":13,"comments":26,"subreddit":"kubernetes"}
-score: 5.771953355211792
-scoreBreakdown: {"total":5.771953355211792,"recency":0.5477648669538848,"engagement":5.865516638836995,"author":0,"source":0.9}
+metrics: {"score":14,"comments":26,"subreddit":"kubernetes"}
+score: 5.790819511250581
+scoreBreakdown: {"total":5.790819511250581,"recency":0.5476742342421836,"engagement":5.886569667147351,"author":0,"source":0.9}
 ---
 
 Hi to all of you guys, I work on a big company that runs classic old "Failover Clusters in Windows" and we have Kubernetes in our sight.

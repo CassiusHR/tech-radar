@@ -7,11 +7,11 @@ title: "How Vibe Coding Is Killing Open Source"
 authorHandle: "Gil_berth"
 authorName: "Gil_berth"
 publishedAt: "2026-02-03T23:47:24.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {"score":531,"comments":162,"subreddit":"programming"}
-score: 8.847818941373916
-scoreBreakdown: {"total":8.847818941373916,"recency":0.3777314082614671,"engagement":9.453178526598439,"author":0,"source":0.9}
+score: 8.847762692166452
+scoreBreakdown: {"total":8.847762692166452,"recency":0.3776689091420624,"engagement":9.453178526598439,"author":0,"source":0.9}
 ---
 
 

@@ -7,11 +7,11 @@ title: "[R] External validation keeps killing my ML models (lab-generated vs ext
 authorHandle: "Big-Shopping2444"
 authorName: "Big-Shopping2444"
 publishedAt: "2026-02-05T04:19:02.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {"score":9,"comments":27,"subreddit":"MachineLearning"}
-score: 5.828993837221551
-scoreBreakdown: {"total":5.828993837221551,"recency":0.6542235024315174,"engagement":5.82243631670354,"author":0,"source":0.9}
+score: 5.828896414680796
+scoreBreakdown: {"total":5.828896414680796,"recency":0.6541152551640105,"engagement":5.82243631670354,"author":0,"source":0.9}
 ---
 
 Hey folks,

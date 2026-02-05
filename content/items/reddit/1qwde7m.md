@@ -7,11 +7,11 @@ title: "How are you assigning work across distributed workers without Redis lock
 authorHandle: "whitethornnawor"
 authorName: "whitethornnawor"
 publishedAt: "2026-02-05T06:03:40.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/devops"]
-metrics: {"score":5,"comments":15,"subreddit":"kubernetes"}
-score: 5.124140843153982
-scoreBreakdown: {"total":5.124140843153982,"recency":0.6765633118880929,"engagement":5.016926513838554,"author":0,"source":0.9}
+metrics: {"score":6,"comments":15,"subreddit":"kubernetes"}
+score: 5.158562801396866
+scoreBreakdown: {"total":5.158562801396866,"recency":0.6764513682946037,"engagement":5.055285077701914,"author":0,"source":0.9}
 ---
 
 I’ve been running into this repeatedly in my go systems where we have a bunch of worker pods doing distributed tasks (consuming from kafka topics and then process it / batch jobs, pipelines, etc.)

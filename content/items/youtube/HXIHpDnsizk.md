@@ -7,11 +7,11 @@ title: "NEW CSS Scroll Features are Game Changers"
 authorHandle: undefined
 authorName: "Web Dev Simplified"
 publishedAt: "2026-01-14T17:00:29.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/css"]
 metrics: {}
-score: 0.000022482138577777816
-scoreBreakdown: {"total":0.000022482138577777816,"recency":0.00003211734082539688,"engagement":0,"author":0,"source":0.7}
+score: 0.000022478418702139438
+scoreBreakdown: {"total":0.000022478418702139438,"recency":0.00003211202671734206,"engagement":0,"author":0,"source":0.7}
 ---
 
 CSS Selector Cheat Sheet: https://webdevsimplified.com/specificity-cheat-sheet.html

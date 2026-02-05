@@ -7,11 +7,11 @@ title: "Is it “Plenty of Notice” if you were never notified? 🤔"
 authorHandle: "redditsdaddy"
 authorName: "redditsdaddy"
 publishedAt: "2026-02-05T00:12:52.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":28,"comments":40,"subreddit":"OpenAI"}
-score: 6.455176690436225
-scoreBreakdown: {"total":6.455176690436225,"recency":0.6045315098083388,"engagement":6.5678870351208,"author":0,"source":0.9}
+metrics: {"score":27,"comments":40,"subreddit":"OpenAI"}
+score: 6.443473682258838
+scoreBreakdown: {"total":6.443473682258838,"recency":0.6044314845359122,"engagement":6.554983717973908,"author":0,"source":0.9}
 ---
 
 It appears to me only businesses received an email regarding model deprecation. The rest of the active users, they did not notify. They posted a single blog post.

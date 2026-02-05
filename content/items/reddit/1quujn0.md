@@ -7,11 +7,11 @@ title: "Is there any best-practice to migrate a existing cluster (small / homela
 authorHandle: "Beneficial_Fox3014"
 authorName: "Beneficial_Fox3014"
 publishedAt: "2026-02-03T15:14:04.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/devops"]
-metrics: {"score":10,"comments":23,"subreddit":"kubernetes"}
-score: 5.382571076175147
-scoreBreakdown: {"total":5.382571076175147,"recency":0.32036275411512594,"engagement":5.66027177496837,"author":0,"source":0.9}
+metrics: {"score":9,"comments":23,"subreddit":"kubernetes"}
+score: 5.3602219027745415
+scoreBreakdown: {"total":5.3602219027745415,"recency":0.32030974716472593,"engagement":5.635492367029209,"author":0,"source":0.9}
 ---
 
 Currently I have a 3 node microk8s cluster on top of my Proxmox cluster, and I want to move that to Talos OS based kubernetes, for several reasons, but main one is just to try it and experiment it in a more real state.

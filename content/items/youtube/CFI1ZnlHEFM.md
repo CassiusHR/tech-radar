@@ -7,11 +7,11 @@ title: "My Honest Thoughts on AI and the Job Market in 2026"
 authorHandle: undefined
 authorName: "Web Dev Simplified"
 publishedAt: "2026-01-20T17:00:19.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {}
-score: 0.0003596949789552511
-scoreBreakdown: {"total":0.0003596949789552511,"recency":0.000513849969936073,"engagement":0,"author":0,"source":0.7}
+score: 0.0003596354641281886
+scoreBreakdown: {"total":0.0003596354641281886,"recency":0.0005137649487545552,"engagement":0,"author":0,"source":0.7}
 ---
 
 FREE 2026 Web Dev Roadmap: https://webdevsimplified.com/web-dev-roadmap.html

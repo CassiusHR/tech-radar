@@ -7,11 +7,11 @@ title: "Free Node.js Backend Course Recommendation?"
 authorHandle: "No-Sleep5189"
 authorName: "No-Sleep5189"
 publishedAt: "2026-02-04T07:59:26.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/css"]
-metrics: {"score":12,"comments":9,"subreddit":"node"}
-score: 4.724929394722434
-scoreBreakdown: {"total":4.724929394722434,"recency":0.4423394634123892,"engagement":4.807582086279204,"author":0,"source":0.9}
+metrics: {"score":13,"comments":9,"subreddit":"node"}
+score: 4.764866884396586
+scoreBreakdown: {"total":4.764866884396586,"recency":0.44226627429881127,"engagement":4.852030263919617,"author":0,"source":0.9}
 ---
 
 Looking for a free Node.js backend course.

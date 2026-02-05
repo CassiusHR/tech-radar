@@ -7,11 +7,11 @@ title: "Bot detection through keystroke rhythm: Tiny TS lib for forms"
 authorHandle: "AnUuglyMan"
 authorName: "AnUuglyMan"
 publishedAt: "2026-02-03T01:56:20.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {"score":12,"comments":3,"subreddit":"Frontend"}
-score: 3.9332001252141087
-scoreBreakdown: {"total":3.9332001252141087,"recency":0.24800779051599353,"engagement":4.122214570833016,"author":0,"source":0.9}
+score: 3.933163193570734
+scoreBreakdown: {"total":3.933163193570734,"recency":0.24796675535668788,"engagement":4.122214570833016,"author":0,"source":0.9}
 ---
 
 Bot detection through keystroke rhythm. No CAPTCHAs, no interruptions.

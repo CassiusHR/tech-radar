@@ -7,11 +7,11 @@ title: "I built PropFlow to stop wasting hours tracing React props through compo
 authorHandle: "HelicopterGlad456"
 authorName: "HelicopterGlad456"
 publishedAt: "2026-02-05T10:01:21.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/react"]
-metrics: {"score":16,"comments":15,"subreddit":"reactjs"}
-score: 5.508353158721346
-scoreBreakdown: {"total":5.508353158721346,"recency":0.7301857561851925,"engagement":5.390206642394081,"author":0,"source":0.9}
+metrics: {"score":17,"comments":16,"subreddit":"reactjs"}
+score: 5.586207433080135
+scoreBreakdown: {"total":5.586207433080135,"recency":0.7300649402674126,"engagement":5.476832207599404,"author":0,"source":0.9}
 ---
 
 Hey r/reactjs! 👋

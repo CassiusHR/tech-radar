@@ -7,11 +7,11 @@ title: "Nvidia: what 100 billion? They invited us, much honoured, never committe
 authorHandle: "Forsaken-Park8149"
 authorName: "Forsaken-Park8149"
 publishedAt: "2026-02-04T16:41:12.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":159,"comments":26,"subreddit":"OpenAI"}
-score: 7.219966620330489
-scoreBreakdown: {"total":7.219966620330489,"recency":0.5229643491597252,"engagement":7.4992207845408165,"author":0,"source":0.9}
+metrics: {"score":156,"comments":26,"subreddit":"OpenAI"}
+score: 7.201931195404316
+scoreBreakdown: {"total":7.201931195404316,"recency":0.5228778199207271,"engagement":7.479267952750734,"author":0,"source":0.9}
 ---
 
 Nvidia in September 2025: "To support this deployment including data center and power capacity, NVIDIA intends to invest up to $100 billion in OpenAI as the new NVIDIA systems are deployed. This investment and infrastructure partnership mark the next leap forward — deploying 10 gigawatts to power the next era of intelligence."

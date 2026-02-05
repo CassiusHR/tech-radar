@@ -7,11 +7,11 @@ title: "Website works on every device except one MacBook – images not loading"
 authorHandle: "joy_and_grief"
 authorName: "joy_and_grief"
 publishedAt: "2026-02-04T20:21:46.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":18,"comments":33,"subreddit":"webdev"}
-score: 6.102929750633074
-scoreBreakdown: {"total":6.102929750633074,"recency":0.5613212971725283,"engagement":6.219711759086443,"author":0,"source":0.9}
+metrics: {"score":17,"comments":33,"subreddit":"webdev"}
+score: 6.087934745825386
+scoreBreakdown: {"total":6.087934745825386,"recency":0.5612284214253463,"engagement":6.203143518380639,"author":0,"source":0.9}
 ---
 
 A client is facing a strange issue where the website works perfectly on all devices and browsers except on his MacBook. On his laptop, images do not load, dropdown buttons (such as the profile menu and logout) do not work, and he is unable to log out from the top right. Have already cleared cookies and cache, restarted the laptop multiple times, uninstalled and reinstalled Chrome and Firefox. The strange part is that the same website works fine on other laptops and phones, works in the same brow

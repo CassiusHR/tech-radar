@@ -7,11 +7,11 @@ title: "I guess i get why OpenAI likes mac users more than the world's 70% windo
 authorHandle: "imtruelyhim108"
 authorName: "imtruelyhim108"
 publishedAt: "2026-02-05T03:27:57.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/anthropic-openai-releases"]
-metrics: {"score":39,"comments":71,"subreddit":"OpenAI"}
-score: 7.136276208462279
-scoreBreakdown: {"total":7.136276208462279,"recency":0.6435864252727979,"engagement":7.285609361907513,"author":0,"source":0.9}
+metrics: {"score":41,"comments":71,"subreddit":"OpenAI"}
+score: 7.149950998793696
+scoreBreakdown: {"total":7.149950998793696,"recency":0.643479938007083,"engagement":7.30091006065258,"author":0,"source":0.9}
 ---
 
 45% of the compsci market is also windows and we wanna try atlas, and use codex. its been months since atlas for mac came out.

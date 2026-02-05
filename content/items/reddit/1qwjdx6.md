@@ -7,11 +7,11 @@ title: "Is there a good local model to translate small snippets of text from Eng
 authorHandle: "ShaderCompilation"
 authorName: "ShaderCompilation"
 publishedAt: "2026-02-05T11:58:59.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {"score":8,"comments":16,"subreddit":"LocalLLaMA"}
-score: 5.361549365594515
-scoreBreakdown: {"total":5.361549365594515,"recency":0.7582761794967632,"engagement":5.199000893386031,"author":0,"source":0.9}
+score: 5.361436448232594
+scoreBreakdown: {"total":5.361436448232594,"recency":0.7581507157612951,"engagement":5.199000893386031,"author":0,"source":0.9}
 ---
 
 Basically the title. I want a model that can be used to translate small snippets of text from books to Russian. But i need it to run on just 12GB of VRAM. Is there a decent model, or 12GB is too small for one?

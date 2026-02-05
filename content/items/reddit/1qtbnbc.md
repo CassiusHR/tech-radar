@@ -7,11 +7,11 @@ title: "Pdfdown: Rust based PDF Tooling for TS"
 authorHandle: "d0paminedriven"
 authorName: "d0paminedriven"
 publishedAt: "2026-02-01T21:38:53.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {"score":13,"comments":2,"subreddit":"typescript"}
-score: 3.7713301608330863
-scoreBreakdown: {"total":3.7713301608330863,"recency":0.14384638431546531,"engagement":4.04652046105463,"author":0,"source":0.9}
+score: 3.7713087402020835
+scoreBreakdown: {"total":3.7713087402020835,"recency":0.14382258361435168,"engagement":4.04652046105463,"author":0,"source":0.9}
 ---
 
 Shipped a rust powered pdf package with node bindings via napi-rs. Adding async methods today that will be non (node thread) blocking. Sync methods are great for fire and forget background processes. Extract all text (by page), extract all images (by page), and/or extract pdf metadata in milliseconds. Just pass a buffer from fetching a pdf remote or reading one locally in.

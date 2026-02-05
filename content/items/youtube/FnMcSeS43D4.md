@@ -7,11 +7,11 @@ title: "Superior Syntax"
 authorHandle: undefined
 authorName: "The PrimeTime"
 publishedAt: "2026-01-31T19:02:27.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {}
-score: 0.06032660416828026
-scoreBreakdown: {"total":0.06032660416828026,"recency":0.08618086309754323,"engagement":0,"author":0,"source":0.7}
+score: 0.06031662257936621
+scoreBreakdown: {"total":0.06031662257936621,"recency":0.08616660368480887,"engagement":0,"author":0,"source":0.7}
 ---
 
 Superior Syntax #short

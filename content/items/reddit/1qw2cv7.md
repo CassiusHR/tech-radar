@@ -7,11 +7,11 @@ title: "I understand code, but I cannot \"think\" code"
 authorHandle: "yukirainbowx"
 authorName: "yukirainbowx"
 publishedAt: "2026-02-04T21:57:21.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":90,"comments":38,"subreddit":"webdev"}
-score: 6.96959704898763
-scoreBreakdown: {"total":6.96959704898763,"recency":0.5788053837139095,"engagement":7.165191337383457,"author":0,"source":0.9}
+metrics: {"score":92,"comments":38,"subreddit":"webdev"}
+score: 6.984511034361169
+scoreBreakdown: {"total":6.984511034361169,"recency":0.5787096150645529,"engagement":7.181858200892302,"author":0,"source":0.9}
 ---
 
 Writing this because I want to know if others are in the same boat as me.

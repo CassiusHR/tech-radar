@@ -7,11 +7,11 @@ title: "Luke talks RAM Pricing, Tech Youtube and LTT Developer hiring process | 
 authorHandle: undefined
 authorName: "The PrimeTime"
 publishedAt: "2026-02-03T14:01:20.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
 metrics: {}
-score: 0.21908039932565973
-scoreBreakdown: {"total":0.21908039932565973,"recency":0.3129719990366568,"engagement":0,"author":0,"source":0.7}
+score: 0.21904415046803968
+scoreBreakdown: {"total":0.21904415046803968,"recency":0.3129202149543424,"engagement":0,"author":0,"source":0.7}
 ---
 
 Thanks to this week's sponsor: Code Rabbit

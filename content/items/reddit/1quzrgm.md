@@ -7,11 +7,11 @@ title: "UPDATE: Kubeli now has Windows support, drag-and-drop tabs, and Flux CD 
 authorHandle: "atilladeniz"
 authorName: "atilladeniz"
 publishedAt: "2026-02-03T18:21:58.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/ai-dev-tools","pillar/anthropic-openai-releases","pillar/devops"]
-metrics: {"score":12,"comments":3,"subreddit":"kubernetes"}
-score: 4.016239766308278
-scoreBreakdown: {"total":4.016239766308278,"recency":0.34027405839840336,"engagement":4.122214570833016,"author":0,"source":0.9}
+metrics: {"score":11,"comments":3,"subreddit":"kubernetes"}
+score: 3.948064396195557
+scoreBreakdown: {"total":3.948064396195557,"recency":0.34021775694043344,"engagement":4.04652046105463,"author":0,"source":0.9}
 ---
 
 A few days ago I shared [Kubeli](https://github.com/atilladeniz/kubeli) here and got mass great feedback. Since then I've been heads-down implementing the most requested features:

@@ -7,11 +7,11 @@ title: "How to make Object.keys() return (keyof SomeType)[ ] instead of string[ 
 authorHandle: "5Ping"
 authorName: "5Ping"
 publishedAt: "2026-01-21T12:07:54.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":32,"comments":26,"subreddit":"typescript"}
-score: 5.598408946553588
-scoreBreakdown: {"total":5.598408946553588,"recency":0.0007426259730991696,"engagement":6.219711759086443,"author":0,"source":0.9}
+metrics: {"score":34,"comments":26,"subreddit":"typescript"}
+score: 5.627712482293726
+scoreBreakdown: {"total":5.627712482293726,"recency":0.000742503098833618,"engagement":6.252271366116417,"author":0,"source":0.9}
 ---
 
 Right now im just using the as keyword to make it ignore errors. But what would be the proper way of doing this? I have a type: SomeType and it has a lot of keys. I need to iterate through each key and do some logic, so I am using Object.keys, but since it outputs string\[ \], auto complete doesnt work and I have to use `as (keyof SomeType)[]`

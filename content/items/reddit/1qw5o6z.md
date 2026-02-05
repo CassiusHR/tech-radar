@@ -7,11 +7,11 @@ title: "[IntelliJ] Wayland By Default in 2026.1 EAP"
 authorHandle: "BlueGoliath"
 authorName: "BlueGoliath"
 publishedAt: "2026-02-05T00:08:42.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":205,"comments":132,"subreddit":"programming"}
-score: 8.295794558848149
-scoreBreakdown: {"total":8.295794558848149,"recency":0.6037237372455317,"engagement":8.613825772585745,"author":0,"source":0.9}
+metrics: {"score":199,"comments":132,"subreddit":"programming"}
+score: 8.279515996868906
+scoreBreakdown: {"total":8.279515996868906,"recency":0.6036238456264704,"engagement":8.595838373116758,"author":0,"source":0.9}
 ---
 
 

@@ -7,11 +7,11 @@ title: "Tool to visualize CSS grids and generate code in frontend frameworks"
 authorHandle: "lagmazavr"
 authorName: "lagmazavr"
 publishedAt: "2026-02-03T23:34:20.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/css","pillar/react"]
 metrics: {"score":9,"comments":13,"subreddit":"reactjs"}
-score: 4.853769631037416
-scoreBreakdown: {"total":4.853769631037416,"recency":0.3761508539807969,"engagement":5.016926513838554,"author":0,"source":0.9}
+score: 4.8537136171954085
+scoreBreakdown: {"total":4.8537136171954085,"recency":0.37608861637856694,"engagement":5.016926513838554,"author":0,"source":0.9}
 ---
 
 Good day, folks!

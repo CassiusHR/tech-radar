@@ -7,11 +7,11 @@ title: "State of the Subreddit (January 2027): Mods applications and rules updat
 authorHandle: "ketralnis"
 authorName: "ketralnis"
 publishedAt: "2026-01-28T01:54:14.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: []
-metrics: {"score":92,"comments":38,"subreddit":"programming"}
-score: 6.477613421082608
-scoreBreakdown: {"total":6.477613421082608,"recency":0.015490044755039192,"engagement":7.181858200892302,"author":0,"source":0.9}
+metrics: {"score":96,"comments":38,"subreddit":"programming"}
+score: 6.507086142674
+scoreBreakdown: {"total":6.507086142674,"recency":0.015487481785332264,"engagement":7.21460823229689,"author":0,"source":0.9}
 ---
 
 tl;dr: mods applications and minor rules changes. Also it's 2026, lol.

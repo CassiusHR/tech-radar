@@ -7,11 +7,11 @@ title: "I forced Claude to reject my code until I wrote a PRD — what happened 
 authorHandle: "Savings-Abalone1464"
 authorName: "Savings-Abalone1464"
 publishedAt: "2026-02-05T09:23:11.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/ai-dev-tools","pillar/anthropic-openai-releases"]
-metrics: {"score":26,"comments":20,"subreddit":"ClaudeAI"}
-score: 5.947080157806087
-scoreBreakdown: {"total":5.947080157806087,"recency":0.7212971748594125,"engagement":5.886569667147351,"author":0,"source":0.9}
+metrics: {"score":28,"comments":20,"subreddit":"ClaudeAI"}
+score: 5.984034242467452
+scoreBreakdown: {"total":5.984034242467452,"recency":0.7211778296387825,"engagement":5.927749106436163,"author":0,"source":0.9}
 ---
 
 I've been using Claude Code almost every day for the past 3 months.  

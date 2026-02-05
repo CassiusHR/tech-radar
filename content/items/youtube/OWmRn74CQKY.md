@@ -7,11 +7,11 @@ title: "Next.js 'use cache' in 100 seconds"
 authorHandle: undefined
 authorName: "Delba"
 publishedAt: "2024-10-30T18:13:47.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/nextjs"]
 metrics: {}
-score: 7.23160012961475e-94
-scoreBreakdown: {"total":7.23160012961475e-94,"recency":1.0330857328021072e-93,"engagement":0,"author":0,"source":0.7}
+score: 7.230403595172444e-94
+scoreBreakdown: {"total":7.230403595172444e-94,"recency":1.0329147993103491e-93,"engagement":0,"author":0,"source":0.7}
 ---
 
 Quick overview of new experimental Next.js APIs: 'use cache', cacheTag, and cacheLife. 

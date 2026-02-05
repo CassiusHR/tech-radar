@@ -7,11 +7,11 @@ title: "Every ai code assistant assumes your code can touch the internet?"
 authorHandle: "Traditional_Zone_644"
 authorName: "Traditional_Zone_644"
 publishedAt: "2026-02-05T08:17:34.000Z"
-fetchedAt: "2026-02-05T14:45:09.329Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
 tags: ["pillar/ai-dev-tools","pillar/devops"]
 metrics: {"score":6,"comments":17,"subreddit":"devops"}
-score: 5.3147419843128505
-scoreBreakdown: {"total":5.3147419843128505,"recency":0.706267978072692,"engagement":5.199000893386031,"author":0,"source":0.9}
+score: 5.314636811660656
+scoreBreakdown: {"total":5.314636811660656,"recency":0.7061511195702539,"engagement":5.199000893386031,"author":0,"source":0.9}
 ---
 
 Getting really tired of this.
