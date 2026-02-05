@@ -37,7 +37,22 @@ export async function fetchRedditSubreddit(params: {
     headers: { 'user-agent': 'tech-radar/0.1 (best-effort)' },
   })
 
-  const json = await res.body.json()
+  if (res.statusCode >= 400) {
+    // Best-effort: if Reddit blocks/ratelimits, don't crash the entire ingest.
+    return []
+  }
+
+  const text = await res.body.text()
+  if (!text.trim()) return []
+
+  let json: unknown
+  try {
+    json = JSON.parse(text)
+  } catch {
+    // Occasionally Reddit returns truncated/invalid payloads.
+    return []
+  }
+
   const parsed = ListingSchema.parse(json)
 
   return parsed.data.children
