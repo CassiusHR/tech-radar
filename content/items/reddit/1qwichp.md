@@ -1,0 +1,18 @@
+---
+id: "reddit:1qwichp"
+source: "reddit"
+externalId: "1qwichp"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1qwichp/qwen3_tts_streaming_workflow_help/"
+title: "Qwen3 TTS Streaming workflow help"
+authorHandle: "RateRoutine2268"
+authorName: "RateRoutine2268"
+publishedAt: "2026-02-05T11:01:31.000Z"
+fetchedAt: "2026-02-05T14:45:34.462Z"
+tags: []
+metrics: {"score":6,"comments":4,"subreddit":"LocalLLaMA"}
+score: 4.082011164749434
+scoreBreakdown: {"total":4.082011164749434,"recency":0.7442976792896103,"engagement":3.7912702815430936,"author":0,"source":0.9}
+---
+
+Hi Guys,  
+Noob here , im thinking of using Qwen3 TTS for voice agent poc\` , and need help on the streaming part , does it supports stream ingestion &amp; generation (as soon as it get response from llm it starts generating audio that can also be streamed for real time ), look at qwen3-tts i couldn't find any implementation  or examples of such scenarios,
