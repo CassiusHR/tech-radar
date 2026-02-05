@@ -149,7 +149,10 @@ export async function writeItems(items: RawItem[]) {
     let summary: string | undefined = existingSummary
     let image: string | undefined = existingImage
     let imageAlt: string | undefined = existingImageAlt
-    if (!summary) {
+    const enableSummaries = process.env.TECH_RADAR_ENABLE_SUMMARIES !== '0'
+    const enableOg = process.env.TECH_RADAR_ENABLE_OG !== '0'
+
+    if (enableSummaries && !summary) {
       try {
         summary = await llmSummarizeItem({ source: it.source, title: it.title, text: it.text, url: it.url })
       } catch (err) {
@@ -157,7 +160,7 @@ export async function writeItems(items: RawItem[]) {
       }
     }
 
-    if (!image) {
+    if (enableOg && !image) {
       try {
         const og = await fetchOpenGraph(it.url)
         image = og.image
