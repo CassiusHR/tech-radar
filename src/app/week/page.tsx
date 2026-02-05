@@ -2,10 +2,13 @@ import { Metadata } from 'next'
 import { Pagination } from '@/components/Pagination'
 import { ItemCard } from '@/components/ItemCard'
 import { SourceChips } from '@/components/SourceChips'
+import { SortChips } from '@/components/SortChips'
+import { TagChips } from '@/components/TagChips'
 import type { ItemFrontmatter } from '@/lib/content/schema'
 import { parseTagsParam } from '@/lib/content/filter'
 import { listWeekItems } from '@/lib/content/list'
 import { paginate } from '@/lib/ui/pagination'
+import { sortItems, type SortMode } from '@/lib/content/sort'
 
 export const metadata: Metadata = {
   title: 'Tech Radar — Weekly (Rolling 7 days)',
@@ -22,9 +25,11 @@ export default async function WeekPage({
   const page = Number(sp.page ?? '1') || 1
   const tags = parseTagsParam(sp.tags)
   const source = typeof sp.source === 'string' ? sp.source : undefined
+  const sort: SortMode = sp.sort === 'source' ? 'source' : 'relevance'
 
   const itemsAll = await listWeekItems(tags)
-  const items = source ? itemsAll.filter((fm) => fm.source === source) : itemsAll
+  const itemsFiltered = source ? itemsAll.filter((fm) => fm.source === source) : itemsAll
+  const items = sortItems(itemsFiltered, sort)
   const paged = paginate(items, page, 20)
 
   const baseHref = '/week'
@@ -36,11 +41,18 @@ export default async function WeekPage({
       </h1>
       <div className="mt-2 flex flex-col gap-2">
         {tags.length ? (
-          <p className="text-sm text-muted-foreground">Filtered by tags: {tags.join(', ')}</p>
+          <div className="flex flex-col gap-2">
+            <p className="text-sm text-muted-foreground">Filtered by tags:</p>
+            <TagChips tags={tags} baseHref={baseHref} />
+          </div>
         ) : (
           <p className="text-sm text-muted-foreground">Unfiltered</p>
         )}
-        <SourceChips baseHref={baseHref} active={source} />
+
+        <div className="flex flex-col gap-2">
+          <SourceChips baseHref={baseHref} active={source} tags={tags} sort={sort === 'relevance' ? undefined : sort} />
+          <SortChips baseHref={baseHref} active={sort} tags={tags} source={source} />
+        </div>
       </div>
 
       <div className="mt-6 flex flex-col gap-4">
@@ -71,7 +83,8 @@ export default async function WeekPage({
           hrefFor={(p) =>
             `${baseHref}?page=${p}` +
             `${tags.length ? `&tags=${encodeURIComponent(tags.join(','))}` : ''}` +
-            `${source ? `&source=${encodeURIComponent(source)}` : ''}`
+            `${source ? `&source=${encodeURIComponent(source)}` : ''}` +
+            `${sort !== 'relevance' ? `&sort=${encodeURIComponent(sort)}` : ''}`
           }
         />
       </div>
