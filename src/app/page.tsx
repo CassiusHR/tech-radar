@@ -3,6 +3,7 @@ import { DateTime } from 'luxon'
 import { ItemCard } from '@/components/ItemCard'
 import { latestAvailableDay } from '@/lib/content/days'
 import { listWeekItems, listDayItems } from '@/lib/content/list'
+import type { ItemFrontmatter } from '@/lib/content/schema'
 import { loadTechRadarConfig } from '@/lib/ingest/config'
 
 function unique<T>(arr: T[]) {
@@ -74,6 +75,7 @@ export default async function HomePage() {
                 authorHandle: fm.authorHandle,
                 publishedAt: fm.publishedAt,
                 tags: fm.tags ?? [],
+                summary: (fm as ItemFrontmatter).summary,
               }}
             />
           ))}

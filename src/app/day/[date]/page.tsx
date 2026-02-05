@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Pagination } from '@/components/Pagination'
 import { ItemCard } from '@/components/ItemCard'
+import type { ItemFrontmatter } from '@/lib/content/schema'
 import { parseTagsParam } from '@/lib/content/filter'
 import { listDayItems } from '@/lib/content/list'
 import { paginate } from '@/lib/ui/pagination'
@@ -67,6 +68,7 @@ export default async function DayPage({
               authorHandle: fm.authorHandle,
               publishedAt: fm.publishedAt,
               tags: fm.tags ?? [],
+              summary: (fm as ItemFrontmatter).summary,
             }}
           />
         ))}
