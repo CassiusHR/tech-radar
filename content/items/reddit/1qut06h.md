@@ -4,14 +4,18 @@ source: "reddit"
 externalId: "1qut06h"
 url: "https://www.reddit.com/r/aws/comments/1qut06h/update_aws_suspended_my_account_anyway_production/"
 title: "[Update] AWS suspended my account anyway - production is down"
+text: "Update to my previous post about verification issues.\n\nAWS just suspended my account. Production is down.\n\nDespite multiple AWS support reps getting involved across Reddit (Roman Z., Reece W.), LinkedIn (Aimee K.), and the support portal (Alondra G., Arturo A.). Despite Executive Escalations (Eric G.) taking over on Feb 2 and coordinating with Trust &amp; Safety.\n\nTimeline: Verification request Jan 29. Submitted docs Jan 30. Asked to resubmit same docs Jan 31, complied. Asked for passport Feb 2,"
+summary: undefined
+image: undefined
+imageAlt: undefined
 authorHandle: "charm88_baby"
 authorName: "charm88_baby"
 publishedAt: "2026-02-03T14:13:47.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: []
-metrics: {"score":255,"comments":106,"subreddit":"aws"}
-score: 8.028406439968748
-scoreBreakdown: {"total":8.028406439968748,"recency":0.3125959856805709,"engagement":8.607855614284706,"author":0,"source":0.9}
+metrics: {"score":262,"comments":107,"subreddit":"aws"}
+score: 8.04176487830828
+scoreBreakdown: {"total":8.04176487830828,"recency":0.3007712219877455,"engagement":8.634523087243677,"author":0,"source":0.9}
 ---
 
 Update to my previous post about verification issues.

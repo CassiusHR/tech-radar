@@ -4,10 +4,14 @@ source: "youtube"
 externalId: "HlEn6evuYA8"
 url: "https://www.youtube.com/watch?v=HlEn6evuYA8"
 title: "Chomp Thwomp Mines Gameplay - Super Mario Maker 2 with Anthropic"
+text: "I really enjoyed playing this level on my livestream the other night, if you have any sweet levels comment the code and I might play them on the weekend stream.\n\n-- Watch live every day at http://www.twitch.tv/Anthropic\n\nAdd me on Snapchat: AnthropicLive\nDiscord: https://discord.gg/0n5lCPeB9tdlnAyL\nTwitter: http://www.twitter.com/AnthropicLive\nInstagram: http://www.instagram.com/AnthropicLive"
+summary: undefined
+image: "https://i.ytimg.com/vi/HlEn6evuYA8/hqdefault.jpg"
+imageAlt: undefined
 authorHandle: undefined
 authorName: "Matt Gregory"
 publishedAt: "2019-08-01T10:19:58.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: ["pillar/anthropic-openai-releases"]
 metrics: {}
 score: 0

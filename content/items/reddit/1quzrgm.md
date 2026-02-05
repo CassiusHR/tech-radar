@@ -4,14 +4,18 @@ source: "reddit"
 externalId: "1quzrgm"
 url: "https://www.reddit.com/r/kubernetes/comments/1quzrgm/update_kubeli_now_has_windows_support_draganddrop/"
 title: "UPDATE: Kubeli now has Windows support, drag-and-drop tabs, and Flux CD integration - thanks for the feedback on my last post"
+text: "A few days ago I shared [Kubeli](https://github.com/atilladeniz/kubeli) here and got mass great feedback. Since then I've been heads-down implementing the most requested features:\n\n**What's new:**\n\n\\- Windows support - finally cross-platform (macOS + Windows, Linux coming)\n\n\\- Tab navigation with drag &amp; drop - manage multiple clusters/resources side by side, reorder tabs freely\n\n\\-Flux CD support - native HelmReleases and Kustomizations views\n\n\\- AI integration - Claude Code CLI and OpenAI C"
+summary: undefined
+image: undefined
+imageAlt: undefined
 authorHandle: "atilladeniz"
 authorName: "atilladeniz"
 publishedAt: "2026-02-03T18:21:58.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: ["pillar/ai-dev-tools","pillar/anthropic-openai-releases","pillar/devops"]
-metrics: {"score":13,"comments":3,"subreddit":"kubernetes"}
-score: 4.079281768045998
-scoreBreakdown: {"total":4.079281768045998,"recency":0.33851011485330046,"engagement":4.194025182975587,"author":0,"source":0.9}
+metrics: {"score":11,"comments":3,"subreddit":"kubernetes"}
+score: 3.9350029880313406
+scoreBreakdown: {"total":3.9350029880313406,"recency":0.32570508120241487,"engagement":4.04652046105463,"author":0,"source":0.9}
 ---
 
 A few days ago I shared [Kubeli](https://github.com/atilladeniz/kubeli) here and got mass great feedback. Since then I've been heads-down implementing the most requested features:

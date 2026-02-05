@@ -4,14 +4,18 @@ source: "reddit"
 externalId: "1qupz9g"
 url: "https://www.reddit.com/r/node/comments/1qupz9g/i_built_interactive_visualizations_to_understand/"
 title: "I built interactive visualizations to understand Rate Limiting algorithms, implementation using lua, node.js and redis"
+text: "Hey everyone,\n\nI recently found myself explaining Rate Limiting to a junior engineer and realized that while the concepts (Token Bucket, Leaky Bucket) are common, visualizing them helps them \"click\" much faster.\n\nI wrote a deep dive that covers 5 common algorithms with interactive playgrounds where you can actually fill/drain the buckets yourself to see how they handle bursts.\n\nThe 5 Algorithms at a glance:\n\n1. Token Bucket: Great for handling bursts (like file uploads). Tokens replenish over ti"
+summary: undefined
+image: undefined
+imageAlt: undefined
 authorHandle: "adeshgg"
 authorName: "adeshgg"
 publishedAt: "2026-02-03T11:55:19.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: ["pillar/design-systems"]
-metrics: {"score":47,"comments":4,"subreddit":"node"}
-score: 5.341052238325588
-scoreBreakdown: {"total":5.341052238325588,"recency":0.2990101199992223,"engagement":5.635492367029209,"author":0,"source":0.9}
+metrics: {"score":49,"comments":4,"subreddit":"node"}
+score: 5.375087542892136
+scoreBreakdown: {"total":5.375087542892136,"recency":0.2876992773373872,"engagement":5.684620214764986,"author":0,"source":0.9}
 ---
 
 Hey everyone,

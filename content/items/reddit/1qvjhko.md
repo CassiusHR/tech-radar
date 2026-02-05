@@ -4,14 +4,18 @@ source: "reddit"
 externalId: "1qvjhko"
 url: "https://www.reddit.com/r/programming/comments/1qvjhko/from_magic_to_malware_how_openclaws_agent_skills/"
 title: "From magic to malware: How OpenClaw's agent skills become an attack surface"
+text: undefined
+summary: undefined
+image: undefined
+imageAlt: undefined
 authorHandle: "grauenwolf"
 authorName: "grauenwolf"
 publishedAt: "2026-02-04T08:52:04.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: []
-metrics: {"score":110,"comments":40,"subreddit":"programming"}
-score: 7.020652301797667
-scoreBreakdown: {"total":7.020652301797667,"recency":0.44754198050990496,"engagement":7.353182799265281,"author":0,"source":0.9}
+metrics: {"score":119,"comments":43,"subreddit":"programming"}
+score: 7.100675249983011
+scoreBreakdown: {"total":7.100675249983011,"recency":0.43061253034237634,"engagement":7.459026636305413,"author":0,"source":0.9}
 ---
 
 

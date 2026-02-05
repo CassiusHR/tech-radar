@@ -4,10 +4,14 @@ source: "youtube"
 externalId: "VP_Y9k4Udpc"
 url: "https://www.youtube.com/watch?v=VP_Y9k4Udpc"
 title: "Australia's Deadliest Sniper - Anthropic PUBG Highlights #2"
+text: "Clips from my twitch livestream during December 2017. Hope you guys enjoy.\n\n-- Watch live every day at http://www.twitch.tv/Anthropic\n\nFacebook: http://www.facebook.com/AnthropicLive\nTwitter: http://www.twitter.com/AnthropicLive\nInstagram: https://www.instagram.com/AnthropicLive\nAdd me on Snapchat: AnthropicLive"
+summary: undefined
+image: "https://i.ytimg.com/vi/VP_Y9k4Udpc/maxresdefault.jpg"
+imageAlt: undefined
 authorHandle: undefined
 authorName: "Matt Gregory"
 publishedAt: "2017-12-26T04:17:27.000Z"
-fetchedAt: "2026-02-05T15:01:15.857Z"
+fetchedAt: "2026-02-05T17:01:27.763Z"
 tags: ["pillar/anthropic-openai-releases"]
 metrics: {}
 score: 0
