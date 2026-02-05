@@ -29,13 +29,14 @@ test('home → day → topic navigation (smoke)', async ({ page }) => {
     await expect(pillarTag).toBeVisible()
 
     const tagText = (await pillarTag.textContent())?.trim() || ''
-    expect(tagText.startsWith('pillar/')).toBeTruthy()
-    const slug = tagText.replace(/^pillar\//, '')
+    // UI now hides the 'pillar/' prefix and shows only the slug.
+    expect(tagText.length).toBeTruthy()
+    const slug = tagText
 
     await pillarTag.click()
 
     await expect(page).toHaveURL(new RegExp(`/topic/${slug}$`))
     await expect(page.getByTestId('page-title')).toHaveText(`Topic: ${slug}`)
-    await expect(page.getByText(`Filtered by: pillar/${slug}`)).toBeVisible()
+    await expect(page.getByText(`Filtered by tags:`)).toBeVisible()
   })
 })

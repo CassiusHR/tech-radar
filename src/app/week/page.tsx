@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Pagination } from '@/components/Pagination'
 import { ItemCard } from '@/components/ItemCard'
+import { SourceChips } from '@/components/SourceChips'
 import type { ItemFrontmatter } from '@/lib/content/schema'
 import { parseTagsParam } from '@/lib/content/filter'
 import { listWeekItems } from '@/lib/content/list'
@@ -20,8 +21,10 @@ export default async function WeekPage({
   const sp = await searchParams
   const page = Number(sp.page ?? '1') || 1
   const tags = parseTagsParam(sp.tags)
+  const source = typeof sp.source === 'string' ? sp.source : undefined
 
-  const items = await listWeekItems(tags)
+  const itemsAll = await listWeekItems(tags)
+  const items = source ? itemsAll.filter((fm) => fm.source === source) : itemsAll
   const paged = paginate(items, page, 20)
 
   const baseHref = '/week'
@@ -31,11 +34,14 @@ export default async function WeekPage({
       <h1 className="text-2xl font-bold" data-testid="page-title">
         Weekly digest (rolling 7 days)
       </h1>
-      {tags.length ? (
-        <p className="mt-2 text-sm text-muted-foreground">Filtered by: {tags.join(', ')}</p>
-      ) : (
-        <p className="mt-2 text-sm text-muted-foreground">Unfiltered</p>
-      )}
+      <div className="mt-2 flex flex-col gap-2">
+        {tags.length ? (
+          <p className="text-sm text-muted-foreground">Filtered by tags: {tags.join(', ')}</p>
+        ) : (
+          <p className="text-sm text-muted-foreground">Unfiltered</p>
+        )}
+        <SourceChips baseHref={baseHref} active={source} />
+      </div>
 
       <div className="mt-6 flex flex-col gap-4">
         {paged.items.map((fm) => (
@@ -62,7 +68,11 @@ export default async function WeekPage({
         <Pagination
           page={paged.page}
           pages={paged.pages}
-          hrefFor={(p) => `${baseHref}?page=${p}${tags.length ? `&tags=${encodeURIComponent(tags.join(','))}` : ''}`}
+          hrefFor={(p) =>
+            `${baseHref}?page=${p}` +
+            `${tags.length ? `&tags=${encodeURIComponent(tags.join(','))}` : ''}` +
+            `${source ? `&source=${encodeURIComponent(source)}` : ''}`
+          }
         />
       </div>
     </main>
