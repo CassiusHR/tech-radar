@@ -16,6 +16,7 @@ export function TagChips({ tags, baseHref }: { tags: string[]; baseHref: string 
       {tags.map((t) => {
         const href = isPillarTag(t) ? `/topic/${pillarSlug(t)}` : `${baseHref}?tags=${encodeURIComponent(t)}`
         const testId = `tag-${t.replaceAll('/', '-')}`
+        const label = isPillarTag(t) ? pillarSlug(t) : t
 
         return (
           <li key={t}>
@@ -24,7 +25,7 @@ export function TagChips({ tags, baseHref }: { tags: string[]; baseHref: string 
               href={href}
               data-testid={testId}
             >
-              {t}
+              {label}
             </Link>
           </li>
         )

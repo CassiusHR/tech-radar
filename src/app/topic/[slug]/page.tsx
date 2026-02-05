@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Pagination } from '@/components/Pagination'
 import { ItemCard } from '@/components/ItemCard'
+import { SourceChips } from '@/components/SourceChips'
 import type { ItemFrontmatter } from '@/lib/content/schema'
 import { parseTagsParam } from '@/lib/content/filter'
 import { listWeekItems } from '@/lib/content/list'
@@ -34,10 +35,12 @@ export default async function TopicPage({
   const { slug } = await params
   const sp = await searchParams
   const page = Number(sp.page ?? '1') || 1
+  const source = typeof sp.source === 'string' ? sp.source : undefined
 
   const tags = Array.from(new Set([pillarTagFromSlug(slug), ...parseTagsParam(sp.tags)]))
 
-  const items = await listWeekItems(tags)
+  const itemsAll = await listWeekItems(tags)
+  const items = source ? itemsAll.filter((fm) => fm.source === source) : itemsAll
   const paged = paginate(items, page, 20)
   const baseHref = `/topic/${slug}`
 
@@ -46,7 +49,10 @@ export default async function TopicPage({
       <h1 className="text-2xl font-bold" data-testid="page-title">
         Topic: {slug}
       </h1>
-      <p className="mt-2 text-sm text-muted-foreground">Filtered by: {tags.join(', ')}</p>
+      <div className="mt-2 flex flex-col gap-2">
+        <p className="text-sm text-muted-foreground">Filtered by tags: {tags.join(', ')}</p>
+        <SourceChips baseHref={baseHref} active={source} />
+      </div>
 
       <div className="mt-6 flex flex-col gap-4">
         {paged.items.map((fm) => (
@@ -70,7 +76,11 @@ export default async function TopicPage({
       </div>
 
       <div className="mt-8">
-        <Pagination page={paged.page} pages={paged.pages} hrefFor={(p) => `${baseHref}?page=${p}`} />
+        <Pagination
+          page={paged.page}
+          pages={paged.pages}
+          hrefFor={(p) => `${baseHref}?page=${p}${source ? `&source=${encodeURIComponent(source)}` : ''}`}
+        />
       </div>
     </main>
   )
