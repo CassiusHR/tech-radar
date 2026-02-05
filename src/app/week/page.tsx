@@ -51,6 +51,8 @@ export default async function WeekPage({
               publishedAt: fm.publishedAt,
               tags: fm.tags ?? [],
               summary: (fm as ItemFrontmatter).summary,
+              image: (fm as ItemFrontmatter).image,
+              imageAlt: (fm as ItemFrontmatter).imageAlt,
             }}
           />
         ))}

@@ -10,6 +10,8 @@ export function ItemCard({
     id: string
     title?: string
     summary?: string
+    image?: string
+    imageAlt?: string
     url: string
     source: string
     authorHandle?: string
@@ -34,20 +36,41 @@ export function ItemCard({
         <TagChips tags={item.tags} baseHref={baseHref} />
       </div>
 
-      <h2 className="mt-3 text-base font-semibold leading-snug">
-        <Link
-          className="underline decoration-border underline-offset-4 transition-colors hover:text-accent"
-          href={item.url}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {item.title ?? item.url}
-        </Link>
-      </h2>
+      <div className="mt-3 flex gap-4">
+        <div className="min-w-0 flex-1">
+          <h2 className="text-base font-semibold leading-snug">
+            <Link
+              className="underline decoration-border underline-offset-4 transition-colors hover:text-accent"
+              href={item.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {item.title ?? item.url}
+            </Link>
+          </h2>
 
-      {item.summary ? (
-        <p className="mt-2 text-sm text-muted-foreground line-clamp-2">{item.summary}</p>
-      ) : null}
+          {item.summary ? (
+            <p className="mt-2 text-sm text-muted-foreground line-clamp-2">{item.summary}</p>
+          ) : null}
+        </div>
+
+        {item.image ? (
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noreferrer"
+            className="relative hidden h-16 w-16 shrink-0 overflow-hidden rounded-md border border-border bg-muted sm:block"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={item.image}
+              alt={item.imageAlt ?? ''}
+              className="h-full w-full object-cover"
+              loading="lazy"
+            />
+          </a>
+        ) : null}
+      </div>
     </article>
   )
 }
