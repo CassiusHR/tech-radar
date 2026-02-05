@@ -15,8 +15,18 @@ const HNItemSchema = z.object({
 
 async function getJson(url: string) {
   const res = await request(url, { method: 'GET' })
-  if (res.statusCode >= 400) throw new Error(`HN request failed: ${res.statusCode}`)
-  return res.body.json()
+  if (res.statusCode >= 400) throw new Error(`HN request failed: ${res.statusCode} (${url})`)
+
+  // undici's body.json() can throw a low-signal error on empty/truncated bodies.
+  // Prefer parsing ourselves so we can attach context.
+  const text = await res.body.text()
+  if (!text.trim()) throw new Error(`HN returned empty body (${url})`)
+
+  try {
+    return JSON.parse(text)
+  } catch (err) {
+    throw new Error(`HN returned invalid JSON (${url}): ${(err as Error).message}`)
+  }
 }
 
 export async function fetchHN(params: {

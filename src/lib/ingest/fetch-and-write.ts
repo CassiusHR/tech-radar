@@ -41,35 +41,55 @@ export async function fetchAllSources(fetchedAt: string): Promise<RawItem[]> {
 
   // X
   for (const q of cfg.x.queries) {
-    out.push(...(await fetchXByQuery({ query: q, limit: cfg.x.limitPerQuery, fetchedAt })))
+    try {
+      out.push(...(await fetchXByQuery({ query: q, limit: cfg.x.limitPerQuery, fetchedAt })))
+    } catch (err) {
+      console.error('[ingest] X fetch failed', { query: q, err: (err as Error).message })
+    }
   }
 
   // HN
   for (const e of cfg.hn.endpoints) {
-    out.push(...(await fetchHN({ endpoint: e, limit: 30, fetchedAt })))
+    try {
+      out.push(...(await fetchHN({ endpoint: e, limit: 30, fetchedAt })))
+    } catch (err) {
+      console.error('[ingest] HN fetch failed', { endpoint: e, err: (err as Error).message })
+    }
   }
 
   // GitHub trending
   for (const url of cfg.github.trendingUrls) {
-    out.push(...(await fetchGitHubTrending({ url, fetchedAt, limit: 25 })))
+    try {
+      out.push(...(await fetchGitHubTrending({ url, fetchedAt, limit: 25 })))
+    } catch (err) {
+      console.error('[ingest] GitHub trending fetch failed', { url, err: (err as Error).message })
+    }
   }
 
   // Reddit
   for (const sr of cfg.reddit.subreddits) {
-    out.push(
-      ...(await fetchRedditSubreddit({
-        subreddit: sr,
-        limit: cfg.reddit.limitPerSubreddit,
-        fetchedAt,
-        minScore: cfg.reddit.minScore,
-        minComments: cfg.reddit.minComments,
-      }))
-    )
+    try {
+      out.push(
+        ...(await fetchRedditSubreddit({
+          subreddit: sr,
+          limit: cfg.reddit.limitPerSubreddit,
+          fetchedAt,
+          minScore: cfg.reddit.minScore,
+          minComments: cfg.reddit.minComments,
+        }))
+      )
+    } catch (err) {
+      console.error('[ingest] Reddit fetch failed', { subreddit: sr, err: (err as Error).message })
+    }
   }
 
   // YouTube (RSS-first)
   if (cfg.youtube) {
-    out.push(...(await fetchYouTubeRSS({ cfg: cfg.youtube, fetchedAt })))
+    try {
+      out.push(...(await fetchYouTubeRSS({ cfg: cfg.youtube, fetchedAt })))
+    } catch (err) {
+      console.error('[ingest] YouTube fetch failed', { err: (err as Error).message })
+    }
   }
 
   const deduped = dedupeByCanonicalUrl(out)
