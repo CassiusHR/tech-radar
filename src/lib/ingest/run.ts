@@ -4,6 +4,7 @@ import { DateTime } from 'luxon'
 import { loadTechRadarConfig } from './config'
 import { shouldRunNow } from './schedule'
 import { buildDayIndexFromShard, buildRollingWeekIndexFromShards } from './index-builder'
+import type { RawItem } from '../sources/types'
 
 export type IngestResult = {
   ok: boolean
@@ -11,6 +12,22 @@ export type IngestResult = {
   reason: string
   generatedAt: string
   wrote: string[]
+}
+
+function takeTopPerSource(items: RawItem[], perSource: number) {
+  const sorted = items
+    .slice()
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0) || b.publishedAt.localeCompare(a.publishedAt))
+
+  const counts = new Map<string, number>()
+  const out: RawItem[] = []
+  for (const it of sorted) {
+    const c = counts.get(it.source) ?? 0
+    if (c >= perSource) continue
+    counts.set(it.source, c + 1)
+    out.push(it)
+  }
+  return out
 }
 
 async function writeJson(filePath: string, data: unknown) {
@@ -41,8 +58,19 @@ export async function runIngest({ dryRun = false, force = false }: { dryRun?: bo
   const fetchedAt = generatedAt
   const { fetchAllSources, writeItems } = await import('./fetch-and-write')
   const raw = await fetchAllSources(fetchedAt)
+
+  // Only persist today's top items (top 10 per source) to keep the repo stable and daily shards meaningful.
+  const todayLocal = now.toFormat('yyyy-LL-dd')
+  const todays = raw.filter((it) => {
+    const dt = DateTime.fromISO(it.publishedAt)
+    if (!dt.isValid) return true // best-effort: keep rather than drop
+    return dt.setZone(cfg.tz).toFormat('yyyy-LL-dd') === todayLocal
+  })
+
+  const topPerSource = takeTopPerSource(todays, 10)
+
   if (!dryRun) {
-    await writeItems(raw)
+    await writeItems(topPerSource, { tz: cfg.tz })
   }
 
   const date = now.toFormat('yyyy-LL-dd')

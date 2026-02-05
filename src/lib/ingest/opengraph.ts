@@ -4,6 +4,7 @@ import * as cheerio from 'cheerio'
 export type OgResult = {
   image?: string
   imageAlt?: string
+  description?: string
 }
 
 function absolutize(url: string, maybe: string) {
@@ -36,14 +37,16 @@ export async function fetchOpenGraph(url: string): Promise<OgResult> {
   const twitterImage = $('meta[name="twitter:image"]').attr('content')?.trim()
   const twitterImageAlt = $('meta[name="twitter:image:alt"]').attr('content')?.trim()
 
-  const chosen = ogImage || twitterImage
-  if (!chosen) return {}
+  const ogDesc = $('meta[property="og:description"]').attr('content')?.trim()
+  const twitterDesc = $('meta[name="twitter:description"]').attr('content')?.trim()
+  const metaDesc = $('meta[name="description"]').attr('content')?.trim()
 
-  const abs = absolutize(url, chosen)
-  if (!abs) return {}
+  const chosen = ogImage || twitterImage
+  const abs = chosen ? absolutize(url, chosen) : undefined
 
   return {
     image: abs,
     imageAlt: (ogImageAlt || twitterImageAlt || '').trim() || undefined,
+    description: (ogDesc || twitterDesc || metaDesc || '').trim() || undefined,
   }
 }
