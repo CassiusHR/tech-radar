@@ -2,9 +2,12 @@ import { Metadata } from 'next'
 import { Pagination } from '@/components/Pagination'
 import { ItemCard } from '@/components/ItemCard'
 import { SourceChips } from '@/components/SourceChips'
+import { SortChips } from '@/components/SortChips'
+import { TagChips } from '@/components/TagChips'
 import type { ItemFrontmatter } from '@/lib/content/schema'
 import { parseTagsParam } from '@/lib/content/filter'
 import { listWeekItems } from '@/lib/content/list'
+import { sortItems, type SortMode } from '@/lib/content/sort'
 import { paginate } from '@/lib/ui/pagination'
 
 function pillarTagFromSlug(slug: string) {
@@ -36,11 +39,14 @@ export default async function TopicPage({
   const sp = await searchParams
   const page = Number(sp.page ?? '1') || 1
   const source = typeof sp.source === 'string' ? sp.source : undefined
+  const sort: SortMode = sp.sort === 'source' ? 'source' : 'relevance'
 
   const tags = Array.from(new Set([pillarTagFromSlug(slug), ...parseTagsParam(sp.tags)]))
 
   const itemsAll = await listWeekItems(tags)
-  const items = source ? itemsAll.filter((fm) => fm.source === source) : itemsAll
+  const itemsFiltered = source ? itemsAll.filter((fm) => fm.source === source) : itemsAll
+  const items = sortItems(itemsFiltered, sort)
+
   const paged = paginate(items, page, 20)
   const baseHref = `/topic/${slug}`
 
@@ -50,8 +56,15 @@ export default async function TopicPage({
         Topic: {slug}
       </h1>
       <div className="mt-2 flex flex-col gap-2">
-        <p className="text-sm text-muted-foreground">Filtered by tags: {tags.join(', ')}</p>
-        <SourceChips baseHref={baseHref} active={source} />
+        <div className="flex flex-col gap-2">
+          <p className="text-sm text-muted-foreground">Filtered by tags:</p>
+          <TagChips tags={tags} baseHref={baseHref} />
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <SourceChips baseHref={baseHref} active={source} tags={tags} sort={sort === 'relevance' ? undefined : sort} />
+          <SortChips baseHref={baseHref} active={sort} tags={tags} source={source} />
+        </div>
       </div>
 
       <div className="mt-6 flex flex-col gap-4">
@@ -79,7 +92,12 @@ export default async function TopicPage({
         <Pagination
           page={paged.page}
           pages={paged.pages}
-          hrefFor={(p) => `${baseHref}?page=${p}${source ? `&source=${encodeURIComponent(source)}` : ''}`}
+          hrefFor={(p) =>
+            `${baseHref}?page=${p}` +
+            `${tags.length ? `&tags=${encodeURIComponent(tags.join(','))}` : ''}` +
+            `${source ? `&source=${encodeURIComponent(source)}` : ''}` +
+            `${sort !== 'relevance' ? `&sort=${encodeURIComponent(sort)}` : ''}`
+          }
         />
       </div>
     </main>
