@@ -4,18 +4,17 @@ source: "reddit"
 externalId: "1qwboqn"
 url: "https://www.reddit.com/r/LocalLLaMA/comments/1qwboqn/google_research_announces_sequential_attention/"
 title: "Google Research announces Sequential Attention: Making AI models leaner and faster without sacrificing accuracy"
-text: undefined
-summary: undefined
-image: undefined
-imageAlt: undefined
+summary: "undefined"
+image: "undefined"
+imageAlt: "undefined"
 authorHandle: "Fear_ltself"
 authorName: "Fear_ltself"
 publishedAt: "2026-02-05T04:37:05.000Z"
-fetchedAt: "2026-02-05T17:01:27.763Z"
+fetchedAt: "2026-02-05T18:26:02.546Z"
 tags: []
-metrics: {"score":437,"comments":29,"subreddit":"LocalLLaMA"}
-score: 8.387150997409691
-scoreBreakdown: {"total":8.387150997409691,"recency":0.629850366373648,"engagement":8.689206297414898,"author":0,"source":0.9}
+metrics: {"score":462,"comments":31,"subreddit":"LocalLLaMA"}
+score: 8.44356523479401
+scoreBreakdown: {"total":8.44356523479401,"recency":0.612981582142849,"engagement":8.768757567628272,"author":0,"source":0.9}
 ---
 
 
