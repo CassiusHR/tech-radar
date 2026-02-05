@@ -7,6 +7,7 @@ export const ItemFrontmatterSchema = z.object({
   url: z.string().url(),
   title: z.string().optional(),
   text: z.string().optional(),
+  summary: z.string().optional(),
   authorHandle: z.string().optional(),
   authorName: z.string().optional(),
   publishedAt: z.string().datetime(),
