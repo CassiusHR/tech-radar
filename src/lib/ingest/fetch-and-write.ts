@@ -15,7 +15,7 @@ import { writeItemMarkdown } from '../sources/write'
 import { appendToDayShard } from './shard-index'
 import matter from 'gray-matter'
 import { llmSummarizeItem } from './summarize'
-import { fetchOpenGraph } from './opengraph'
+import { fetchThumbnail } from './thumbnail'
 
 const SourcesConfigSchema = z.object({
   x: z.object({ queries: z.array(z.string()), limitPerQuery: z.number().int().positive() }),
@@ -112,9 +112,13 @@ export async function fetchAllSources(fetchedAt: string): Promise<RawItem[]> {
   return applyScoring(tagged, { tz: 'America/Santiago', mode: 'weekly' })
 }
 
-export async function writeItems(items: RawItem[]) {
+export async function writeItems(
+  items: RawItem[],
+  params: {
+    tz: string
+  }
+) {
   const wrote: string[] = []
-  const ids: string[] = []
 
   for (const it of items) {
     // Best-effort: reuse existing summary to avoid re-spending tokens every run.
@@ -162,11 +166,11 @@ export async function writeItems(items: RawItem[]) {
 
     if (enableOg && !image) {
       try {
-        const og = await fetchOpenGraph(it.url)
-        image = og.image
-        imageAlt = og.imageAlt
+        const thumb = await fetchThumbnail(it.url)
+        image = thumb.image
+        imageAlt = thumb.imageAlt
       } catch (err) {
-        console.error('[ingest] opengraph failed', { id: it.id, err: (err as Error).message })
+        console.error('[ingest] thumbnail fetch failed', { id: it.id, err: (err as Error).message })
       }
     }
 
@@ -196,17 +200,17 @@ export async function writeItems(items: RawItem[]) {
     })
 
     wrote.push(fp)
-    ids.push(it.id)
   }
 
-  // Shard index: group by day (YYYY-MM-DD) based on publishedAt ISO string prefix
+  // Shard index: group by *local day* (YYYY-MM-DD) derived from publishedAt in the configured tz.
   const byDay = new Map<string, string[]>()
-  for (const id of ids) {
-    // best-effort: infer day from id by reading file path is expensive; use content frontmatter in PR7+ refinement
-    // In v1, approximate by using today's day shard (good enough to avoid full scans).
-    const day = new Date().toISOString().slice(0, 10)
+  for (const it of items) {
+    const day = DateTime.fromISO(it.publishedAt).isValid
+      ? DateTime.fromISO(it.publishedAt).setZone(params.tz).toFormat('yyyy-LL-dd')
+      : DateTime.now().setZone(params.tz).toFormat('yyyy-LL-dd')
+
     const arr = byDay.get(day) ?? []
-    arr.push(id)
+    arr.push(it.id)
     byDay.set(day, arr)
   }
 
