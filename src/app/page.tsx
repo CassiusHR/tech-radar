@@ -5,6 +5,7 @@ import { latestAvailableDay, listAvailableDays } from '@/lib/content/days'
 import { listWeekItems, listDayItems } from '@/lib/content/list'
 import type { ItemFrontmatter } from '@/lib/content/schema'
 import { loadTechRadarConfig } from '@/lib/ingest/config'
+import { getItemCardSummary } from '@/lib/items/item-summary'
 
 const SOURCES = ['hn', 'reddit', 'github', 'x', 'youtube'] as const
 
@@ -73,7 +74,7 @@ function SourceSection({
               authorHandle: fm.authorHandle,
               publishedAt: fm.publishedAt,
               tags: fm.tags ?? [],
-              summary: (fm as ItemFrontmatter).summary,
+              summary: getItemCardSummary(fm as ItemFrontmatter),
               image: (fm as ItemFrontmatter).image,
               imageAlt: (fm as ItemFrontmatter).imageAlt,
             }}

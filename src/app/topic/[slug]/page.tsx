@@ -5,6 +5,7 @@ import { SourceChips } from '@/components/SourceChips'
 import { SortChips } from '@/components/SortChips'
 import { TagChips } from '@/components/TagChips'
 import type { ItemFrontmatter } from '@/lib/content/schema'
+import { getItemCardSummary } from '@/lib/items/item-summary'
 import { parseTagsParam } from '@/lib/content/filter'
 import { listWeekItems } from '@/lib/content/list'
 import { sortItems, type SortMode } from '@/lib/content/sort'
@@ -80,7 +81,7 @@ export default async function TopicPage({
               authorHandle: fm.authorHandle,
               publishedAt: fm.publishedAt,
               tags: fm.tags ?? [],
-              summary: (fm as ItemFrontmatter).summary,
+              summary: getItemCardSummary(fm as ItemFrontmatter),
               image: (fm as ItemFrontmatter).image,
               imageAlt: (fm as ItemFrontmatter).imageAlt,
             }}
