@@ -137,8 +137,11 @@ export async function writeItems(
       const fpGuess = path.join(dir, `${safe}.md`)
       const raw = await fs.readFile(fpGuess, 'utf8')
       const parsed = matter(raw)
-      if (typeof parsed.data?.summary === 'string' && parsed.data.summary.trim()) {
-        existingSummary = parsed.data.summary.trim()
+      if (typeof parsed.data?.summary === 'string') {
+        const s = parsed.data.summary.trim()
+        if (s && s.toLowerCase() !== 'undefined' && s.toLowerCase() !== 'null') {
+          existingSummary = s
+        }
       }
       if (typeof parsed.data?.image === 'string' && parsed.data.image.trim()) {
         existingImage = parsed.data.image.trim()
